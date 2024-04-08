@@ -18,4 +18,4 @@ retype build && \
 cd docs  
 rm -rf docs || echo "No docs to remove"
 git checkout main
-git branch -D retype || echo "No docs to remove"
+git branch -D docs || echo "No docs to remove"
