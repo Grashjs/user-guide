@@ -8,13 +8,12 @@ git branch -D docs || echo "No docs to remove"
 rm -rf docs || echo "No docs to remove"
 
 retype build && \
-  cd docs && \
   git init . && \
-  git remote add origin $REPO && \
-  git checkout -b docs && \
+  # git remote add origin https://github.com/Grashjs/user-guide.git && \
+  git checkout -b retype && \
   git add . && \
   git commit -am "Docs" && \
-  git push origin docs --force 
+  git push origin retype --force 
 
 cd $DIR  
 rm -rf docs || echo "No docs to remove"
