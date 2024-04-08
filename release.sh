@@ -6,7 +6,7 @@ rm -rf docs || echo "No docs to remove"
 
 retype build && \
   git init . && \
-  # git remote add origin https://github.com/Grashjs/user-guide.git && \
+  git remote add origin https://github.com/Grashjs/user-guide.git && \
   git checkout -b retype && \
   git add . && \
   git commit -am "Docs" && \
