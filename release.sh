@@ -15,7 +15,7 @@ retype build && \
   git commit -am "Docs" && \
   git push origin retype --force 
 
-cd $DIR  
+cd docs  
 rm -rf docs || echo "No docs to remove"
 git checkout main
 git branch -D retype || echo "No docs to remove"
