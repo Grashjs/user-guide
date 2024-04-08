@@ -8,7 +8,7 @@ order: 900
 
 ![](/static/img/wso2_apim.png)
 
-La solution **WSO2 API Manager**, de l'éditeur **WSO2**, est la solution retenue pour
+Test La solution **WSO2 API Manager**, de l'éditeur **WSO2**, est la solution retenue pour
 fournir les capacités de gestion d'API pour tout AFS.
 
 [!ref WSO2](https://wso2.com/api-manager)
