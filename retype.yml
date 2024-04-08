@@ -1,0 +1,26 @@
+input: .
+output: ./docs
+url: https://github.com/pages/Grashjs/user-guide
+meta:
+  title: " | Atlas CMMS User Guide"
+branding:
+  title: Atlas CMMS
+  logo: static/img/logo.png
+links:
+  - text: Documentation
+    link: /
+  - text: Analytics
+    link: https://github.com/pages/Grashjs/user-guide2
+  - text: Worker Order
+    link: https://github.com/pages/Grashjs/user-guide2
+  - text: Preventive Maintenance
+    link: https://github.com/pages/Grashjs/user-guide2
+
+footer:
+  copyright: "Version 202302 - Atlas CMMS User Guide"
+
+#edit:
+#  repo: "https://github.com/pages/Grashjs/user-guide/"
+
+editor:
+  enabled: false
