@@ -1,6 +1,6 @@
 {
-  "version": "3.0.3",
-  "created": "2023-11-09T11:24:06Z",
+  "version": "3.5.0",
+  "created": "2024-04-08T15:25:59Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -9,94 +9,182 @@
       "path": "404.html"
     },
     {
-      "path": "apim\\architecture\\index.html"
+      "path": "apim/architecture/index.html"
     },
     {
-      "path": "apim\\implementation\\index.html"
+      "path": "apim/implementation/index.html"
     },
     {
-      "path": "apim\\index.html"
+      "path": "apim/index.html"
     },
     {
-      "path": "blog\\feed.xml"
+      "path": "apim\\architecture\\index.html",
+      "old": true
     },
     {
-      "path": "blog\\hello\\index.html"
+      "path": "apim\\implementation\\index.html",
+      "old": true
     },
     {
-      "path": "blog\\index.html"
+      "path": "apim\\index.html",
+      "old": true
     },
     {
-      "path": "categories\\documentation\\index.html"
+      "path": "blog/feed.xml"
     },
     {
-      "path": "categories\\index.html"
+      "path": "blog/hello/index.html"
+    },
+    {
+      "path": "blog/index.html"
+    },
+    {
+      "path": "blog\\feed.xml",
+      "old": true
+    },
+    {
+      "path": "blog\\hello\\index.html",
+      "old": true
+    },
+    {
+      "path": "blog\\index.html",
+      "old": true
+    },
+    {
+      "path": "categories/documentation/index.html"
+    },
+    {
+      "path": "categories/index.html"
+    },
+    {
+      "path": "categories\\documentation\\index.html",
+      "old": true
+    },
+    {
+      "path": "categories\\index.html",
+      "old": true
     },
     {
       "path": "CNAME"
     },
     {
-      "path": "iam\\architecture\\index.html"
+      "path": "iam\\architecture\\index.html",
+      "old": true
     },
     {
-      "path": "iam\\identity_services\\index.html"
+      "path": "iam\\identity_services\\index.html",
+      "old": true
     },
     {
-      "path": "iam\\implementation\\index.html"
+      "path": "iam\\implementation\\index.html",
+      "old": true
     },
     {
-      "path": "iam\\index.html"
+      "path": "iam\\index.html",
+      "old": true
     },
     {
       "path": "index.html"
     },
     {
-      "path": "labs\\analytics\\index.html"
+      "path": "labs\\analytics\\index.html",
+      "old": true
     },
     {
-      "path": "labs\\containers\\index.html"
+      "path": "labs\\containers\\index.html",
+      "old": true
     },
     {
-      "path": "labs\\index.html"
+      "path": "labs\\index.html",
+      "old": true
     },
     {
-      "path": "labs\\microgateway\\index.html"
+      "path": "labs\\microgateway\\index.html",
+      "old": true
     },
     {
-      "path": "resources\\css\\retype.css"
+      "path": "resources/css/retype.css"
     },
     {
-      "path": "resources\\fonts\\Inter-italic-latin-var.woff2"
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
     },
     {
-      "path": "resources\\fonts\\Inter-roman-latin-var.woff2"
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
     },
     {
-      "path": "resources\\js\\config.js"
+      "path": "resources/js/config.js"
     },
     {
-      "path": "resources\\js\\lunr.js"
+      "path": "resources/js/lunr.js"
     },
     {
-      "path": "resources\\js\\retype.js"
+      "path": "resources/js/retype.js"
     },
     {
-      "path": "resources\\js\\search.json"
+      "path": "resources/js/search.json"
     },
     {
-      "path": "resources\\lunr.js.LICENSE.txt"
+      "path": "resources/lunr.js.LICENSE.txt"
     },
     {
-      "path": "resources\\mermaid.js.LICENSE.txt"
+      "path": "resources/mermaid.js.LICENSE.txt"
     },
     {
-      "path": "resources\\prism.js.LICENSE.txt"
+      "path": "resources/prism.js.LICENSE.txt"
     },
     {
-      "path": "resources\\retype.js.LICENSE.txt"
+      "path": "resources/retype.js.LICENSE.txt"
     },
     {
-      "path": "resources\\retype.LICENSE.txt"
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "resources\\css\\retype.css",
+      "old": true
+    },
+    {
+      "path": "resources\\fonts\\Inter-italic-latin-var.woff2",
+      "old": true
+    },
+    {
+      "path": "resources\\fonts\\Inter-roman-latin-var.woff2",
+      "old": true
+    },
+    {
+      "path": "resources\\js\\config.js",
+      "old": true
+    },
+    {
+      "path": "resources\\js\\lunr.js",
+      "old": true
+    },
+    {
+      "path": "resources\\js\\retype.js",
+      "old": true
+    },
+    {
+      "path": "resources\\js\\search.json",
+      "old": true
+    },
+    {
+      "path": "resources\\lunr.js.LICENSE.txt",
+      "old": true
+    },
+    {
+      "path": "resources\\mermaid.js.LICENSE.txt",
+      "old": true
+    },
+    {
+      "path": "resources\\prism.js.LICENSE.txt",
+      "old": true
+    },
+    {
+      "path": "resources\\retype.js.LICENSE.txt",
+      "old": true
+    },
+    {
+      "path": "resources\\retype.LICENSE.txt",
+      "old": true
     },
     {
       "path": "robots.txt"
@@ -105,118 +193,180 @@
       "path": "sitemap.xml.gz"
     },
     {
-      "path": "static\\custom.css"
+      "path": "static/.ds_store"
     },
     {
-      "path": "static\\docs\\dossier-exploitation-ged-microgateaway-v2.0.docx"
+      "path": "static/custom.css"
     },
     {
-      "path": "static\\docs\\nextgen.-.lot1.-.sggh.postman_collection.json"
+      "path": "static/fonts/mona-sans/font.css"
     },
     {
-      "path": "static\\docs\\prerequis_is.docx"
+      "path": "static/fonts/mona-sans/mona-sans.ttf"
     },
     {
-      "path": "static\\docs\\wso_archi_0.2.pptx"
+      "path": "static/fonts/mona-sans/mona-sans.woff"
     },
     {
-      "path": "static\\fonts\\mona-sans\\font.css"
+      "path": "static/fonts/mona-sans/mona-sans.woff2"
     },
     {
-      "path": "static\\fonts\\mona-sans\\mona-sans.ttf"
+      "path": "static/img/wso2_apim.png"
     },
     {
-      "path": "static\\fonts\\mona-sans\\mona-sans.woff"
+      "path": "static/img/wso2_is.png"
     },
     {
-      "path": "static\\fonts\\mona-sans\\mona-sans.woff2"
+      "path": "static\\custom.css",
+      "old": true
     },
     {
-      "path": "static\\img\\analytics-01.png"
+      "path": "static\\docs\\dossier-exploitation-ged-microgateaway-v2.0.docx",
+      "old": true
     },
     {
-      "path": "static\\img\\analytics-02.png"
+      "path": "static\\docs\\nextgen.-.lot1.-.sggh.postman_collection.json",
+      "old": true
     },
     {
-      "path": "static\\img\\analytics-elk.png"
+      "path": "static\\docs\\prerequis_is.docx",
+      "old": true
     },
     {
-      "path": "static\\img\\apim_anim.gif"
+      "path": "static\\docs\\wso_archi_0.2.pptx",
+      "old": true
     },
     {
-      "path": "static\\img\\apim_architecture.png"
+      "path": "static\\fonts\\mona-sans\\font.css",
+      "old": true
     },
     {
-      "path": "static\\img\\apim.jpg"
+      "path": "static\\fonts\\mona-sans\\mona-sans.ttf",
+      "old": true
     },
     {
-      "path": "static\\img\\architecture_is.png"
+      "path": "static\\fonts\\mona-sans\\mona-sans.woff",
+      "old": true
     },
     {
-      "path": "static\\img\\banner.png"
+      "path": "static\\fonts\\mona-sans\\mona-sans.woff2",
+      "old": true
     },
     {
-      "path": "static\\img\\iam_authorize_app.jpg"
+      "path": "static\\img\\analytics-01.png",
+      "old": true
     },
     {
-      "path": "static\\img\\iam_authorize.jpg"
+      "path": "static\\img\\analytics-02.png",
+      "old": true
     },
     {
-      "path": "static\\img\\iam_enroll_app.jpg"
+      "path": "static\\img\\analytics-elk.png",
+      "old": true
     },
     {
-      "path": "static\\img\\iam_enrollment.jpg"
+      "path": "static\\img\\apim_anim.gif",
+      "old": true
     },
     {
-      "path": "static\\img\\iconmonstr-user-2.svg"
+      "path": "static\\img\\apim_architecture.png",
+      "old": true
     },
     {
-      "path": "static\\img\\idp_001.png"
+      "path": "static\\img\\apim.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\idp_002.png"
+      "path": "static\\img\\architecture_is.png",
+      "old": true
     },
     {
-      "path": "static\\img\\idp_003.png"
+      "path": "static\\img\\banner.png",
+      "old": true
     },
     {
-      "path": "static\\img\\idp_federation.jpg"
+      "path": "static\\img\\iam_authorize_app.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\logo_full.png"
+      "path": "static\\img\\iam_authorize.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\logo.png"
+      "path": "static\\img\\iam_enroll_app.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\logo2.jpg"
+      "path": "static\\img\\iam_enrollment.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\ms_microgateway.png"
+      "path": "static\\img\\iconmonstr-user-2.svg",
+      "old": true
     },
     {
-      "path": "static\\img\\provisioning_is.png"
+      "path": "static\\img\\idp_001.png",
+      "old": true
     },
     {
-      "path": "static\\img\\publisher.png"
+      "path": "static\\img\\idp_002.png",
+      "old": true
     },
     {
-      "path": "static\\img\\sg_connect_01.png"
+      "path": "static\\img\\idp_003.png",
+      "old": true
     },
     {
-      "path": "static\\img\\sg_connect_02.png"
+      "path": "static\\img\\idp_federation.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\sgconnect_auth_activation.png"
+      "path": "static\\img\\logo_full.png",
+      "old": true
     },
     {
-      "path": "static\\img\\single-node.png"
+      "path": "static\\img\\logo.png",
+      "old": true
     },
     {
-      "path": "static\\img\\wso2_apim.png"
+      "path": "static\\img\\logo2.jpg",
+      "old": true
     },
     {
-      "path": "static\\img\\wso2_is.png"
+      "path": "static\\img\\ms_microgateway.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\provisioning_is.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\publisher.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\sg_connect_01.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\sg_connect_02.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\sgconnect_auth_activation.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\single-node.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\wso2_apim.png",
+      "old": true
+    },
+    {
+      "path": "static\\img\\wso2_is.png",
+      "old": true
     }
   ]
 }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://github.com/pages/Grashjs/user-guide/sitemap.xml.gz

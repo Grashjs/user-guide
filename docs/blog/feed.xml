@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newroom</title>
+    <link>https://github.com/pages/Grashjs/user-guide/blog/</link>
+    <description>Newroom</description>
+    <copyright>Version 202302 - Atlas CMMS User Guide</copyright>
+    <lastBuildDate>Wed, 10 Apr 2024 12:48:00 GMT</lastBuildDate>
+    <generator>https://retype.com</generator>
+    <atom:link rel="self" type="application/rss+xml" href="https://github.com/pages/Grashjs/user-guide/blog/feed.xml" />
+    <item>
+      <title>Démarrage</title>
+      <guid isPermaLink="true">https://github.com/pages/Grashjs/user-guide/blog/hello/</guid>
+      <description>Faciliter l'utilisation de Atlas CMMS</description>
+      <author>ambroise.tine@gmail.com (Ambroise Ngagne TINE)</author>
+      <pubDate>Wed, 10 Apr 2024 12:48:00 GMT</pubDate>
+      <category domain="https://github.com/pages/Grashjs/user-guide/categories/documentation/">documentation</category>
+    </item>
+  </channel>
+</rss>
