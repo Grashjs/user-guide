@@ -3,7 +3,7 @@ icon: shield-lock
 label: API Management
 ---
 
-![](/static/img/apim.jpg)
+![](static/img/banner.png)
 
 ## Introduction
 

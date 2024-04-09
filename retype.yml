@@ -2,7 +2,7 @@ input: .
 output: ./docs
 url: https://docs.atlascmms.com
 meta:
-  title: " | Atlas CMMS User Guide"
+  title: " | Atlas CMMS"
 branding:
   title: Atlas CMMS
   logo: static/img/logo.png
@@ -17,7 +17,7 @@ links:
     link: https://github.com/pages/Grashjs/user-guide2
 
 footer:
-  copyright: "Version 202302 - Atlas CMMS User Guide"
+  copyright: "Version 2024-03 - Atlas CMMS User Guide"
 
 #edit:
 #  repo: "https://github.com/pages/Grashjs/user-guide/"

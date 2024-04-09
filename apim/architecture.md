@@ -3,7 +3,7 @@ icon: workflow
 label: Architecture
 ---
 
-!!!ghost Architecture WSO2
+!!!ghost Fichier à joindre
 [!file Télécharger](../static/docs/)
 !!!
 

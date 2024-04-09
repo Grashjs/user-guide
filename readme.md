@@ -2,7 +2,7 @@
 icon: home
 #tags: [guide]
 label: Introduction
-title: Atlas CMMS User Guide
+title: User Guide
 ---
 
 ![](static/img/banner.png)
