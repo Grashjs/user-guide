@@ -5,7 +5,6 @@ order: 600
 ---
 
 <!-- [!ref Lire l'introducution](./readme.md) -->
-## Checklist Setting
 Checklists are powerful tools in ATLAS CMMS for standardizing processes, ensuring compliance, and driving consistent execution of maintenance tasks. The Checklist Setting allows you to create and manage these reusable task lists.
 To access the Checklist Setting, navigate to `Settings > Checklists` from the main menu, as shown in the below image.
 ![Add Checklist](../static/img/settings-checklist-creation-1.png)

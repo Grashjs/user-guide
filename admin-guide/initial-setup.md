@@ -14,8 +14,8 @@ Under "Date format" and "Currency", the Admin can set the preferred formatting f
 The "Business type" dropdown allows the Admin to specify the nature of the organization's operations, such as "Physical asset management", "Facilities management", etc. This setting tailors certain CMMS features and workflows to better fit the selected business context.
 4.	Work Order Assignment Rules
 The Admin can configure rules for automatically assigning new work orders by checking the relevant options:
-●	"Auto-assign Work Orders" to the creator
-●	"Auto-assign requests" to the approver
+    - `Auto-assign Work Orders` to the creator
+    - `Auto-assign requests` to the approver
 5.	Notification Settings
 The Admin has control over notifications related to work orders, such as disabling notifications for closed work orders or prompting for feedback when orders are closed. These settings impact communication and data collection workflows.
 6.	Cost Tracking Configuration

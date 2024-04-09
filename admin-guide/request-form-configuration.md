@@ -4,7 +4,6 @@ label: Request Form Configuration
 order: 750
 ---
 
-## Request Form Configuration
 The Request Form Configuration settings allow admins to customize the fields and options that requesters need to fill out when submitting a new work request in ATLAS CMMS.As stated at the top, you can mark each field as Optional, Hidden or Required based on your organization's specific information needs for work requests.
 ![Request form settings](../static/img/settings-wo-completion.png)
 The configurable fields include:

@@ -4,7 +4,6 @@ label: Customized Roles
 order: 700
 ---
 
-## Customized Roles
 In addition to the pre-configured default roles like Admin, Technician, Requester etc., explained in previous chapter xxx, ATLAS CMMS provides a robust roles management system that allows administrators to define and customize user roles according to their organization's specific requirements. The Roles Management screen, accessible from Settings > Roles, displays all currently configured roles within the system.
 ![Customized Roles](../static/img/settings-roles.png)
 As shown in the image, the default roles like Admin, Technician, Limited Technician, Limited Administrator, and Requester are pre-configured. However, ATLAS offers the flexibility to create additional customized roles tailored to your needs. To create a new role, click on the "+Create Role" button in the top right corner of the Roles Management screen. This will open a form where you can specify the new role's details.

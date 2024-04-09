@@ -4,8 +4,6 @@ label: Work Order Settings
 order: 800
 ---
 
-## Work Order (WO) Settings
-### WO Creation Settings
 ![WO creation settings](../static/img/settings-wo-creation.png)
 The Work Order Creation settings allow admins to configure the fields and options available when creating new work orders in ATLAS CMMS. As shown in the image, you can mark fields as Optional, Hidden or Required based on your organization's processes. Key settings include specifying the Description details, setting Priority levels like Low/Medium/High, attaching relevant Images or documents, linking to the associated Asset, assigning a Primary Worker and Additional Workers, selecting the Team and Location, setting a Due Date, categorizing the type of work, linking to a Purchase Order if needed, and enabling e-Signatures. 
 Admins have full control over which fields are mandatory versus optional for work order creation. This ensures technicians capture all the critical information while avoiding excessive data entry for non-essential fields.
