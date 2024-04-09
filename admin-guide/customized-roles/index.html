@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.765943666459">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766016289203">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Customized Roles | Atlas CMMS</title>
     <meta name="title" content="Customized Roles | Atlas CMMS">
-    <meta name="description" content="Lire l'introducution">
+    <meta name="description" content="In addition to the pre-configured default roles like Admin, Technician, Requester etc.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/admin-guide/customized-roles/">
@@ -20,21 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/admin-guide/customized-roles/">
     <meta property="og:title" content="Customized Roles | Atlas CMMS">
-    <meta property="og:description" content="Lire l'introducution">
+    <meta property="og:description" content="In addition to the pre-configured default roles like Admin, Technician, Requester etc.">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/settings-roles.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/admin-guide/customized-roles/">
     <meta property="twitter:title" content="Customized Roles | Atlas CMMS">
-    <meta property="twitter:description" content="Lire l'introducution">
+    <meta property="twitter:description" content="In addition to the pre-configured default roles like Admin, Technician, Requester etc.">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/settings-roles.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.765943666459" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.766016289203" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.765943666459" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.766016289203" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.765943666459" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.766016289203" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -193,20 +195,30 @@
         <span>Customized Roles</span>
     </h1>
 </doc-anchor-target>
-<p>
-<div class="mb-6 px-5 py-4 flex justify-between relative border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded transition-colors duration-150">
-    <div class="flex items-center text-blue-500 dark:text-blue-400">
-        <span class="inline-block mb-px">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" role="presentation" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"/><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z"/></svg>
-        </span>
-        <span class="inline-block font-medium ml-2">Lire l&#x27;introducution</span>
-    </div>
-    <div class="flex items-center text-xs text-gray-400 dark:text-dark-400">
-        <span>../</span>
-    </div>
-    <a href="../" class="absolute block inset-0"></a>
-</div>
+<doc-anchor-target id="customized-roles">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#customized-roles">#</doc-anchor-trigger>
+        <span>Customized Roles</span>
+    </h2>
+</doc-anchor-target>
+<p>In addition to the pre-configured default roles like Admin, Technician, Requester etc., explained in previous chapter xxx, ATLAS CMMS provides a robust roles management system that allows administrators to define and customize user roles according to their organization&#x27;s specific requirements. The Roles Management screen, accessible from Settings &gt; Roles, displays all currently configured roles within the system.
+<figure class="content-center">
+    <img src="../../static/img/settings-roles.png" alt="Customized Roles">
+    <figcaption class="caption">Customized Roles</figcaption>
+</figure>
+As shown in the image, the default roles like Admin, Technician, Limited Technician, Limited Administrator, and Requester are pre-configured. However, ATLAS offers the flexibility to create additional customized roles tailored to your needs. To create a new role, click on the &quot;+Create Role&quot; button in the top right corner of the Roles Management screen. This will open a form where you can specify the new role&#x27;s details.
+<figure class="content-center">
+    <img src="../../static/img/settings-add-roles.png" alt="Add Customized Role">
+    <figcaption class="caption">Add Customized Role</figcaption>
+</figure>
 </p>
+<ol>
+<li>Enter a descriptive &quot;Name&quot; for the new role you want to create.</li>
+<li>Under &quot;Permissions&quot;, you can selectively enable or disable access to various CMMS modules and capabilities for this role. This granular control allows you to construct highly specialized roles.
+For example, you could create a &quot;Maintenance Planner&quot; role with permissions to create work orders, view/edit the preventive maintenance program, manage assets, but restrict access to financial reports.
+Another example: you could create a &quot;Reliability Engineer&quot; role with permissions to analyze system reliability, participate in maintenance planning, and access failure analysis reports, but restrict their ability to create or modify work orders.</li>
+</ol>
+<p>By leveraging the customized roles functionality, you can implement role-based access control (RBAC) that aligns with your team&#x27;s responsibilities, compliance requirements, and maintenance processes. This ensures each user has just the right level of system access to be productive while maintaining proper controls and segregation of duties.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -216,11 +228,11 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../admin-guide/work-order/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../admin-guide/request-form-configuration/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Work Orders Setting</span>
+                                                <span class="block mt-1">Request Form Configuration</span>
                                             </span>
                                         </a>
                                     </div>
