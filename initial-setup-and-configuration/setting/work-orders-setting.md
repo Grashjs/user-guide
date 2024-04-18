@@ -1,6 +1,6 @@
 ---
 icon: versions
-label: Work Orders Wo Setting
+label: Work Orders Setting
 order: 9
 ---
 #### WO Creation Settings
