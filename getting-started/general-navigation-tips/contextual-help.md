@@ -1,5 +1,5 @@
 ---
 icon: versions
 label: Contextual Help
-order: 1
+order: 8
 ---

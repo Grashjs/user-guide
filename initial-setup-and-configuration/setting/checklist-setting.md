@@ -1,5 +1,5 @@
 ---
 icon: versions
 label: Checklist Setting
-order: 1
+order: 7
 ---

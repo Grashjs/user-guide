@@ -9,16 +9,19 @@ title: User Guide
 
 ## Introduction
 
-Welcome to *ATLAS CMMS* - the first computerized maintenance management system designed and built in Africa! This user guide will walk you through everything you need to know to effectively use ATLAS to manage your assets, maintenance, and reliability.
+Welcome to ATLAS CMMS\! This user guide will walk you through everything you need to know to effectively use ATLAS to manage your assets, maintenance, and reliability.
 
-ATLAS CMMS enables organizations to achieve maintenance excellence by providing a centralized system to track equipment, schedule and assign work, manage inventory, and analyze asset performance. By digitizing maintenance processes and data, ATLAS empowers maintenance teams to work more efficiently and make data-driven decisions.
+ATLAS CMMS enables organizations to achieve maintenance excellence by providing a centralized system to track equipment, schedule and assign work, manage inventory, and analyze asset performance. By digitizing maintenance processes and data, ATLAS empowers maintenance teams to work more efficiently and make data\-driven decisions.
+
 Whether you are an administrator setting up the system, a technician performing work in the field, or a manager analyzing reports, ATLAS provides the features and insights you need to optimize your maintenance operations. This guide is organized into chapters focused on the key user roles and common tasks within ATLAS:
-Getting Started: subscribing, initial setup, and user profiles
-Admin Guide: configuring the system and master data
-Technician Guide: managing work orders and preventive maintenance
-Requester Guide: submitting and tracking work requests
-Reporting and Analytics: generating insights to drive improvement
-No matter your role, the goal of ATLAS is to make your maintenance job easier and more impactful. We'll highlight tips and best practices throughout to help you get the most value from the system. Let's get started on the journey to maintenance excellence together with ATLAS CMMS!
+
+- Getting Started: subscribing, initial setup, and user profiles
+- Admin Guide: configuring the system and master data
+- Technician Guide: managing work orders and preventive maintenance
+- Requester Guide: submitting and tracking work requests
+- Reporting and Analytics: generating insights to drive improvement
+
+No matter your role, the goal of ATLAS is to make your maintenance job easier and more impactful. We'll highlight tips and best practices throughout to help you get the most value from the system. Let's get started on the journey to maintenance excellence together with ATLAS CMMS\!
 
 ## The Benefits of a CMMS Solution
 Leveraging the capabilities of a Computerized Maintenance Management System (CMMS) can significantly improve maintenance operations and reduce downtime for organizations. According to a report by Plant Engineering, companies that implement CMMS solutions can experience a 35% reduction in maintenance costs and a 28% increase in labor productivity.[1] Additionally, a study by Deloitte found that organizations using CMMS software can reduce equipment downtime by up to 20%.[2]

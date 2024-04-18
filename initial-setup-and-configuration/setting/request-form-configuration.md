@@ -1,5 +1,5 @@
 ---
 icon: versions
 label: Request Form Configuration
-order: 1
+order: 8
 ---

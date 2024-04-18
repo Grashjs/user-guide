@@ -1,5 +1,5 @@
 ---
 icon: versions
 label: Using The Main Menu
-order: 1
+order: 10
 ---
