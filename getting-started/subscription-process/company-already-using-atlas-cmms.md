@@ -11,39 +11,39 @@ If your organization has an existing ATLAS CMMS account, the subscription proces
 2. You will receive an email invitation from "[admin@atlascmms.com](mailto:admin@atlascmms.com)" with the subject "Invitation to use Atlas CMMS".
 3. Open the email, which will look like this:
 
-![](images/image4.png)
+![](../../static/img/image4.png)
 
 The email contains an "Invitation to use Atlas CMMS" message stating that you have been invited to join the company's team on Atlas with your assigned role. There is a green "Join Company" button to accept the invitation.
 
 1. Click the "Join Company" button in the email.
 2. This will open a "Create account" form in your web browser, which looks like:
 
-![](images/image5.png)
+![](../../static/img/image5.png)
 
 1. Fill out the "Create account" form with your details like First Name, Last Name, Email, Country, Phone, and choose a secure Password.
 2. Check the box to accept the terms and conditions.
 3. Click the "Create your account" button to submit the form.
 4. Your ATLAS CMMS account is now created, and you can log in using your email and password to start using the software based on your assigned role permissions. To log in, access the Atlas Landing page Or Atlas Mobile App and click the "Login" button.
 
-![](images/image6.png)
+![](../../static/img/image6.png)
 
 then:
 
-![](images/image7.png)
+![](../../static/img/image7.png)
 
 #### <a id="_Edit_User_Profile"></a>Edit User Profile
 
 Once logged in, you can change your account details by clicking on the User Icon in the top\-right corner of the interface.
 
-![](images/image8.png)
+![](../../static/img/image8.png)
 
 From the dropdown menu, select "My Account" to access your account settings.
 
-![](images/image9.png)
+![](../../static/img/image9.png)
 
 You will then see a window similar to the one shown in below picture, which displays your current account information and provides options to update your details.
 
-![](images/image10.png)
+![](../../static/img/image10.png)
 
 In this window, you can make the following changes:
 

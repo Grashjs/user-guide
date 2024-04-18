@@ -11,7 +11,7 @@ If this is your company's first time using ATLAS CMMS, the initial subscription 
 2. You will see a login page. Click on the "Sign up here" or "Create account" link/button.
 3. This will take you to the "Create account" form as seen below:
 
-![](images/image11.png)
+![](../../static/img/image11.png)
 
 1. In the "Create account" form, fill in the required fields:
     - First Name
@@ -27,7 +27,7 @@ If this is your company's first time using ATLAS CMMS, the initial subscription 
 4. Once all required fields are filled, click the "Create your account" button to submit the form.
 5. Then a verification email will been sent to you. Check the spams if you don't see it in your inbox.
 
-![](images/image12.png)             ![](images/image13.png)
+![](../../static/img/image12.png)             ![](../../static/img/image13.png)
 
 1. Click “Verify Account”, then you will be directed to AtlasCMMS Login Page where you can use your email and password to access your Atlas CMMS account as Administrator/Creator.
 2. Then you can access “My Account” to edit and manage information related to your profile \(see Edit Profile on case 1 above\).
@@ -37,7 +37,7 @@ If this is your company's first time using ATLAS CMMS, the initial subscription 
 
 To access the company details page, you need to click on the user icon located at the top right corner of the interface, and then select the "My company" option from the dropdown menu.
 
-![](images/image14.png)                          ![](images/image15.png)
+![](../../static/img/image14.png)                          ![](../../static/img/image15.png)
 
 Once you've navigated to the "My company" section, you will be presented with the company details page. On this page, you can modify various aspects of your company's profile, including: Company Name, Company Address, Company Website and company Phone Number.
 
