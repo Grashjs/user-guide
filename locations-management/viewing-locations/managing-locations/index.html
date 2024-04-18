@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766782584903">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766795595642">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Managing Locations | Atlas CMMS</title>
     <meta name="title" content="Managing Locations | Atlas CMMS">
+    <meta name="description" content="While in the detailed view of a location, you can perform various management tasks:">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/locations-management/viewing-locations/managing-locations/">
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/locations-management/viewing-locations/managing-locations/">
     <meta property="og:title" content="Managing Locations | Atlas CMMS">
+    <meta property="og:description" content="While in the detailed view of a location, you can perform various management tasks:">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/locations-management/viewing-locations/managing-locations/">
     <meta property="twitter:title" content="Managing Locations | Atlas CMMS">
+    <meta property="twitter:description" content="While in the detailed view of a location, you can perform various management tasks:">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766782584903" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766795595642" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766782584903" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766795595642" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766782584903" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766795595642" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +193,116 @@
         <span>Managing Locations</span>
     </h1>
 </doc-anchor-target>
+<p>While in the detailed view of a location, you can perform various management tasks:</p>
+<ul>
+<li><strong>Add or Edit Location</strong>: Use the &quot;+ Asset&quot; button to add new assets to the Location or click on an existing asset to edit its details.</li>
+<li><strong>Create Work Orders</strong>: Click on the &quot;+ Work Order&quot; button under Location details to initiate new maintenance tasks for the location.</li>
+<li><strong>Update Floor Plans</strong>: Add new floor plans or edit existing ones to keep the facility&#x27;s layout up-to-date.</li>
+<li><strong>Manage Personnel</strong>: Use the people tab to assign roles, update contact information, and manage the facility&#x27;s workforce.</li>
+</ul>
+<p>By utilizing these features, The Admin can effectively oversee and maintain the operational integrity of their locations. Atlas CMMS provides a centralized platform for managing all aspects of a locations, ensuring that every component is accounted for and maintained efficiently.</p>
+<doc-anchor-target id="adding-new-locations">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#adding-new-locations">#</doc-anchor-trigger>
+        <span>Adding New Locations</span>
+    </h4>
+</doc-anchor-target>
+<p>There are two options for creating locations in the CMMS system:</p>
+<doc-anchor-target id="manual-creation">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#manual-creation">#</doc-anchor-trigger>
+        <span>Manual Creation</span>
+    </h6>
+</doc-anchor-target>
+<p>In the Locations view, click the &quot;+ Location&quot; button at the top right corner of the screen.</p>
+<p><figure class="content-center">
+    <img src="images/image58.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li>A new window will open to enter details for the new location.</li>
+<li>Fill in required fields like location name, address, and any other relevant information.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="images/image59.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li>If applicable, specify the parent location to establish a hierarchical relationship.</li>
+<li>During location creation, we can also assign workers, teams, vendors, and contractors to specific locations. Additionally, you have the option to attach pictures directly from your mobile camera or by dragging and dropping image files. Furthermore, you can attach relevant files to a location, such as floor plans, site maps, equipment manuals, or safety documents, which can provide valuable context and information for that particular location.</li>
+</ol>
+<p>Note 1: Assigning workers, teams, vendors, and contractors to locations is beneficial for several reasons:</p>
+<ul>
+<li>It helps establish clear responsibilities and accountability for maintenance tasks at each location.</li>
+<li>It enables efficient work order assignment and resource allocation based on location.</li>
+<li>It supports location-specific reporting and analysis of maintenance activities.</li>
+<li>Attaching pictures can be useful for visually documenting the layout, equipment, or specific areas of a location, aiding in better understanding and communication.</li>
+</ul>
+<ol>
+<li>Once all necessary details are provided, click &quot;Save&quot; or &quot;Create&quot; to add the new location.</li>
+</ol>
+<doc-anchor-target id="importing-from-template">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#importing-from-template">#</doc-anchor-trigger>
+        <span>Importing from Template</span>
+    </h6>
+</doc-anchor-target>
+<ol>
+<li>Download the location template from the Atlas CMMS website under &quot;Import Templates&quot;.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="images/image60.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li>Fill out the template with your location details, ensuring parent locations are listed before child locations.</li>
+<li>In the CMMS application, click the three vertical dots on the right side and select &quot;Import&quot;.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="images/image61.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Then:</p>
+<p><figure class="content-center">
+    <img src="images/image62.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Then Click: “Start Import Process”</p>
+<p><figure class="content-center">
+    <img src="images/image63.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li>Either drag and drop the filled template file or select it from your device.</li>
+<li>Follow the prompts to complete the import process successfully.</li>
+<li>After importing, click the refresh button near the three vertical dots to view the imported locations.</li>
+</ol>
+<p>It is crucial to start with parent locations before listing child locations when filling out the template. This is because the CMMS system relies on a hierarchical structure to organize and manage locations effectively.</p>
+<p>By defining parent locations first, you establish the top-level locations in the hierarchy. Child locations can then be nested under their respective parent locations, reflecting the real-world relationships and dependencies between different facilities or sites.</p>
+<p>Maintaining this hierarchical structure ensures proper data organization, enables efficient navigation and filtering of locations, and supports accurate reporting and analysis based on location hierarchies. It also allows for easier maintenance and updates, as changes to a parent location can be propagated to its child locations as needed.</p>
+<doc-anchor-target id="modifying-existing-location-details">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#modifying-existing-location-details">#</doc-anchor-trigger>
+        <span>Modifying Existing Location Details</span>
+    </h4>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="images/image64.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li>To modify the details of an existing location, locate the desired location in the list.</li>
+<li>Click on the respective row or the edit icon (pencil symbol) in the &quot;Actions&quot; column.</li>
+<li>This will open the &quot;Edit Location&quot; form, where you can update various fields such as the location name, address, contact information, and any other relevant details.</li>
+<li>After making the necessary changes, click &quot;Save&quot; to apply the modifications to the selected location.</li>
+</ol>
 
                                 
                                 <!-- Required only on API pages -->
@@ -199,11 +312,11 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../locations-management/viewing-locations/exporting-assets-data/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../locations-management/viewing-locations/views/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Exporting Assets Data</span>
+                                                <span class="block mt-1">Views</span>
                                             </span>
                                         </a>
                                     </div>
