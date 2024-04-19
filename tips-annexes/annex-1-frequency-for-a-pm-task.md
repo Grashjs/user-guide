@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Annexe 1 Frequency For A Pm Task
 order: 1
 ---

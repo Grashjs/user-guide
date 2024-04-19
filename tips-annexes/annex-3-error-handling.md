@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Annexe 3 Error Handling
 order: 1
 ---

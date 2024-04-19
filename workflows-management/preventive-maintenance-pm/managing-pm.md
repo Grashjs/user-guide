@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Managing PM
 order: 1
 ---

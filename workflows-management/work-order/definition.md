@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Definition
 order: 10
 ---

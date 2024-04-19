@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Vendor Configuration
 order: 10
 ---

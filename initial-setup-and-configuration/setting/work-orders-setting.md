@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Work Orders Setting
 order: 9
 ---

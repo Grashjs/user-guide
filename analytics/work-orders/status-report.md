@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Status Report
 order: 40
 ---

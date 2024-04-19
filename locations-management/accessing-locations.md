@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Accessing Locations
 order: 9
 ---

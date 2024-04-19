@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Requests By Priority
 order: 30
 ---

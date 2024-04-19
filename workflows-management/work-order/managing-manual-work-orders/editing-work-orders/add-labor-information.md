@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 order: 60
 ---
 Labor costs refer to the expenses incurred for the time and effort of technicians or workers involved in executing a work order. Accurately tracking and accounting for labor costs is crucial for several reasons:

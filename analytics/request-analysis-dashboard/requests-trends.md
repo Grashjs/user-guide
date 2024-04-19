@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Requests Trends
 order: 20
 ---

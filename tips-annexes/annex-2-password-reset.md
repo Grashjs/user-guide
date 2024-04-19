@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: Annexe 2 Password Reset
 order: 1
 ---

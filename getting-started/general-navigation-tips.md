@@ -1,5 +1,5 @@
 ---
-icon: versions
+
 label: General navigation tips
 order: 9
 ---
