@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766838415126">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Editing A Work Requests | Atlas CMMS</title>
     <meta name="title" content="Editing A Work Requests | Atlas CMMS">
+    <meta name="description" content="In the Atlas CMMS, the ability to edit a work request depends on the user's role and the current status of the request.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-requests/editing-a-work-requests/">
@@ -19,19 +20,21 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-requests/editing-a-work-requests/">
     <meta property="og:title" content="Editing A Work Requests | Atlas CMMS">
+    <meta property="og:description" content="In the Atlas CMMS, the ability to edit a work request depends on the user's role and the current status of the request.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-requests/editing-a-work-requests/">
     <meta property="twitter:title" content="Editing A Work Requests | Atlas CMMS">
+    <meta property="twitter:description" content="In the Atlas CMMS, the ability to edit a work request depends on the user's role and the current status of the request.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766838415126" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +193,15 @@
         <span>Editing A Work Requests</span>
     </h1>
 </doc-anchor-target>
+<p>In the Atlas CMMS, the ability to edit a work request depends on the user&#x27;s role and the current status of the request. This chapter will explain the permissions and limitations related to editing work requests.</p>
+<p>As the creator of a work request, the Requester has the ability to edit the request details under certain conditions:</p>
+<ol>
+<li><strong>Pending Status</strong>: If the work request is still in the &quot;Pending&quot; status, meaning it has not yet been responded to by an Admin or Limited Admin, the Requester has full permission to edit the request details.</li>
+<li><strong>Editing Pending Requests</strong>: To edit a pending work request, the Requester should navigate to the Work Requests list, locate the specific request they want to modify, and open its details. From there, they can click on the &quot;Edit&quot; button to access the request editing form.</li>
+<li><strong>Modifying Request Details</strong>: In the editing form, the Requester can modify various fields of the work request, such as the title, description, priority, due date, location, asset, and attached images or documents. They can make necessary changes or add additional information to clarify the maintenance need.</li>
+<li><strong>Saving Changes</strong>: After making the desired modifications, the Requester should click the &quot;Save&quot; button to update the work request details. The changes will be immediately reflected in the system.</li>
+</ol>
+<p>It is important to note that the Requester&#x27;s ability to edit a work request is limited to the &quot;Pending&quot; status. Once an Admin or Limited Admin has responded to the request by either approving and assigning a work order or rejecting the request, the Requester can no longer edit the original request details.</p>
 
                                 
                                 <!-- Required only on API pages -->

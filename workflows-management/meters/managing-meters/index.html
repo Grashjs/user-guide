@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766838415126">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Managing Meters | Atlas CMMS</title>
     <meta name="title" content="Managing Meters | Atlas CMMS">
+    <meta name="description" content="To access the Meters module within Atlas, users simply need to navigate to the dedicated \"Meters\" section from the main menu.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/meters/managing-meters/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/meters/managing-meters/">
     <meta property="og:title" content="Managing Meters | Atlas CMMS">
+    <meta property="og:description" content="To access the Meters module within Atlas, users simply need to navigate to the dedicated \"Meters\" section from the main menu.">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image125.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/meters/managing-meters/">
     <meta property="twitter:title" content="Managing Meters | Atlas CMMS">
+    <meta property="twitter:description" content="To access the Meters module within Atlas, users simply need to navigate to the dedicated \"Meters\" section from the main menu.">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image125.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766838415126" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,317 @@
         <span>Managing Meters</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="accessing-meters">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-meters">#</doc-anchor-trigger>
+        <span>Accessing Meters</span>
+    </h5>
+</doc-anchor-target>
+<p>To access the Meters module within Atlas, users simply need to navigate to the dedicated &quot;Meters&quot; section from the main menu.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image125.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="viewing-meters">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#viewing-meters">#</doc-anchor-trigger>
+        <span>Viewing Meters</span>
+    </h5>
+</doc-anchor-target>
+<doc-anchor-target id="general-view">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#general-view">#</doc-anchor-trigger>
+        <span>General View</span>
+    </h6>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../../static/img/image126.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>When a user clicks on the &quot;Meters&quot; section within the Atlas CMMS, they are presented with a comprehensive view that displays a list of meter records associated with various assets. The interface showcases key information in a tabular format, which includes the following columns:</p>
+<ul>
+<li><strong>Name</strong>: This column lists the names of the meters, which typically describe the type of reading or measurement the meter is tracking.</li>
+<li><strong>Next Reading Due</strong>: Indicates the scheduled date and time for the next meter reading to be taken. Meter with Past due reading will be highlighted with Red “Past Due” instead of Next reading view date, the responsible user need to make the reading.</li>
+<li><strong>Unit of Measure</strong>: Shows the unit in which the meter reading is measured.</li>
+<li><strong>Last Reading</strong>: Provides the date and time of the most recent meter reading entry, allowing users to see when the last data was captured.</li>
+<li><strong>Location</strong>: Specifies where the meter is located within the facility, aiding in quick identification and access for maintenance personnel.</li>
+<li><strong>Asset</strong>: Identifies the specific asset that the meter is associated with.</li>
+<li><strong>Created By</strong>: Displays the user who created the meter record.</li>
+<li><strong>Date Created</strong>: Indicates when the meter was initially set up in the system, giving users context for the lifespan and historical data of the meter.</li>
+</ul>
+<p>The interface also highlights meters with readings that are due or past due, alerting users to take immediate action.</p>
+<doc-anchor-target id="meter-specific-view">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#meter-specific-view">#</doc-anchor-trigger>
+        <span>Meter Specific View</span>
+    </h6>
+</doc-anchor-target>
+<p>The user can know more details about the a Meter clicking the specific row:</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image127.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>users will see several fields that provide important information about the meter and its management:</p>
+<ul>
+<li><strong>Reading</strong>: In this field, users can enter the meter&#x27;s reading value. To update it, tap on the meter value and click the &quot;Add Reading&quot; button.</li>
+<li><strong>Meter Details</strong>: This section includes several descriptive fields:
+<ul>
+<li><strong>Location Name</strong>: Indicates where the meter is physically located within the facility.</li>
+<li><strong>Asset Name</strong>: Identifies the specific asset that the meter is monitoring.</li>
+<li><strong>Category</strong>: Indicate the Meter category. Refer to “<doc-anchor-trigger to="#_Meter_Categories">Meter Categories</doc-anchor-trigger>”</li>
+<li><strong>Reading Frequency</strong>: Shows how often readings should be taken (e.g., every 1 day).</li>
+</ul>
+</li>
+</ul>
+<p>The frequency of reading determines the frequency of associated work order submissions.</p>
+<p>-
+- <strong>Assigned To</strong>: Lists the technician or team responsible for taking the meter readings.</p>
+<ul>
+<li><strong>Work Order Triggers</strong>: Here, users can see a list of work orders that are automatically generated when readings satisfy the conditions set for the Meter.</li>
+<li><strong>History</strong>:</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../../static/img/image128.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>When users click on the &quot;History&quot; tab, a log of all the past readings for the meter will be displayed. This historical data is essential for tracking trends over time and can help in identifying any anomalies or changes in the asset&#x27;s performance. Each entry in the history log typically includes:</p>
+<ul>
+<li>The recorded value of the meter at the time of the reading.</li>
+<li>The date and time when the reading was taken.</li>
+</ul>
+<p>This historical information is crucial for maintenance and facility managers to analyze the performance and condition of their assets, and to make informed decisions based on actual usage and wear data.</p>
+<doc-anchor-target id="setting-up-a-meter">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#setting-up-a-meter">#</doc-anchor-trigger>
+        <span><a id="_Setting_up_a"></a>Setting up a meter</span>
+    </h5>
+</doc-anchor-target>
+<p>To set up a meter in Atlas CMMS:</p>
+<ul>
+<li>Navigate to the Meters module and click &quot;+ Meter&quot;</li>
+</ul>
+<p><figure class="content-center">
+    <img src="../../../static/img/image129.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Here is a user guide for creating a new meter using the &quot;Add Meter&quot; form in AtlasCMMS:</p>
+<p><strong>Name:</strong> Enter a unique and descriptive name for the meter you are adding. This could indicate the type of measurement (e.g. &quot;Boiler Temperature Meter&quot;), the asset it is associated with (e.g. &quot;Pump 3 Flow Meter&quot;), or its location (e.g. &quot;East Wing Air Particle Meter&quot;).</p>
+<p><strong>Unit</strong>: Specify the unit of measurement that this meter will record readings in. Common units include:</p>
+<ul>
+<li>Length/Distance: feet, meters, miles, etc.</li>
+<li>Volume: gallons, liters, cubic feet</li>
+<li>Weight: pounds, kilograms, tons</li>
+<li>Temperature: Fahrenheit, Celsius</li>
+<li>Pressure: PSI, bar, Pascals</li>
+<li>Power: kilowatts, horsepower</li>
+<li>Speed: RPM, MPH</li>
+</ul>
+<p><strong>Update Frequency</strong>: Set how often you want to capture readings from this meter. This can be:</p>
+<ul>
+<li>Time-based: Every hour, day, week, month, etc.</li>
+<li>Usage-based: Every X miles, hours, cycles, etc.</li>
+<li>Meter reading based: Whenever the value increases by X</li>
+</ul>
+<p><strong>Category:</strong> If applicable, select a category that this meter belongs to for easier organization and filtering. Refer to “<doc-anchor-trigger to="#_Meter_Categories">Meter Categories</doc-anchor-trigger>”</p>
+<p>Optionally, you can upload a photo or document related to this meter by dragging the file into the box or clicking to browse files.</p>
+<p><strong>Location:</strong> Choose the physical location where this meter is installed from the dropdown list of locations in your facility.</p>
+<p><strong>Asset:</strong> Select the specific asset, equipment or machine that this meter is associated with and measuring.</p>
+<p><strong>Workers:</strong> Assign one or more workers/technicians who will be responsible for taking readings from this meter.</p>
+<p>Once all applicable fields are filled out, click &quot;Add&quot; to create the new meter in Atlas CMMS. The meter will now be available for capturing readings, setting up preventive maintenance schedules, and monitoring asset conditions.</p>
+<doc-anchor-target id="creating--a-meter-triggered-work-order">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating--a-meter-triggered-work-order">#</doc-anchor-trigger>
+        <span><a id="_Creating__a"></a>Creating  a Meter triggered Work Order</span>
+    </h5>
+</doc-anchor-target>
+<p>To create a meter-triggered work order, you first need to ensure that the relevant meter is properly configured in your CMMS. If the meter has not been set up yet, follow the steps outlined in the &quot;<doc-anchor-trigger to="#_Setting_up_a">Setting up a meter</doc-anchor-trigger>&quot; section to create and configure the meter. Once the meter is in place, you can proceed with creating the meter-triggered work order using these steps:</p>
+<ol>
+<li>Navigate to the &quot;Meters&quot; section and open the details view for the specific meter you want to set up a trigger for.</li>
+<li>In the meter details view, tap the &quot;+ Trigger&quot; button.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../../static/img/image130.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li>This will open the &quot;Edit Work Order Trigger&quot; form. Here you can configure the trigger condition:</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../../static/img/image131.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>-
+- enter a descriptive &quot;<strong>Trigger Name</strong>&quot; for this trigger condition.
+- Under &quot;<strong>When Meter Reading is</strong>&quot;, select the appropriate operator from the dropdown - either &quot;Greater than&quot; or &quot;Lower than&quot;. This sets the condition for evaluating the meter reading value.
+- Enter the meter reading value that will trigger the work order generation</p>
+<ol>
+<li>Next, set up the details for the triggered work order under &quot;Work Order Configuration&quot;:</li>
+<li>For Work Order Configuration options like work order Title, Description, Priority,  work order type, assigning technicians, adding tasks/operations etc., you can Refer to <doc-anchor-trigger to="#_Editing_Work_Order">Editing Work Order</doc-anchor-trigger> section as those settings are common across manually created and meter-triggered work orders.</li>
+<li>Once all the fields are populated, save the trigger. The system will now monitor the specified meter and automatically generate a new work order with the provided details whenever the meter reading condition is satisfied.</li>
+<li>Optionally, you can associate other triggered work order with same meter by adding more than one Triggered Work Order.</li>
+</ol>
+<p>The Atlas CMMS will now monitor the specified meter readings. When the trigger condition is met (e.g. energy consumption exceeds the set threshold), the system will automatically generate a new work order based on the configuration you provided.</p>
+<doc-anchor-target id="meters-permissions-and-notifications">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#meters-permissions-and-notifications">#</doc-anchor-trigger>
+        <span>Meter’s Permissions and Notifications</span>
+    </h5>
+</doc-anchor-target>
+<p>Effective management of meters within a CMMS requires a well-defined system of permissions and notifications to ensure proper control, accountability, and communication among various user roles. This chapter will explain the various permissions and notifications associated with meter-related workflows.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image132.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="permissions">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
+        <span><a id="_Permissions_1"></a>Permissions</span>
+    </h6>
+</doc-anchor-target>
+<p>The matrix outlines the permissions granted to different user roles for various actions related to meters. These permissions are designed to maintain control, accountability, and security within the system.</p>
+<ol>
+<li><strong>Create a Meter</strong>: Roles such as Admin, Limited Admin, and Technician have the permission to create new meters, ensuring that only authorized personnel can set up meter tracking for assets.</li>
+<li><strong>Update Meter Reading</strong>: Technicians and Limited Technicians have the permission to update meter readings, allowing them to input the latest measurements for the assets they are responsible for.</li>
+<li><strong>Edit PM Trigger</strong>: Only Admins and Limited Admins have the permission to edit PM triggers associated with meters, preventing unauthorized modifications to the conditions that generate preventive maintenance work orders.</li>
+<li><strong>Edit Meter: Assign to Technicians or Teams</strong>: Admins, Limited Admins, and Technicians have the permission to assign meters to specific technicians or teams, ensuring clear accountability for meter reading responsibilities.</li>
+<li><strong>Edit Meter: Delete Meter</strong>: Only Admins and Limited Admins have the permission to delete meters, preventing accidental or unauthorized removal of meter data.</li>
+<li><strong>Edit Meter: Edit Generated Work Order Status</strong>: Technicians and Limited Technicians have the permission to edit the status of work orders generated by meter triggers, reflecting the progress of maintenance tasks.</li>
+<li><strong>Receive Assigned/Reassigned Triggered Work Order</strong>: Technicians and Limited Technicians have the permission to receive and view work orders assigned or reassigned to them based on meter triggers, ensuring they are aware of their maintenance responsibilities.</li>
+<li><strong>View Assigned/Reassigned Triggered Work Order Details and Status</strong>: Technicians and Limited Technicians have the permission to view the details and status of work orders assigned or reassigned to them based on meter triggers, enabling them to track and manage their maintenance tasks effectively.</li>
+</ol>
+<doc-anchor-target id="notifications">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notifications">#</doc-anchor-trigger>
+        <span>Notifications</span>
+    </h6>
+</doc-anchor-target>
+<p>Similar to preventive maintenance tasks, notifications play a crucial role in keeping stakeholders informed about the status and progress of meter-related activities. The matrix indicates that notifications are sent through various channels, such as web push notifications, mobile push notifications, and email notifications.</p>
+<ol>
+<li><strong>Meter Creation</strong>: When a new meter is created, notifications are sent to the relevant parties, such as the Admin, Limited Admin, and the assigned Technician or Limited Technician. This ensures that everyone is aware of the new meter and can take appropriate actions.</li>
+<li><strong>Meter Reading Updates</strong>: When a meter reading is updated, notifications are sent to the assigned Technician or Limited Technician, as well as other relevant parties. This helps maintain accountability and facilitates effective communication regarding asset usage and maintenance needs.</li>
+<li><strong>Work Order Generation from Meter Triggers</strong>: When a work order is generated based on a meter trigger condition, notifications are sent to the assigned Technician or Limited Technician, as well as other relevant parties. This ensures that maintenance tasks are addressed promptly and potential issues are not overlooked.</li>
+<li><strong>Work Order Status Updates</strong>: As the status of a work order generated by a meter trigger changes, notifications are sent to keep stakeholders updated. This transparency helps maintain accountability and facilitates effective communication regarding the progress of maintenance tasks.</li>
+</ol>
+<p>Notifications are essential for maintaining a smooth workflow and ensuring that meter-related activities are addressed promptly. They help minimize delays, miscommunications, and potential bottlenecks in the asset maintenance process.The forms of notifications for meter-related activities are similar to those described in the chapter on <doc-anchor-trigger to="#_Permissions">Work Order Permissions</doc-anchor-trigger> and Notifications, including web push notifications, mobile push notifications, bell notifications, and email notifications.</p>
+<p>By understanding the permissions and notifications associated with Meters, users of different roles within Atlas CMMS can effectively collaborate to ensure that meters based maintenance activities are executed efficiently and effectively.</p>
+<doc-anchor-target id="viewing-meter-triggered-work-orders">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#viewing-meter-triggered-work-orders">#</doc-anchor-trigger>
+        <span>Viewing Meter Triggered Work Orders</span>
+    </h5>
+</doc-anchor-target>
+<p>Users can also view Meter Triggered Work Orders from the main menu under “Work Orders” Refer to:  “Viewing Work Orders” and setting “More Filters” for more finetuning.</p>
+<doc-anchor-target id="editing-a-meter">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-a-meter">#</doc-anchor-trigger>
+        <span>Editing a Meter</span>
+    </h5>
+</doc-anchor-target>
+<doc-anchor-target id="reading-recording-meter-readings">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reading-recording-meter-readings">#</doc-anchor-trigger>
+        <span>Reading (Recording) Meter Readings</span>
+    </h6>
+</doc-anchor-target>
+<p>Meters Reading after Meters Creation</p>
+<p>Once a meter has been created and configured in your CMMS following the steps outlined in the &quot;Setting up a meter&quot; section, it is ready to start tracking readings. However, there are a few key things that happen upon meter creation:</p>
+<p><strong>Initial Meter Status</strong></p>
+<p>Immediately after a new meter is added to the system, it will automatically have a status of &quot;Past Due&quot;. This indicates that the meter is awaiting its first reading to establish a baseline and schedule future readings.</p>
+<p><strong>Notification to Assigned Worker</strong></p>
+<p>When the meter is created, the CMMS sends out a notification to the worker who has been assigned responsibility for that meter (as specified during meter configuration). This notification, delivered via the methods set up in the system (e.g. email, mobile push notification), alerts the worker that a new meter has been added and prompts them to perform the initial reading.</p>
+<p>See the &quot;Notifications&quot; section for more details on how these alerts are configured and delivered.</p>
+<p><strong>Performing the First Reading</strong></p>
+<p>Upon receiving the notification, the assigned worker should record the first meter reading in the CMMS. This can be done in two ways:</p>
+<ol>
+<li>Directly from the push notification:</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../../static/img/image133.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>-
+- Locate the meter in the push notification list and click on it to open the meter detail page.
+- Click on &quot;Enter Reading&quot;.
+- Input the current meter value and timestamp.
+- Save the reading.</p>
+<ol>
+<li>From the Meters List:
+<ul>
+<li>If the meter reading due date has arrived, the meter will be highlighted in red with a status of &quot;Past Due&quot;.</li>
+<li>Locate the meter in the meter list and click on it to open the meter detail page.</li>
+<li>Click on &quot;Enter Reading&quot; in the Reading tab.</li>
+<li>Input the current meter value and timestamp.</li>
+<li>Save the reading.</li>
+</ul>
+</li>
+</ol>
+<p>Periodic Meters Reading</p>
+<p>After 1st reading, For next Periodic meters reading, User will have to consult Meter Menu to know what is past due to make a new reading, and what are next reading.</p>
+<p>For periodic meters, the next reading date and time will be automatically calculated by the system based on the last reading date and the defined reading frequency. Specifically, the next reading due will be exactly the last reading date plus the reading frequency (in days).For example:</p>
+<ul>
+<li>If the last reading was taken on January 1 at 9:00 AM</li>
+<li>And the reading frequency is set to every 30 days</li>
+<li>Then the next reading will be due on January 31 at 9:00 AM</li>
+</ul>
+<p>The system calculates this next due date and time to maintain the regular cadence of readings based on the meter&#x27;s configured frequency.</p>
+<doc-anchor-target id="editing-a-meter-details">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-a-meter-details">#</doc-anchor-trigger>
+        <span>Editing a Meter details</span>
+    </h6>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../../static/img/image134.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To edit the details of an existing meter, tap on the meter name from the main meter list. This will open the meter details view.In the meter details view , you will see fields displaying the current meter information such as:</p>
+<ul>
+<li>Last Reading</li>
+<li>Location Name</li>
+<li>Asset Name</li>
+<li>Reading Frequency</li>
+<li>Assigned Technician</li>
+<li>Work Order Triggers</li>
+</ul>
+<p>To modify these details, tap the pencil icon in the top right corner. This will allow you to edit the following fields:</p>
+<p><strong>Name</strong>: Update the descriptive name for the meter.</p>
+<p><strong>Unit</strong>: Change the unit of measurement the meter records (e.g. kWh, gallons).</p>
+<p><strong>Reading Frequency</strong>: Modify how often readings should be taken (e.g. daily, weekly).</p>
+<p><strong>Category</strong>: Assign the meter to a different category for organization.</p>
+<p><strong>Image Upload</strong>: Replace or add an image associated with the meter.</p>
+<p><strong>Location</strong>: Change the physical location the meter is installed at.<strong>Asset</strong>: Reassign the meter to a different asset it is monitoring.</p>
+<p><strong>Assigned To</strong>: Modify the technician or team responsible for taking readings.Once you have made the desired changes, tap &quot;Save&quot; to update the meter details.</p>
+<doc-anchor-target id="editing-a-meter-trigger">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-a-meter-trigger">#</doc-anchor-trigger>
+        <span>Editing a Meter Trigger</span>
+    </h6>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../../static/img/image135.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To edit an existing trigger, tap the pencil icon next to the trigger Name. This will open the &quot;Edit Work Order Trigger&quot; and follow the same process of “<doc-anchor-trigger to="#_Creating__a">Creating  a Meter triggered Work Order</doc-anchor-trigger>” to Edit existing Work Order triggers.</p>
+<p>After updating the trigger condition and work order configuration, tap &quot;Save&quot; to apply the new trigger rules. User can also delete an existing trigger by tapping the trash can icon next to it.( refer to  <doc-anchor-trigger to="#_Permissions_1">Permissions</doc-anchor-trigger> chapter)</p>
+<p>By editing meters, meter details, and work order triggers, you can customize how Atlas CMMS monitors your critical assets and automates maintenance based on actual equipment usage and conditions.</p>
+<doc-anchor-target id="printing-and-archiving-a-meter-triggered-work-order">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#printing-and-archiving-a-meter-triggered-work-order">#</doc-anchor-trigger>
+        <span>Printing and Archiving a Meter triggered Work Order</span>
+    </h6>
+</doc-anchor-target>
+<p>Refer to Printing and Archiving <doc-anchor-trigger to="#_Printing_and_Archiving">Work</doc-anchor-trigger> Order Chapter.</p>
 
                                 
                                 <!-- Required only on API pages -->

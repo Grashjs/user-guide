@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766838415126">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Importing From A Template | Atlas CMMS</title>
     <meta name="title" content="Importing From A Template | Atlas CMMS">
+    <meta name="description" content="Download the Assets template from the Atlas CMMS website under \"Import Templates\".">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/assets-management/adding-new-asset/importing-from-a-template/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/assets-management/adding-new-asset/importing-from-a-template/">
     <meta property="og:title" content="Importing From A Template | Atlas CMMS">
+    <meta property="og:description" content="Download the Assets template from the Atlas CMMS website under \"Import Templates\".">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image86.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/assets-management/adding-new-asset/importing-from-a-template/">
     <meta property="twitter:title" content="Importing From A Template | Atlas CMMS">
+    <meta property="twitter:description" content="Download the Assets template from the Atlas CMMS website under \"Import Templates\".">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image86.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766838415126" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,53 @@
         <span>Importing From A Template</span>
     </h1>
 </doc-anchor-target>
+<p>Download the Assets template from the Atlas CMMS website under <a href="http://www.atlascmms.com/Import_Templates">&quot;Import Templates&quot;.</a></p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image86.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Fill out the template with your Assets details, ensuring parent Assets are listed before child Assets.</p>
+<p>In the CMMS application, click the three vertical dots on the right side and select &quot;Import&quot;.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image87.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Then:</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image88.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Then Click: “Start Import Process”</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image89.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Either drag and drop the filled template file or select it from your device.</p>
+<p>Follow the prompts to complete the import process successfully.</p>
+<p>After importing, click the refresh button near the three vertical dots to view the imported Assets.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image90.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p><strong>Note 1</strong>: It is crucial to start with parent Assets before listing child Assets when filling out the template. This is because the CMMS system relies on a hierarchical structure to organize and manage Assets effectively.</p>
+<p>By defining parent Assets first, you establish the top-level Asset in the hierarchy. Child Assets can then be nested under their respective parent Assets, reflecting the real-world relationships and dependencies between different Assets.</p>
+<p>Maintaining this hierarchical structure ensures proper data organization, enables efficient navigation and filtering of Assets, and supports accurate reporting and analysis based on Assets hierarchies. It also allows for easier maintenance and updates, as changes to a parent Asset can be propagated to its child Asset as needed.</p>
+<p><strong>Note 2</strong>: the &quot;Archived&quot; column when importing assets into  Atlas CMMS indicates whether the asset being imported is currently active and in use, or if it has been archived or decommissioned. Specifically:</p>
+<ul>
+<li>Assets marked as &quot;Archived = Yes&quot; are assets that are no longer actively used or maintained. They have been archived or removed from the active inventory, and will not impact KPIs calculations but are still retained in the system for historical records or reference purposes.</li>
+<li>Assets marked as &quot;Archived = No&quot; or Empty are assets that are currently active and in operational use within the organization.</li>
+</ul>
+<p>Some key points about the &quot;Archived&quot; column when importing assets:</p>
+<ul>
+<li>It helps maintain an organized and up-to-date view of the active asset inventory, separating it from archived/legacy assets.</li>
+<li>Archived assets can still be accessed for reporting, auditing, or analyzing historical asset data and maintenance records.</li>
+<li>This column allows for better data management, preventing the active asset list from becoming cluttered with outdated or decommissioned equipment.</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->

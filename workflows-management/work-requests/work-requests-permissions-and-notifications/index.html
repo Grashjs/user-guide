@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766838415126">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Work Requests Permissions And Notifications | Atlas CMMS</title>
     <meta name="title" content="Work Requests Permissions And Notifications | Atlas CMMS">
+    <meta name="description" content="Effective management of work requests within the Atlas CMMS requires a well-defined system of permissions and notifications to ensure proper control,...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-requests/work-requests-permissions-and-notifications/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-requests/work-requests-permissions-and-notifications/">
     <meta property="og:title" content="Work Requests Permissions And Notifications | Atlas CMMS">
+    <meta property="og:description" content="Effective management of work requests within the Atlas CMMS requires a well-defined system of permissions and notifications to ensure proper control,...">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image138.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-requests/work-requests-permissions-and-notifications/">
     <meta property="twitter:title" content="Work Requests Permissions And Notifications | Atlas CMMS">
+    <meta property="twitter:description" content="Effective management of work requests within the Atlas CMMS requires a well-defined system of permissions and notifications to ensure proper control,...">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image138.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766838415126" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,38 @@
         <span>Work Requests Permissions And Notifications</span>
     </h1>
 </doc-anchor-target>
+<p>Effective management of work requests within the Atlas CMMS requires a well-defined system of permissions and notifications to ensure proper control, accountability, and communication among various user roles. This chapter will explain the various permissions and notifications associated with work request workflows.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image138.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="permissions">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
+        <span>Permissions</span>
+    </h5>
+</doc-anchor-target>
+<p>The matrix outlines the permissions granted to different user roles for various actions related to work requests.</p>
+<ol>
+<li><strong>Create Work Request</strong>: The Requester role has the permission to create new work requests, allowing various stakeholders to initiate maintenance needs or issues.</li>
+<li><strong>View details of Work Request</strong>: Requesters, Limited Admins, Admins, and Viewers have the permission to view the details of a work request, enabling them to track the status and progress of their submitted requests.</li>
+<li><strong>Change Work Request before approval</strong>: Requesters, Limited Admins, and Admins have the permission to modify or update work requests before they are approved or assigned, allowing for corrections or additional information to be added.</li>
+<li><strong>Update/Approve/Assign/Reject Work Request</strong>: Limited Admins and Admins have the permission to take actions on work requests, such as approving, assigning, or rejecting them. This ensures that only authorized personnel can manage and prioritize maintenance tasks.</li>
+<li><strong>View updates of related Work Order</strong>: Once a work request is converted into a work order, Technicians, Limited Technicians, Limited Admins, and Admins have the permission to view updates and status changes related to the corresponding work order, enabling them to track the progress of maintenance activities.</li>
+</ol>
+<doc-anchor-target id="notifications">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notifications">#</doc-anchor-trigger>
+        <span>Notifications</span>
+    </h5>
+</doc-anchor-target>
+<p>Similar to other maintenance workflows, notifications play a crucial role in keeping stakeholders informed about the status and progress of work requests. The matrix indicates that notifications are sent through various channels, such as web push notifications, mobile push notifications, and email notifications.</p>
+<ol>
+<li><strong>Work Request Creation</strong>: When a new work request is created, notifications are sent to the relevant parties, such as Limited Admins and Admins, alerting them of the incoming maintenance request.</li>
+<li><strong>Work Request Updates</strong>: When a work request is updated, approved, assigned, or rejected, notifications are sent to the appropriate roles, such as the Requester, Technicians, Limited Technicians, Limited Admins, and Admins. This ensures that all stakeholders are aware of the current status and can take necessary actions.</li>
+<li><strong>Work Order Updates</strong>: If a work request is converted into a work order, notifications are sent to the assigned Technicians, Limited Technicians, Limited Admins, and Admins, keeping them informed about any updates or status changes related to the corresponding work order.</li>
+</ol>
 
                                 
                                 <!-- Required only on API pages -->

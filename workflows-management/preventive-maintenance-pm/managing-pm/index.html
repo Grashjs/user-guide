@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766838415126">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Managing Pm | Atlas CMMS</title>
     <meta name="title" content="Managing Pm | Atlas CMMS">
+    <meta name="description" content="To access the preventive maintenance module in Atlas, users can navigate to the dedicated \"Preventive Maintenance\" section from the main menu.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/preventive-maintenance-pm/managing-pm/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/preventive-maintenance-pm/managing-pm/">
     <meta property="og:title" content="Managing Pm | Atlas CMMS">
+    <meta property="og:description" content="To access the preventive maintenance module in Atlas, users can navigate to the dedicated \"Preventive Maintenance\" section from the main menu.">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image120.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/preventive-maintenance-pm/managing-pm/">
     <meta property="twitter:title" content="Managing Pm | Atlas CMMS">
+    <meta property="twitter:description" content="To access the preventive maintenance module in Atlas, users can navigate to the dedicated \"Preventive Maintenance\" section from the main menu.">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image120.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766838415126" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,210 @@
         <span>Managing Pm</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="accessing-pm">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#accessing-pm">#</doc-anchor-trigger>
+        <span>Accessing PM</span>
+    </h5>
+</doc-anchor-target>
+<p>To access the preventive maintenance module in Atlas, users can navigate to the dedicated &quot;Preventive Maintenance&quot; section from the main menu.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image120.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="viewing-pm">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#viewing-pm">#</doc-anchor-trigger>
+        <span>Viewing PM</span>
+    </h5>
+</doc-anchor-target>
+<doc-anchor-target id="general-view">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#general-view">#</doc-anchor-trigger>
+        <span>General View</span>
+    </h6>
+</doc-anchor-target>
+<p>Once in the preventive maintenance module, users are presented with a view that displays a list of scheduled preventive maintenance tasks or work orders.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image121.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>This view includes the following fields or columns:</p>
+<ol>
+<li><strong>Name:</strong> The name or description of the preventive maintenance task or trigger.</li>
+<li><strong>Work Order Title:</strong> The title of the associated work order. The &quot;Work Order Title&quot; serves as the official name that will appear on all documentation and records related to the specific preventive maintenance task.</li>
+</ol>
+<p>PS:</p>
+<p>The “Name” or &quot;Trigger Name&quot; or &quot;PM (Preventive Maintenance) Name&quot; typically refers to the name assigned to the maintenance schedule or the specific maintenance routine. It&#x27;s used internally to track and trigger the maintenance workflow within a management system.</p>
+<p>On the other hand, the &quot;Work Order Title&quot; is more specific to the individual task or job that is being issued as a result of the trigger. This title often includes more detail and is what appears on the actual work</p>
+<ol>
+<li><doc-anchor-trigger to="#_Tip:_Priority_Assignment:"><strong>Priority</strong></doc-anchor-trigger><strong>:</strong> The priority level assigned to the work order (e.g., High, Medium, Low, None).</li>
+<li><strong>Description:</strong> A detailed description of the preventive maintenance task or work order.</li>
+<li><strong>Next Work Order:</strong> The scheduled date for the next occurrence of the preventive maintenance work order. The next work order date is calculated based on the PM frequency, last work order completion date, and current date (today&#x27;s date).</li>
+<li><strong>Worker:</strong> The technician or maintenance personnel assigned to the work order.</li>
+<li><strong>Assigned To:</strong> The team, department, or group responsible for the preventive maintenance task.</li>
+<li><strong>Location Name:</strong> The location or facility where the asset or equipment is located.</li>
+<li><doc-anchor-trigger to="#_Checklist_Setting"><strong>Category:</strong></doc-anchor-trigger> The category or type of preventive maintenance task (e.g., inspection, lubrication, replacement).</li>
+<li><strong>Asset:</strong> The specific asset or equipment associated with the preventive maintenance task.</li>
+</ol>
+<doc-anchor-target id="pm-task-specific-view">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-task-specific-view">#</doc-anchor-trigger>
+        <span>PM Task Specific View</span>
+    </h6>
+</doc-anchor-target>
+<p>The user can know more details about the PM task by clicking on a specific PM task:</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image122.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="scheduling-new-pm-activity">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#scheduling-new-pm-activity">#</doc-anchor-trigger>
+        <span>Scheduling New PM Activity</span>
+    </h5>
+</doc-anchor-target>
+<p>To create a new scheduled maintenance task, follow these steps:</p>
+<ol>
+<li><strong>Access the Schedule Work Order Form</strong><br />
+Navigate to the Preventive Maintenance module and click on the &quot;+ Trigger&quot;. This will open the Schedule Work Order form.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../../static/img/image123.jpeg" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li><strong>Configure the Trigger</strong><br />
+In the &quot;Trigger Configuration&quot; section, enter the following details:</li>
+</ol>
+<ul>
+<li><strong>Name:</strong> The Trigger Name should be descriptive and reflect the nature of the maintenance task. For example, &quot;Monthly Conveyor Belt Inspection&quot; clearly indicates the Frequency , the Asset and the maintenance activity.</li>
+<li><strong>Starts On:</strong> This is the date and hour when the preventive maintenance schedule will begin.</li>
+<li><strong>Ends On:</strong> If the PM task has a defined end period, specify it here. If it is an ongoing task without a foreseeable end, this can be left open or set far into the future.</li>
+<li><strong>Frequency in days:</strong> Specify the frequency, in days, at which the PM task should recur. To learn more about PM Frequency definition see <doc-anchor-trigger to="#_Frequency_for_a">Annex:</doc-anchor-trigger></li>
+</ul>
+<p>Important: Start On date will be the initial planned PM task start date and time. All subsequent occurrences of the work order will be based on the maintenance frequency set in days</p>
+<ol>
+<li><strong>Set Up the PM related Work Order</strong></li>
+</ol>
+<p>When establishing preventive maintenance scheduling using Atlas CMMS, it&#x27;s important to understand that Each PM task will have an associated work order. The purpose of the PM work order is to ensure that the personnel have all the necessary information and resources ready by the scheduled date.</p>
+<p>In the &quot;Work Order Configuration&quot; section, fill out the following:</p>
+<ol>
+<li><strong>Title:</strong> The title of the work order should be concise and aligned with the Trigger Name. Continuing with our example, the title could be &quot;Conveyor Belt Inspection - May 2024.&quot; This title informs the maintenance team about the specific task and the scheduled month.</li>
+<li><strong>Description:</strong> Provide a detailed description of the maintenance task to be performed.</li>
+<li><strong>Priority:</strong> Assign a priority level (e.g., High, Medium, Low) to the work order.</li>
+<li><strong>Due Date Delay</strong>: This specifies how many days after the work order is created so that the task must be completed. It is not about how long the task will take, but rather when the deadline for completion is set relative to the work order&#x27;s creation date. It accounts for the time before the work needs to be completed, providing a buffer for planning, preparation, or delays.</li>
+<li><strong>Expected Start Date:</strong> This is the planned date and time when the work order should commence. It sets a timeline for when the assigned maintenance personnel are expected to start the task.</li>
+</ol>
+<p>Important: Expected Start Date should be set before or on the due date.</p>
+<ol>
+<li><strong>Estimated Duration in Hours:</strong> Here, you will indicate the anticipated amount of time the work order will take to complete.</li>
+</ol>
+<p>The last 3 fields help in different aspects of maintenance scheduling and should be accurately filled to ensure effective planning and resource management.</p>
+<p>For the __remaining fields (Category, Location, Asset, Primary Worker, Team, Image, File and Task) __to complete the work order setup, please refer to the &quot; <doc-anchor-trigger to="#_Creating_a_Manual">3.2.2.3	Creating a Manual Work Order</doc-anchor-trigger>&quot; chapter which provides comprehensive instructions for each section.</p>
+<p><strong>Illustration Examples:</strong></p>
+<p>A facility coordinator needs to schedule a preventive maintenance check on a critical conveyor system that requires regular alignment checks.</p>
+<ol>
+<li>Work Order Creation: On June 1st, 2024, at 12:00 PM, the coordinator generates a new PM work order in the CMMS for the conveyor system.</li>
+<li>PM Task Frequency: This particular PM is scheduled to occur every 9 days as part of the ongoing maintenance strategy</li>
+<li>Due Date Delay: The coordinator assigns a &quot;Due Date Delay&quot; of 4 days. This means the work order is due on June 5th, 2024 at 12:00, allowing for some preparation time following the creation of the work order.</li>
+<li>Expected Start Date: To ensure that the maintenance is completed on time, the &quot;Expected Start Date&quot; is set for June 4th, 2024, at 08:00 AM. This date is chosen so that the maintenance team has time to address the task within the due date window.</li>
+<li>Estimated Duration: The job is estimated to take 2 hours, indicating the task was expected to be completed by 10:00 AM on June 4th, 2024.</li>
+<li>Pre-order Notifications: the CMMS is programmed to send out pre-order notifications 2 days before the &quot;Expected Start Date.&quot; Therefore, the technician receives a reminder on June 2nd, 2024, about the preventive maintenance task scheduled for June 4th.</li>
+<li><strong>CMMS Actions:</strong></li>
+</ol>
+<ul>
+<li>June 1st, 2024, <strong>12:00 PM</strong>: The PM Work Order for the conveyor system is entered into the CMMS.</li>
+<li>June 2nd, 2024, <strong>08:00 AM</strong>: The system sends out a notification to the assigned technician. This is 2 days ahead of the &quot;Expected Start Date,&quot; providing ample time for the technician to prepare.</li>
+<li>June 4th, 2024, <strong>08:00 AM</strong>: The technician is expected to start the preventive maintenance task.</li>
+<li>June 4th, 2024, 10:00 AM: The task is expected to be complete after 2 hours of work.</li>
+<li>June 5th, 2024 at <strong>12:00 PM</strong>: The due date for the work order, based on the set &quot;Due Date Delay&quot; of 4 days.</li>
+<li>Passing June 5th, 2024 at 12:00 PM and Work Order is not yet set to “Complete”, the CMMS will consider  the task as “Overdue”</li>
+</ul>
+<p>In this scenario, the timeline allows for proper notification and a logical sequence of work order creation, start date, and due date. This helps ensure that maintenance tasks are planned and completed efficiently without overlapping notifications and work order generation.</p>
+<p>Importance for CMMS Users:</p>
+<p>As a CMMS user, when you input the preventive maintenance schedule into the system, it&#x27;s crucial to provide comprehensive details. This ensures that each generated work order is accurate and actionable</p>
+<p>By following this process, you can effectively schedule preventive maintenance tasks within the Atlas CMMS. The system will automatically generate work orders based on the configured Schedule and Frequency, ensuring that maintenance activities are performed at the appropriate intervals. This proactive approach helps minimize unplanned downtime, extend asset lifespan, and maintain operational efficiency.</p>
+<doc-anchor-target id="pm-permissions-and-notifications">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#pm-permissions-and-notifications">#</doc-anchor-trigger>
+        <span>PM Permissions and Notifications</span>
+    </h5>
+</doc-anchor-target>
+<p>Once a preventive maintenance (PM) task has been created, it is crucial to ensure that the right people are notified and have the appropriate permissions to act on the task efficiently. This chapter will explain the various notifications and permissions associated with PM tasks, as well as the reasoning behind them.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image124.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="permissions">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
+        <span>Permissions:</span>
+    </h6>
+</doc-anchor-target>
+<p>The table outlines the permissions granted to different user roles for various actions related to PM tasks. These permissions are designed to maintain control, accountability, and security within the system.</p>
+<ol>
+<li><strong>PM Task Creation</strong>: Roles such as Admin, Limited Admin, or Technician have the permission to create PM tasks, ensuring that only authorized personnel can initiate preventive maintenance activities.</li>
+<li><strong>Edit PM Task</strong>: Technicians and Limited Technicians have the permission to edit PM tasks assigned to them, allowing them to update task details or make necessary adjustments.</li>
+<li><strong>Reschedule/Delete PM Task</strong>: Only Admins and Limited Admins have the permission to reschedule or delete PM tasks, preventing accidental or unauthorized modifications.</li>
+<li><strong>Change Work Order Status</strong>: Technicians and Limited Technicians have the permission to change the status of the associated work order, such as marking it as complete or on hold, reflecting the progress of the PM task.</li>
+<li><strong>Receive Assigned/Reassigned PM Work Order</strong>: Technicians and Limited Technicians have the permission to receive and view PM work orders assigned or reassigned to them, ensuring they are aware of their maintenance responsibilities.</li>
+</ol>
+<doc-anchor-target id="notifications">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notifications">#</doc-anchor-trigger>
+        <span>Notifications:</span>
+    </h6>
+</doc-anchor-target>
+<p>Similar to work orders, notifications play a crucial role in keeping stakeholders informed about the status and progress of PM tasks. The table indicates that notifications are sent through various channels, such as web push notifications, mobile push notifications, and email notifications.</p>
+<ol>
+<li><strong>PM Task Creation</strong>: When a PM task is created, notifications are sent to the relevant parties, such as the Admin, Limited Admin, and the assigned Technician or Limited Technician. This ensures that everyone is aware of the new PM task and can take appropriate actions.</li>
+<li><strong>PM Task Assignment/Reassignment</strong>: When a PM task is assigned or reassigned to a technician or team, notifications are sent to the assignee(s) and other relevant parties. This helps seamless PM Work Order handover between technicians and Team.</li>
+<li><strong>PM Task Updates</strong>: As the PM task progresses, notifications are sent to keep stakeholders updated on any changes in status, comments, or resource assignments. This transparency helps maintain accountability and facilitates effective communication.</li>
+</ol>
+<p>Notifications are essential for maintaining a smooth workflow and ensuring that PM tasks are addressed promptly. They help minimize delays, miscommunications, and potential bottlenecks in the preventive maintenance process.</p>
+<p>The forms of notifications for PM tasks are similar to those described in the chapter on Work Order Permissions and Notifications, including web push notifications, mobile push notifications, bell notifications, and email notifications.</p>
+<doc-anchor-target id="viewing-a-pm-work-orders">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#viewing-a-pm-work-orders">#</doc-anchor-trigger>
+        <span>Viewing a PM Work Orders</span>
+    </h5>
+</doc-anchor-target>
+<p>Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “<doc-anchor-trigger to="#_Viewing_Work_Orders">Viewing Work Orders</doc-anchor-trigger>” and setting “<doc-anchor-trigger to="#_More_Filters">More Filters</doc-anchor-trigger>” for more finetuning.</p>
+<p>By understanding the permissions and notifications associated with PM tasks, users of different roles within Atlas CMMS can effectively collaborate to ensure that preventive maintenance activities are executed efficiently and effectively, contributing to improved asset reliability and operational performance.</p>
+<doc-anchor-target id="editing-a-pm">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-a-pm">#</doc-anchor-trigger>
+        <span><a id="_Hlk164214364"></a>Editing a PM</span>
+    </h5>
+</doc-anchor-target>
+<doc-anchor-target id="editing-a-pm-trigger">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-a-pm-trigger">#</doc-anchor-trigger>
+        <span>Editing a PM Trigger</span>
+    </h6>
+</doc-anchor-target>
+<p>Users with Admin or Limited Admin profiles have the capability to modify the details of a PM task. This is done by navigating to &quot;Preventive Maintenance&quot; in the Main Menu, selecting the desired PM task, and then clicking on the edit icon represented by a pencil. In this section, both the Work Order (WO) Trigger settings and the associated PM Work Order details can be updated..</p>
+<doc-anchor-target id="editing-a-pm-work-order">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#editing-a-pm-work-order">#</doc-anchor-trigger>
+        <span>Editing a PM Work Order</span>
+    </h6>
+</doc-anchor-target>
+<p>For By clicking on a PM task, the user will be presented by the specific PM task view</p>
+<p>Refer to <doc-anchor-trigger to="#_Editing_Work_Order">Editing Work Order</doc-anchor-trigger> Chapter.</p>
+<doc-anchor-target id="printing-and-archiving-a-pm-work-order">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#printing-and-archiving-a-pm-work-order">#</doc-anchor-trigger>
+        <span>Printing and Archiving a PM Work Order</span>
+    </h5>
+</doc-anchor-target>
+<p>Refer to Printing and Archiving <doc-anchor-trigger to="#_Printing_and_Archiving">Work</doc-anchor-trigger> Order Chapter.</p>
 
                                 
                                 <!-- Required only on API pages -->

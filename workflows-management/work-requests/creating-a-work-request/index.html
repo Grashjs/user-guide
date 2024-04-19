@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766838415126">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Creating A Work Request | Atlas CMMS</title>
     <meta name="title" content="Creating A Work Request | Atlas CMMS">
+    <meta name="description" content="Creating a new Work Request in the Atlas CMMS is a straightforward process that allows you to capture all the necessary details and information...">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-requests/creating-a-work-request/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-requests/creating-a-work-request/">
     <meta property="og:title" content="Creating A Work Request | Atlas CMMS">
+    <meta property="og:description" content="Creating a new Work Request in the Atlas CMMS is a straightforward process that allows you to capture all the necessary details and information...">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image137.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-requests/creating-a-work-request/">
     <meta property="twitter:title" content="Creating A Work Request | Atlas CMMS">
+    <meta property="twitter:description" content="Creating a new Work Request in the Atlas CMMS is a straightforward process that allows you to capture all the necessary details and information...">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image137.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766838415126" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766838415126" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,71 @@
         <span>Creating A Work Request</span>
     </h1>
 </doc-anchor-target>
+<p>Creating a new Work Request in the Atlas CMMS is a straightforward process that allows you to capture all the necessary details and information related to a maintenance need or issue. To create a new Work Request, navigate to the Work Request module and click on the &quot;+ Work Request&quot; button.This action will open the &quot;Add Request&quot; form, which consists of various fields that you need to fill out.</p>
+<p><figure class="content-center">
+    <img src="../../../static/img/image137.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Let&#x27;s go through each field and understand its purpose:</p>
+<ol>
+<li><strong>Title</strong>*: This is a mandatory field where you should enter a concise and descriptive title for the Work Request. The title should provide a clear overview of the maintenance issue or task at hand.</li>
+<li><strong>Description</strong>: In this field, you can provide a detailed description of the Work Request. This is where you can elaborate on the problem, symptoms, or specific maintenance requirements. Providing a comprehensive description will help the maintenance team better understand the scope of work and make informed decisions.</li>
+<li><strong>Priority</strong>: Using the dropdown menu, you can assign a priority level to the Work Request. The available options may include None, Low, Medium or High, depending on the urgency and impact of the maintenance need. Refer to “<doc-anchor-trigger to="#_Tip:_Priority_Assignment:">Priority Assignment</doc-anchor-trigger>”</li>
+<li><strong>Due Date</strong>: This field allows you to specify the desired due date for the Work Request. The due date can help the maintenance team prioritize and schedule the work accordingly.</li>
+<li><strong>Expected start date</strong>: Here, you can indicate the expected start date for the maintenance work. This information can assist in resource planning and coordination.</li>
+<li><strong>Estimated Duration in Hours</strong>: In this field, you can provide an estimate of the time required to complete the maintenance task, expressed in hours. This information can aid in scheduling and resource allocation.</li>
+<li><strong>Category</strong>: Using the dropdown menu, you can assign the Work Request to a specific category. Categories are the same as Work Order Categories . Refer to “<doc-anchor-trigger to="#_Work_Order_Categories">Work Order Categories</doc-anchor-trigger>”</li>
+<li><strong>Location</strong>: This field allows you to specify the location where the maintenance work needs to be performed. This could be a building, floor, department, or any other relevant location identifier.</li>
+<li><strong>Asset</strong>*: If the Work Request is related to a specific asset or equipment, you can select the asset from the dropdown menu in this field. In case of Location is set, only Assets related to above Locations will be displayed.</li>
+<li><strong>Primary Worker</strong>: If you know the technician or maintenance personnel who should be assigned to this Work Request, you can select them from the dropdown menu in this field.</li>
+<li><strong>Team</strong>: Alternatively, if a specific team or department is responsible for handling this type of maintenance work, you can select the appropriate team from the dropdown menu.</li>
+<li><strong>Image/File Upload</strong>: This sections allow you to upload relevant images or documents that can provide visual context or additional information related to the Work Request. For Photos, You can drag and drop images or use your mobile Camera to attach photo. To attach files, drag and drop or click the respective upload buttons.</li>
+</ol>
+<p>Once you have filled out all the necessary fields, click the &quot;Add&quot; button to submit the new Work Request. The Work Request will then be added to the system and can be reviewed, prioritized, and assigned for further action by the maintenance team.</p>
+<p>By providing comprehensive and accurate information in the &quot;Add Request&quot; form, you can ensure that the maintenance team has all the necessary details to efficiently address the maintenance need, allocate resources appropriately, and maintain a well-documented maintenance history.</p>
+<doc-anchor-target id="responding-to-pending-work-request">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#responding-to-pending-work-request">#</doc-anchor-trigger>
+        <span>Responding to Pending Work Request</span>
+    </h5>
+</doc-anchor-target>
+<p>When a new work request is created in Atlas CMMS, it is automatically assigned a &quot;Pending&quot; status. This indicates that the request is awaiting review and action from an authorized user. Admins and limited admins have the ability to respond to these pending work requests in one of two ways:</p>
+<doc-anchor-target id="approving-and-assigning-a-work-order">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#approving-and-assigning-a-work-order">#</doc-anchor-trigger>
+        <span>Approving and Assigning a Work Order</span>
+    </h5>
+</doc-anchor-target>
+<p>If an admin or limited admin determines that a pending work request requires maintenance action, they can approve the request and assign it as a new work order. Here are the steps:</p>
+<ol>
+<li>From the Work Requests list, locate the pending request you want to act on and open its details.</li>
+<li>Review the request details, including the title, description, priority, due date, location, asset, and any attached images or documents.</li>
+<li>Click the &quot;Approve&quot; button. This will open a new window to create a work order.</li>
+<li>The new work order form will be pre-populated with the relevant details from the original work request, such as the title, description, asset, and location.</li>
+<li>Edit or add any additional information to the work order as needed, such as assigning a technician, setting the expected start date, adding tasks or procedures, and adjusting the priority level.</li>
+<li>Refer to the &quot;Creating Manual Work Orders&quot; chapter for detailed guidance on filling out the work order form.</li>
+<li>Once you have reviewed and completed the work order details, submit the new work order.</li>
+<li>The status of the original work request will now be updated to &quot;Approved.&quot;</li>
+</ol>
+<p>By approving and assigning a work order from a pending request, you ensure that the maintenance need is properly documented, prioritized, and assigned to the appropriate personnel for resolution.</p>
+<doc-anchor-target id="rejecting-a-work-request">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#rejecting-a-work-request">#</doc-anchor-trigger>
+        <span>Rejecting a Work Request</span>
+    </h5>
+</doc-anchor-target>
+<p>In some cases, an admin or limited admin may determine that a pending work request does not require maintenance action or is not valid. In such situations, they can reject the request. Here&#x27;s how:</p>
+<ol>
+<li>From the Work Requests list, locate the pending request you want to reject and open its details.</li>
+<li>Review the request details to ensure that rejection is the appropriate action.</li>
+<li>Click the &quot;Reject&quot; button. This will open a new window with a &quot;Feedback&quot; text area.</li>
+<li>In the &quot;Feedback&quot; area, provide a brief explanation or reason for rejecting the work request. This feedback will be visible to the original requester.</li>
+<li>Click &quot;Reject&quot; to confirm the rejection.</li>
+<li>The status of the original work request will now be updated to &quot;Rejected.&quot;</li>
+<li>The requester who submitted the work request will receive a notification informing them of the rejection and the provided feedback.</li>
+</ol>
+<p>By rejecting a work request, you ensure that unnecessary or invalid requests are properly addressed, and the requester receives feedback on the decision.Whether approving and assigning a work order or rejecting a work request, the actions taken by admins and limited admins are crucial in maintaining an efficient and organized maintenance workflow within Atlas CMMS. These actions ensure that valid maintenance needs are promptly addressed, while also providing transparency and communication to requesters regarding the status of their submissions.</p>
 
                                 
                                 <!-- Required only on API pages -->
