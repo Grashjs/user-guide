@@ -24,10 +24,10 @@ Let's go through each field in this form:
 3. __Image Upload__: If applicable, you can upload images related to the work order by taking picture, dragging and dropping files or clicking the designated area to browse and select image files from your device.
 4. __Due Date__: Specify the due date for completing the work order. This helps prioritize and schedule the task accordingly. In the Calendar View, Work Orders will be shown by Due Date.
 5. __Estimated Duration \(hours\)__: Enter an estimate of the time required to complete the work order, which aids in resource planning and allocation.
-6. __Priority__: Assign a priority level \(e.g., High, Medium, Low\) to the work order based on its urgency and importance. See Tip1  [priority assignment.](#_Tip_1:_Priority)
+6. __Priority__: Assign a priority level \(e.g., High, Medium, Low\) to the work order based on its urgency and importance. See Tip1  [priority assignment.](../../../tips-annexes/tip-1-priority-assignment.md)
 7. __Category__: Select the appropriate category or type of work order from the provided options \(e.g., Corrective Maintenance, Inspection, Calibration, Emergency, Continuous Improvement, New Installation…\).
 
-__🖝__ For Work Orders Categories setting refer to  [“Work Order Categories”](#_1-Work_Order_Categories) chapter under “Categories Configuration”.
+__🖝__ For Work Orders Categories setting refer to  [“Work Order Categories”](../../../initial-setup-and-configuration/configurations/categories-configuration.md#work-order-categories) chapter under “Categories Configuration”.
 
 1. __Primary Worker: __
 
@@ -54,7 +54,7 @@ __🖝__ For Work Orders Categories setting refer to  [“Work Order Categories�
 1. __Contractors__: If the work order involves external contractors, you can specify their details in this field. 
 2. __Location__: Select the location or facility where the work needs to be performed.
 3. __Asset__: If the work order is related to a specific asset or equipment, you can associate it with the work order by selecting it from the list. By Choosing the Location first, the Asset dropdown will show only Assets related to the already chosen location.
-4. __Tasks/Checklists__: Optionally, you can create a checklist of tasks or tasks to be followed as part of the work order or you can choose among pre\-established checklists.\( See [Checklist Setting](#_Checklist_Setting)\)
+4. __Tasks/Checklists__: Optionally, you can create a checklist of tasks or tasks to be followed as part of the work order or you can choose among pre\-established checklists.\( See [Checklist Setting](../../../initial-setup-and-configuration//setting/checklist-setting.md)\).
 5. __Files Upload__: Similar to the image upload section, you can attach relevant files, documents, or manuals to the work order by dragging and dropping or browsing for the files.
 6. __Requires Signature__: If the work order requires a signature upon completion, you can check this box and the related Work Order will not be set Complete before the Assigned User attach the Signature.
 

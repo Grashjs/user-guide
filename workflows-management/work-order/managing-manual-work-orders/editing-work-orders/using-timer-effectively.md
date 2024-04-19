@@ -4,13 +4,13 @@ label: Using The Timer and Work Orders Status Effectively
 order: 100
 ---
 
-When a User receives a work order assignment notification \(by Mobile Push notifications, Web Push Notification and by e\-mail:See [Notifications Chapter](#_Notifications)\) and once the User clicks on a specific work order assigned to them, they will be presented with a detailed view of that work order:
+When a User receives a work order assignment notification \(by Mobile Push notifications, Web Push Notification and by e\-mail) and once the User clicks on a specific work order assigned to them, they will be presented with a detailed view of that work order:
 
 ![](../../../../static/img/rev6/image109.png)
 
 Upon receiving the work order assignment, the User will need to take the following steps:
 
-1. __Start the timer:__ To track the time spent on the work order, the user must start the timer, which will record the labor hours dedicated to the task. See [Using The Timer Effectively](#_The_Timer)
+1. __Start the timer:__ To track the time spent on the work order, the user must start the timer, which will record the labor hours dedicated to the task. See [Using The Timer Effectively](../../../../workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively.md)
 2. __Fill out checklists:__ If the work order includes specific checklists or task lists, the user will need to follow and complete these steps, documenting their progress along the way.
 3. __Add labor information:__ As the user works on the task, they will need to record other labor hours spent. \(See [Time Categories](#_4-Timer_Categories) Chapter\).
 4. __Order and add parts:__ If the work order requires the replacement or installation of parts, the technician can order the necessary parts and add them to the work order, ensuring that the required materials are available.

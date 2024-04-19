@@ -30,7 +30,7 @@ The table outlines the permissions granted to different user roles for various a
 3. __Work Order Deletion__: Only Admins have the permission to delete work orders, preventing accidental or unauthorized deletions.
 4. __Work Order Assignment/Reassignment:__ Reassign Work Order refers to changing the assignment of the work order from one user \(Primary Worker, Team or any member the work order was Assigned To\) to another. This process is a fundamental aspect of managing maintenance operations dynamically, ensuring that tasks are completed efficiently and effectively. 
 
-[\(see more details in Tip 2: Reassigning Work Order:\)](#_Tip:_Reassigning_Work)
+See more details in [\(Tip 2: Reassigning Work Order:\)](../../../tips-annexes/tip-2-reassigning-work-order.md)
 
 Cases of Notifications:
 
