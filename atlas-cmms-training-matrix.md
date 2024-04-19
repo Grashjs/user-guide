@@ -1,5 +1,5 @@
 ---
-
+icon: grabber
 label: Training Matrix
 order: 1000
 ---
