@@ -1,6 +1,6 @@
 ---
 icon: versions
-label: Annex 3 Error Handling
+label: Annexe 3 Error Handling
 order: 1
 ---
 

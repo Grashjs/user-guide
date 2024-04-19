@@ -1,6 +1,6 @@
 ---
 icon: versions
-label: Managing Pm
+label: Managing PM
 order: 1
 ---
 ##### Accessing PM
@@ -139,7 +139,7 @@ The forms of notifications for PM tasks are similar to those described in the ch
 
 ##### Viewing a PM Work Orders
 
-Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “[Viewing Work Orders](../../workflows-management/work-order/managing-manual-work-orders.md/#viewing-work-orders)” and setting “[More Filters](../../workflows-management/work-order/managing-manual-work-orders.md/#more-filters)” for more finetuning.
+Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “[Viewing Work Orders](../../workflows-management/work-order/managing-manual-work-orders.md/#viewing-work-orders)” and setting “[More Filters](../../workflows-management/work-order/managing-manual-work-orders.md/#more-filters)” for more fine-tuning.
 
 By understanding the permissions and notifications associated with PM tasks, users of different roles within Atlas CMMS can effectively collaborate to ensure that preventive maintenance activities are executed efficiently and effectively, contributing to improved asset reliability and operational performance.
 
@@ -147,7 +147,7 @@ By understanding the permissions and notifications associated with PM tasks, use
 
 ###### Editing a PM Trigger
 
-Users with Admin or Limited Admin profiles have the capability to modify the details of a PM task. This is done by navigating to "Preventive Maintenance" in the Main Menu, selecting the desired PM task, and then clicking on the edit icon represented by a pencil. In this section, both the Work Order \(WO\) Trigger settings and the associated PM Work Order details can be updated..
+Users with Admin or Limited Admin profiles have the capability to modify the details of a PM task. This is done by navigating to "Preventive Maintenance" in the Main Menu, selecting the desired PM task, and then clicking on the edit icon represented by a pencil. In this section, both the Work Order \(WO\) Trigger settings and the associated PM Work Order details can be updated.
 
 ###### Editing a PM Work Order
 

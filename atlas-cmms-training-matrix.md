@@ -1,6 +1,6 @@
 ---
 icon: versions
-label: Atlas Cmms Training Matrix
+label: Training Matrix
 order: 1000
 ---
 Atlas CMMS Training Matrix is designed to guide different user roles through the specific chapters or paragraphs of the Atlas User Guide that are most relevant to their responsibilities and access levels. The matrix below outlines suggested chapters and sections for each default user role:
