@@ -7,20 +7,20 @@ branding:
   title: Atlas CMMS
   logo: static/img/logo.png
 links:
-  - text: Documentation
-    link: /
+  - text: Atlas CMMS
+    link: https://atlascmms.com
   - text: Analytics
-    link: https://github.com/pages/Grashjs/user-guide2
+    link: /analytics/work-orders/status-report.md
   - text: Worker Order
-    link: https://github.com/pages/Grashjs/user-guide2
+    link: /workflows-management/work-order/definition.md
   - text: Preventive Maintenance
-    link: https://github.com/pages/Grashjs/user-guide2
+    link: /workflows-management/preventive-maintenance-pm/definition.md
 
 footer:
-  copyright: "Version 2024-03 - Atlas CMMS User Guide"
+  copyright: "Version 2024-04 - Atlas CMMS User Guide"
 
-#edit:
-#  repo: "https://github.com/pages/Grashjs/user-guide/"
+edit:
+  repo: "https://github.com/Grashjs/user-guide/"
 
 editor:
   enabled: false

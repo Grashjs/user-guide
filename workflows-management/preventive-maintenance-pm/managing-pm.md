@@ -80,7 +80,7 @@ Important: Expected Start Date should be set before or on the due date.
 
 The last 3 fields help in different aspects of maintenance scheduling and should be accurately filled to ensure effective planning and resource management.
 
-For the __remaining fields \(Category, Location, Asset, Primary Worker, Team, Image, File and Task\) __to complete the work order setup, please refer to the " [Creating a Manual Work Order](../../workflows-management/work-order/managing-manual-work-orders.md/#creating-a-manual-work-order)" chapter which provides comprehensive instructions for each section.
+For the __remaining fields \(Category, Location, Asset, Primary Worker, Team, Image, File and Task\) __to complete the work order setup, please refer to the " [Creating a Manual Work Order](../../workflows-management/work-order/managing-manual-work-orders/creating-a-manual-work-order.md)" chapter which provides comprehensive instructions for each section.
 
 __Illustration Examples:__
 
@@ -139,7 +139,7 @@ The forms of notifications for PM tasks are similar to those described in the ch
 
 ##### Viewing a PM Work Orders
 
-Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “[Viewing Work Orders](../../workflows-management/work-order/managing-manual-work-orders.md/#viewing-work-orders)” and setting “[More Filters](../../workflows-management/work-order/managing-manual-work-orders.md/#more-filters)” for more fine-tuning.
+Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “[Viewing Work Orders](../../workflows-management/work-order/managing-manual-work-orders/viewing-work-orders.md)” and setting “[More Filters](../../workflows-management/work-order/managing-manual-work-orders/viewing-work-orders.md/#more-filters)” for more fine-tuning.
 
 By understanding the permissions and notifications associated with PM tasks, users of different roles within Atlas CMMS can effectively collaborate to ensure that preventive maintenance activities are executed efficiently and effectively, contributing to improved asset reliability and operational performance.
 
@@ -153,8 +153,8 @@ Users with Admin or Limited Admin profiles have the capability to modify the det
 
 For By clicking on a PM task, the user will be presented by the specific PM task view
 
-Refer to [Editing Work Order](../../workflows-management/work-order/managing-manual-work-orders.md/#editing-work-order) Chapter.
+Refer to [Editing Work Order](../../workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively.md) Chapter.
 
 ##### Printing and Archiving a PM Work Order
 
-Refer to Printing and Archiving [Work](../../workflows-management/work-order/managing-manual-work-orders.md/#printing-and-archiving-a-work-order) Order Chapter.
+Refer to Printing and Archiving [Work](../../workflows-management/work-order/managing-manual-work-orders/printing-and-archiving-a-work-order.md) Order Chapter.

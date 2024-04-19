@@ -27,7 +27,7 @@ Here, you will need to:
 - 
 	- Enter a Cost Description, such as "Travel from site 1 to site 2."
 	- Assigned To: The technician, team, or individual responsible for incurring the cost, if applicable.
-	- Category: The category or type of cost being added. Refer to the "[Cost Categories](#_Cost_Categories)" chapter for a list of predefined categories in Atlas CMMS.
+	- Category: The category or type of cost being added. Refer to the "[Cost Categories](../../../../initial-setup-and-configuration/configurations/categories-configuration.md#cost-categories)" chapter for a list of predefined categories in Atlas CMMS.
 	- Date: The date when the additional cost was incurred.
 	- Cost: The monetary amount of the additional cost.
 	- Additionally, there is an important toggle switch labeled "Include this cost in the total cost." This option determines whether the additional cost should be included in the overall work order total or not.

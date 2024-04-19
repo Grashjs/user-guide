@@ -12,9 +12,9 @@ Upon receiving the work order assignment, the User will need to take the followi
 
 1. __Start the timer:__ To track the time spent on the work order, the user must start the timer, which will record the labor hours dedicated to the task. See [Using The Timer Effectively](../../../../workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively.md)
 2. __Fill out checklists:__ If the work order includes specific checklists or task lists, the user will need to follow and complete these steps, documenting their progress along the way.
-3. __Add labor information:__ As the user works on the task, they will need to record other labor hours spent. \(See [Time Categories](#_4-Timer_Categories) Chapter\).
+3. __Add labor information:__ As the user works on the task, they will need to record other labor hours spent. \(See [Time Categories](../../../../initial-setup-and-configuration/configurations/categories-configuration.md#timer-categories) Chapter\).
 4. __Order and add parts:__ If the work order requires the replacement or installation of parts, the technician can order the necessary parts and add them to the work order, ensuring that the required materials are available.
-5. __Link related work orders:__ In some cases, a work order may be related to or dependent on another work order. The technician \(or the Admin, Limited Admin\) can link these work orders together for better tracking and coordination.For more details, see chapter about [Linked Work Orders role and use cases.](#_Linking_Work_Orders:)
+5. __Link related work orders:__ In some cases, a work order may be related to or dependent on another work order. The technician \(or the Admin, Limited Admin\) can link these work orders together for better tracking and coordination.For more details, see chapter about [Linked Work Orders role and use cases.](../../managing-manual-work-orders/editing-work-orders/link-work-order.md)
 6. __Update status and details:__ Throughout the process, the user should update the work order status and details to reflect the progress of the work, such as marking tasks as completed or adding notes and comments.
 7. __Stop the timer and mark as complete:__ Once the work is fully completed, the user must stop the timer to accurately capture the total labor hours spent on the work order. Finally, they will mark the work order as "Complete," indicating that the task has been successfully accomplished.
 
@@ -34,7 +34,7 @@ Once the timer is started, the status of the work order will automatically be se
 
 ![](../../../../static/img/rev6/image111.png)
 
-While the work order is in progress, the user can pause, resume or [stop the timer](#_Stop_the_timer) as needed. This flexibility allows for accurate time tracking, even if the work is interrupted or needs to be paused for any reason. Like that, the wrench time is measured accurately.
+While the work order is in progress, the user can pause, resume or [stop the timer](../editing-work-orders/stop-timer-and-mark-as-complete.md) as needed. This flexibility allows for accurate time tracking, even if the work is interrupted or needs to be paused for any reason. Like that, the wrench time is measured accurately.
 
 Update Work Order status:
 
@@ -45,7 +45,7 @@ __Work Order Statuses__
 1. __Open__: When a new work order is received, it is initially set to the "Open" status. This indicates that the work order has been created and is ready to be assigned and scheduled for execution.
 2. __In Progress__: Once a technician starts working on the maintenance task, the work order status should be changed to "In Progress." This status signifies that the work has begun and is currently being actively worked on.
 3. __On Hold__: If the maintenance task needs to be temporarily paused due to various reasons such as waiting for parts, pending approvals, or resource constraints, the work order status can be set to "On Hold." This status indicates that the work has been interrupted and is awaiting resolution of the blocking issues before it can resume.
-4. __Complete__: When the maintenance work has been finished and all tasks associated with the work order have been executed, the status should be changed to "Complete." This status marks the work order as done, signifying that no further action is required from a maintenance perspective. Refer to “[Work Order Completion](#_Work_Order_Completion)”
+4. __Complete__: When the maintenance work has been finished and all tasks associated with the work order have been executed, the status should be changed to "Complete." This status marks the work order as done, signifying that no further action is required from a maintenance perspective. Refer to “[Work Order Completion](../../managing-manual-work-orders/editing-work-orders/work-order-completion-and-feedback.md)”
 
 ![](../../../../static/img/rev6/image112.png)![](../../../../static/img/rev6/image113.png)
 

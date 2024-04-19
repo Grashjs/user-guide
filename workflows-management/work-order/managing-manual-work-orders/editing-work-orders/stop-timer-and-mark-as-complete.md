@@ -18,7 +18,7 @@ To effectively stop the timer and mark a work order as complete in Atlas CMMS, f
 ![](../../../../static/img/rev6/image126.png)
 
 - __Stop the Timer:__ Locate the timer function within the work order interface displayed as a running timer counter indicating the time spent on the current task. Click the “Timer Running” button to halt the timer at the current time. 
-- __Review the Recorded Time:__ Quickly review the time recorded to ensure it matches the actual time spent. Adjustments should be made if there were any discrepancies or if the timer was not stopped at the right moment. See “[Add Timer](#_Add_labor_information:)” in case of need for Timer adjustement.
+- __Review the Recorded Time:__ Quickly review the time recorded to ensure it matches the actual time spent. Adjustments should be made if there were any discrepancies or if the timer was not stopped at the right moment. See “[Add Timer](../../managing-manual-work-orders/editing-work-orders/fill-out-checklists.md#add-labor-information)” in case of need for Timer adjustement.
 - __Final Checks:__ Ensure that all necessary documentation, such as completed task lists, used parts, and any customer or internal feedback, have been properly recorded in the CMMS. This step is crucial for maintaining comprehensive records of maintenance activities.
 
 By meticulously following these steps, you ensure that the work order is accurately concluded, reflecting the real\-time spent and tasks completed. This practice not only enhances the reliability of the CMMS data but also supports effective maintenance management and operational efficiency.
