@@ -1,6 +1,6 @@
 ---
-
 label: Conclusion And Main Take Away
+icon: trophy
 order: 990
 ---
 
