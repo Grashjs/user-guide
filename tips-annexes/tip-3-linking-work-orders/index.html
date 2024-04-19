@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766795595642">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766820449358">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Tip 3 Linking Work Orders | Atlas CMMS</title>
     <meta name="title" content="Tip 3 Linking Work Orders | Atlas CMMS">
+    <meta name="description" content="The Link Work Orders feature in Atlas CMMS is a powerful tool designed to create and manage relationships between various work orders.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/tips-annexes/tip-3-linking-work-orders/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/tips-annexes/tip-3-linking-work-orders/">
     <meta property="og:title" content="Tip 3 Linking Work Orders | Atlas CMMS">
+    <meta property="og:description" content="The Link Work Orders feature in Atlas CMMS is a powerful tool designed to create and manage relationships between various work orders.">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image154.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/tips-annexes/tip-3-linking-work-orders/">
     <meta property="twitter:title" content="Tip 3 Linking Work Orders | Atlas CMMS">
+    <meta property="twitter:description" content="The Link Work Orders feature in Atlas CMMS is a powerful tool designed to create and manage relationships between various work orders.">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image154.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.5.0.766795595642" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.5.0.766820449358" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.766795595642" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.5.0.766820449358" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.766795595642" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.5.0.766820449358" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,57 @@
         <span>Tip 3 Linking Work Orders</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="utilizing-the-link-work-orders-feature">
+    <h4>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#utilizing-the-link-work-orders-feature">#</doc-anchor-trigger>
+        <span>Utilizing the Link Work Orders Feature</span>
+    </h4>
+</doc-anchor-target>
+<p>The <code v-pre>Link Work Orders</code> feature in Atlas CMMS is a powerful tool designed to create and manage relationships between various work orders. This functionality is essential for organizing and streamlining maintenance workflows, ensuring that all related tasks are coordinated effectively. Here&#x27;s how to use this feature, along with pertinent examples:</p>
+<doc-anchor-target id="how-to-link-several-work-orders">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-to-link-several-work-orders">#</doc-anchor-trigger>
+        <span>How to Link Several Work Orders</span>
+    </h5>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../static/img/image154.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+or
+<figure class="content-center">
+    <img src="../../static/img/image155.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<doc-anchor-target id="understanding-link-work-orders-options">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#understanding-link-work-orders-options">#</doc-anchor-trigger>
+        <span>Understanding Link Work Orders Options</span>
+    </h5>
+</doc-anchor-target>
+<p>When you access the &quot;Link Work Orders&quot; interface, you are presented with several options to define the relationship between work orders</p>
+<ul>
+<li><code v-pre>Blocked by</code>: Use this option when a work order cannot proceed until another work order is completed. For example, if Work Order A involves shutting down the power, and Work Order B cannot start without power, then Work Order B is &quot;Blocked by&quot; Work Order A.</li>
+<li><code v-pre>Blocks</code>: This is the inverse of &quot;Blocked by&quot; and is used to indicate that the current work order is preventing another from proceeding. In the previous example, Work Order A &quot;Blocks&quot; Work Order B.</li>
+<li><code v-pre>Duplicate of</code>: If a work order has been mistakenly created more than once, use this option to link it to the original work order. This helps avoid redundant work and confusion.</li>
+<li><code v-pre>Duplicated by</code>: This indicates that the current work order has been duplicated, and another work order exists with the same tasks.</li>
+<li><code v-pre>Related to</code>: This option is used to link work orders that are not dependent on each other but are related in context or location. For instance, if Work Order C involves repairing a leak in a pipeline and Work Order D involves inspecting the same pipeline, they are &quot;Related to&quot; each other.</li>
+<li><code v-pre>Split to</code>: If a work order is too large or complex and needs to be divided into smaller, more manageable tasks, use this option to link the original work order to the new, smaller work orders.</li>
+<li><code v-pre>Split from</code>: This indicates that the current work order has been created as a result of splitting a larger work order into more manageable parts.</li>
+</ul>
+<doc-anchor-target id="practical-examples-of-linking-work-orders">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#practical-examples-of-linking-work-orders">#</doc-anchor-trigger>
+        <span>Practical Examples of Linking Work Orders</span>
+    </h5>
+</doc-anchor-target>
+<ul>
+<li><strong>Scheduled Maintenance</strong>: During a scheduled maintenance shutdown, multiple work orders may be created for different tasks. Linking these work orders using &quot;Related to&quot; can help teams coordinate their efforts without duplicating work.</li>
+<li><strong>Emergency Repairs</strong>: If an emergency repair work order is created due to an equipment breakdown, it may block other work orders that require the equipment to be operational. Using the &quot;Blocked by&quot; option can help reschedule those affected work orders.</li>
+<li><strong>Project Management</strong>: For complex projects that involve multiple stages or phases, work orders can be linked using &quot;Split to&quot; and &quot;Split from&quot; to manage the project in smaller, sequential tasks.</li>
+</ul>
+<p>By effectively using the &quot;Link Work Orders&quot; feature, maintenance managers can ensure that all related maintenance activities are accounted for and organized logically. This leads to better resource allocation, clearer communication among team members, and a more efficient maintenance process overall.</p>
 
                                 
                                 <!-- Required only on API pages -->

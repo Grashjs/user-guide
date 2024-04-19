@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766795595642">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766820449358">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Work Order Aging Dashboard | Atlas CMMS</title>
     <meta name="title" content="Work Order Aging Dashboard | Atlas CMMS">
+    <meta name="description" content="Work order age is defined as the Time between the creation of the work order (or work request) and the current date.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/analytics/work-orders/work-order-aging-dashboard/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/analytics/work-orders/work-order-aging-dashboard/">
     <meta property="og:title" content="Work Order Aging Dashboard | Atlas CMMS">
+    <meta property="og:description" content="Work order age is defined as the Time between the creation of the work order (or work request) and the current date.">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/image147.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/analytics/work-orders/work-order-aging-dashboard/">
     <meta property="twitter:title" content="Work Order Aging Dashboard | Atlas CMMS">
+    <meta property="twitter:description" content="Work order age is defined as the Time between the creation of the work order (or work request) and the current date.">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/image147.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766795595642" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766820449358" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766795595642" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766820449358" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766795595642" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766820449358" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,38 @@
         <span>Work Order Aging Dashboard</span>
     </h1>
 </doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../../static/img/image147.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+Work order age is defined as the Time between the creation of the work order (or work request) and the current date.</p>
+<p><code v-pre>Incomplete Work Orders</code><strong>①</strong></p>
+<p>This section provides a snapshot of the current state of incomplete work orders. The <em><strong>Count</strong></em> represents the total number of work orders that have not yet been completed as of the selected date range.
+The &quot;Average Age&quot; indicates the average time that these incomplete work orders have been open.</p>
+<p><code v-pre>Assets</code><strong>②</strong></p>
+<p>The bar graph under <strong>Assets</strong> breaks down the age of work orders associated with specific assets. Each bar represents a different asset, and the height indicates the number of open work orders for that asset.</p>
+<ul>
+<li>The line graph overlay shows the average age of work orders for each asset, giving a visual representation of which assets may have work orders that are overdue or have been open for an extended period.</li>
+</ul>
+<p><code v-pre>Workers</code><strong>③</strong>
+Similar to the <strong>Assets</strong> section, the <strong>Workers</strong> bar graph displays the number of open work orders assigned to each worker or technician.</p>
+<ul>
+<li>The line graph indicates the average age of work orders per worker, which can help identify if certain workers have a backlog of work orders that need attention.</li>
+</ul>
+<doc-anchor-target id="leveraging-the-work-order-aging-dashboard">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#leveraging-the-work-order-aging-dashboard">#</doc-anchor-trigger>
+        <span>Leveraging the <code v-pre>Work Order Aging</code> Dashboard:</span>
+    </h5>
+</doc-anchor-target>
+<ol>
+<li><em><strong>Prioritize Overdue Work Orders</strong></em>: By reviewing the <code v-pre>Incomplete Work Orders</code> section, maintenance managers can prioritize work orders that have been open for too long, potentially reallocating resources to address these first.</li>
+<li><em><strong>Asset Maintenance Scheduling</strong></em>: The <code v-pre>Assets</code> section allows managers to identify which assets have the oldest work orders, suggesting a need for more proactive maintenance scheduling or a review of asset performance.</li>
+<li><em><strong>Workforce Management</strong></em>: The <code v-pre>Workers</code> section can highlight which technicians have high work order averages, indicating a need for workload rebalancing or additional support to clear the backlog.</li>
+<li><em><strong>Performance Analysis</strong></em>: By analyzing the average age of work orders across assets and workers, managers can assess the efficiency of their maintenance processes and identify areas for improvement.</li>
+<li><em><strong>Strategic Planning</strong></em>: The dashboard data can inform strategic decisions, such as hiring additional staff, investing in training, or adjusting maintenance strategies to prevent work order aging.</li>
+</ol>
+<p>By utilizing the insights provided by the <code v-pre>Work Order Aging</code> dashboard, maintenance teams can take proactive steps to ensure work orders are completed in a timely manner, ultimately improving asset reliability and maintenance service levels.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -199,20 +236,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../analytics/work-orders/time-and-cost-dashboard/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../analytics/work-orders/work-order-analysis-dashboard/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Time And Cost Dashboard</span>
+                                                <span class="block mt-1">Work Order Analysis Dashboard</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../analytics/work-orders/work-order-analysis-dashboard/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../analytics/work-orders/time-and-cost-dashboard/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Work Order Analysis Dashboard</span>
+                                                <span class="block mt-1">Time And Cost Dashboard</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
