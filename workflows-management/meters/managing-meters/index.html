@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766844379155">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766859643383">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766844379155" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766859643383" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766844379155" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766859643383" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766844379155" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766859643383" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -255,7 +255,7 @@
 <ul>
 <li><strong>Location Name</strong>: Indicates where the meter is physically located within the facility.</li>
 <li><strong>Asset Name</strong>: Identifies the specific asset that the meter is monitoring.</li>
-<li><strong>Category</strong>: Indicate the Meter category. Refer to “<doc-anchor-trigger to="#_Meter_Categories">Meter Categories</doc-anchor-trigger>”</li>
+<li><strong>Category</strong>: Indicate the Meter category. Refer to “<a href="../../../initial-setup-and-configuration/configurations/categories-configuration/#meter-categories">Meter Categories</a>”</li>
 <li><strong>Reading Frequency</strong>: Shows how often readings should be taken (e.g., every 1 day).</li>
 </ul>
 </li>
@@ -311,19 +311,19 @@
 <li>Usage-based: Every X miles, hours, cycles, etc.</li>
 <li>Meter reading based: Whenever the value increases by X</li>
 </ul>
-<p><strong>Category:</strong> If applicable, select a category that this meter belongs to for easier organization and filtering. Refer to “<doc-anchor-trigger to="#_Meter_Categories">Meter Categories</doc-anchor-trigger>”</p>
+<p><strong>Category:</strong> If applicable, select a category that this meter belongs to for easier organization and filtering. Refer to “<a href="../../../initial-setup-and-configuration/configurations/categories-configuration/#meter-categories">Meter Categories</a>”</p>
 <p>Optionally, you can upload a photo or document related to this meter by dragging the file into the box or clicking to browse files.</p>
 <p><strong>Location:</strong> Choose the physical location where this meter is installed from the dropdown list of locations in your facility.</p>
 <p><strong>Asset:</strong> Select the specific asset, equipment or machine that this meter is associated with and measuring.</p>
 <p><strong>Workers:</strong> Assign one or more workers/technicians who will be responsible for taking readings from this meter.</p>
 <p>Once all applicable fields are filled out, click &quot;Add&quot; to create the new meter in Atlas CMMS. The meter will now be available for capturing readings, setting up preventive maintenance schedules, and monitoring asset conditions.</p>
-<doc-anchor-target id="creating--a-meter-triggered-work-order">
+<doc-anchor-target id="creating-a-meter-triggered-work-order">
     <h5>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#creating--a-meter-triggered-work-order">#</doc-anchor-trigger>
-        <span><a id="_Creating__a"></a>Creating  a Meter triggered Work Order</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#creating-a-meter-triggered-work-order">#</doc-anchor-trigger>
+        <span><a id="_Creating__a"></a>Creating a Meter triggered Work Order</span>
     </h5>
 </doc-anchor-target>
-<p>To create a meter-triggered work order, you first need to ensure that the relevant meter is properly configured in your CMMS. If the meter has not been set up yet, follow the steps outlined in the &quot;<doc-anchor-trigger to="#_Setting_up_a">Setting up a meter</doc-anchor-trigger>&quot; section to create and configure the meter. Once the meter is in place, you can proceed with creating the meter-triggered work order using these steps:</p>
+<p>To create a meter-triggered work order, you first need to ensure that the relevant meter is properly configured in your CMMS. If the meter has not been set up yet, follow the steps outlined in the &quot;<doc-anchor-trigger to="#setting-up-a-meter">Setting up a meter</doc-anchor-trigger>&quot; section to create and configure the meter. Once the meter is in place, you can proceed with creating the meter-triggered work order using these steps:</p>
 <ol>
 <li>Navigate to the &quot;Meters&quot; section and open the details view for the specific meter you want to set up a trigger for.</li>
 <li>In the meter details view, tap the &quot;+ Trigger&quot; button.</li>
@@ -347,7 +347,7 @@
 - Enter the meter reading value that will trigger the work order generation</p>
 <ol>
 <li>Next, set up the details for the triggered work order under &quot;Work Order Configuration&quot;:</li>
-<li>For Work Order Configuration options like work order Title, Description, Priority,  work order type, assigning technicians, adding tasks/operations etc., you can Refer to <doc-anchor-trigger to="#_Editing_Work_Order">Editing Work Order</doc-anchor-trigger> section as those settings are common across manually created and meter-triggered work orders.</li>
+<li>For Work Order Configuration options like work order Title, Description, Priority,  work order type, assigning technicians, adding tasks/operations etc., you can Refer to <a href="../../work-order/managing-manual-work-orders/#editing-work-order">Editing Work Order</a> section as those settings are common across manually created and meter-triggered work orders.</li>
 <li>Once all the fields are populated, save the trigger. The system will now monitor the specified meter and automatically generate a new work order with the provided details whenever the meter reading condition is satisfied.</li>
 <li>Optionally, you can associate other triggered work order with same meter by adding more than one Triggered Work Order.</li>
 </ol>
@@ -394,7 +394,7 @@
 <li><strong>Work Order Generation from Meter Triggers</strong>: When a work order is generated based on a meter trigger condition, notifications are sent to the assigned Technician or Limited Technician, as well as other relevant parties. This ensures that maintenance tasks are addressed promptly and potential issues are not overlooked.</li>
 <li><strong>Work Order Status Updates</strong>: As the status of a work order generated by a meter trigger changes, notifications are sent to keep stakeholders updated. This transparency helps maintain accountability and facilitates effective communication regarding the progress of maintenance tasks.</li>
 </ol>
-<p>Notifications are essential for maintaining a smooth workflow and ensuring that meter-related activities are addressed promptly. They help minimize delays, miscommunications, and potential bottlenecks in the asset maintenance process.The forms of notifications for meter-related activities are similar to those described in the chapter on <doc-anchor-trigger to="#_Permissions">Work Order Permissions</doc-anchor-trigger> and Notifications, including web push notifications, mobile push notifications, bell notifications, and email notifications.</p>
+<p>Notifications are essential for maintaining a smooth workflow and ensuring that meter-related activities are addressed promptly. They help minimize delays, miscommunications, and potential bottlenecks in the asset maintenance process.The forms of notifications for meter-related activities are similar to those described in the chapter on <a href="../../work-order/managing-manual-work-orders/#permissions">Work Order Permissions</a> and Notifications, including web push notifications, mobile push notifications, bell notifications, and email notifications.</p>
 <p>By understanding the permissions and notifications associated with Meters, users of different roles within Atlas CMMS can effectively collaborate to ensure that meters based maintenance activities are executed efficiently and effectively.</p>
 <doc-anchor-target id="viewing-meter-triggered-work-orders">
     <h5>
@@ -496,7 +496,7 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>To edit an existing trigger, tap the pencil icon next to the trigger Name. This will open the &quot;Edit Work Order Trigger&quot; and follow the same process of “<doc-anchor-trigger to="#_Creating__a">Creating  a Meter triggered Work Order</doc-anchor-trigger>” to Edit existing Work Order triggers.</p>
+<p>To edit an existing trigger, tap the pencil icon next to the trigger Name. This will open the &quot;Edit Work Order Trigger&quot; and follow the same process of “<doc-anchor-trigger to="#creating-a-meter-triggered-work-order">Creating a Meter triggered Work Order</doc-anchor-trigger>” to Edit existing Work Order triggers.</p>
 <p>After updating the trigger condition and work order configuration, tap &quot;Save&quot; to apply the new trigger rules. User can also delete an existing trigger by tapping the trash can icon next to it.( refer to  <doc-anchor-trigger to="#_Permissions_1">Permissions</doc-anchor-trigger> chapter)</p>
 <p>By editing meters, meter details, and work order triggers, you can customize how Atlas CMMS monitors your critical assets and automates maintenance based on actual equipment usage and conditions.</p>
 <doc-anchor-target id="printing-and-archiving-a-meter-triggered-work-order">
@@ -505,7 +505,7 @@
         <span>Printing and Archiving a Meter triggered Work Order</span>
     </h6>
 </doc-anchor-target>
-<p>Refer to Printing and Archiving <doc-anchor-trigger to="#_Printing_and_Archiving">Work</doc-anchor-trigger> Order Chapter.</p>
+<p>Refer to Printing and Archiving <a href="../../work-order/managing-manual-work-orders/#printing-and-archiving-a-work-order">Work</a> Order Chapter.</p>
 
                                 
                                 <!-- Required only on API pages -->
