@@ -1,7 +1,7 @@
 ---
 icon: versions
 label: Definition
-order: 1
+order: 10
 ---
 Manual Work Orders are work orders initiated manually by users to address various types of maintenance tasks.
 
