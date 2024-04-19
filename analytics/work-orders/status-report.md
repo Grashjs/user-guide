@@ -12,7 +12,7 @@ The values associated with these KPIs will vary based on the date range chosen b
 
 ##### Work Orders
 Access the `Analytics` section from the main navigation menu and Click `Work Orders`.
-![](../static/img/image141.png)
+![](../../static/img/image141.png)
 
 
 ![](../../static/img/image142.png)

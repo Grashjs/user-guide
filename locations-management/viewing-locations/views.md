@@ -2,20 +2,20 @@
 icon: versions
 order: 10
 ---
-#### *![](images/image54.png)*List View \(Hierarchical View\)
+#### *![](../../static/img/image54.png)*List View \(Hierarchical View\)
 
 
 1. The table shows a "Hierarchy" column with small arrows next to some location names.
 2. Click on the arrow icon to expand and view any child locations \( or Sub\-location which could be anything from individual buildings, floor levels to separate locations altogether\) nested under a parent location
 3. This hierarchical structure allows you to see the relationship between different locations within your organization.
 
-![](images/image55.png)
+![](../../static/img/image55.png)
 
 #### Map View
 
 In case of Location had been put on Map, you may visualize the map
 
-![](images/image56.png)
+![](../../static/img/image56.png)
 
 Useful for companies managing spaced locations.
 
@@ -23,7 +23,7 @@ Useful for companies managing spaced locations.
 
 To view details about a specific location, simply click on the corresponding row or On Label on Map. This action will take you to a detailed view of the location, where you can access various tabs related to the facility's management.
 
-![](images/image57.png)
+![](../../static/img/image57.png)
 
 Upon selecting a location, you will be presented with a series of tabs that provide different perspectives on the facility:
 

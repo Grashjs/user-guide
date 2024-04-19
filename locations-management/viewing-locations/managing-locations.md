@@ -20,12 +20,12 @@ There are two options for creating locations in the CMMS system:
 
 In the Locations view, click the "\+ Location" button at the top right corner of the screen.
 
-![](images/image58.png)
+![](../../static/img/image58.png)
 
 1. A new window will open to enter details for the new location.
 2. Fill in required fields like location name, address, and any other relevant information.
 
-![](images/image59.png)
+![](../../static/img/image59.png)
 
 1. If applicable, specify the parent location to establish a hierarchical relationship.
 2. During location creation, we can also assign workers, teams, vendors, and contractors to specific locations. Additionally, you have the option to attach pictures directly from your mobile camera or by dragging and dropping image files. Furthermore, you can attach relevant files to a location, such as floor plans, site maps, equipment manuals, or safety documents, which can provide valuable context and information for that particular location.
@@ -43,20 +43,20 @@ Note 1: Assigning workers, teams, vendors, and contractors to locations is benef
 
 1. Download the location template from the Atlas CMMS website under "Import Templates".
 
-![](images/image60.png)
+![](../../static/img/image60.png)
 
 1. Fill out the template with your location details, ensuring parent locations are listed before child locations.
 2. In the CMMS application, click the three vertical dots on the right side and select "Import".
 
-![](images/image61.png)
+![](../../static/img/image61.png)
 
 Then:
 
-![](images/image62.png)
+![](../../static/img/image62.png)
 
 Then Click: “Start Import Process”
 
-![](images/image63.png)
+![](../../static/img/image63.png)
 
 1. Either drag and drop the filled template file or select it from your device.
 2. Follow the prompts to complete the import process successfully.
@@ -70,7 +70,7 @@ Maintaining this hierarchical structure ensures proper data organization, enable
 
 #### Modifying Existing Location Details
 
-![](images/image64.png)
+![](../../static/img/image64.png)
 
 1. To modify the details of an existing location, locate the desired location in the list.
 2. Click on the respective row or the edit icon \(pencil symbol\) in the "Actions" column.

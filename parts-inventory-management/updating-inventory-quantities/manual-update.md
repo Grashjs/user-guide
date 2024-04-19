@@ -1,5 +1,5 @@
 ---
 icon: versions
 label: Manual Update
-order: 1
+order: 10
 ---

@@ -8,7 +8,7 @@ To assign priority levels to work orders based on their urgency and importance, 
 
 Below is a table that outlines how work orders can be classified into High, Medium, Low and None priorities based on their levels of urgency and importance:
 
-![](images/image153.png)
+![](../static/img/image153.png)
 
 ### Priority Definitions:
 - **None**: Indicates no action required at this time. These are typically not entered into the work order system.

@@ -1,5 +1,5 @@
 ---
 icon: versions
 label: Modifying Part Details
-order: 1
+order: 8
 ---
