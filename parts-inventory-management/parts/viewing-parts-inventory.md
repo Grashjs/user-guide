@@ -25,7 +25,7 @@ The Card View presents parts in a more visual, card\-like format, displaying an 
 
 When Users click on a part, they will be presented with a detailed view of a specific part. This view typically includes:
 
-\- A __visual representation __or image of the part.
+\- A __visual representation__ or image of the part.
 
 \- __Essential details__ such as the part's name, ID, description, and category.
 
@@ -33,7 +33,7 @@ When Users click on a part, they will be presented with a detailed view of a spe
 
 \- The __storage location__, denoted by the area and possibly a specific bin within that area.
 
-\- A __barcode __for inventory management and tracking purposes.
+\- A __barcode__ for inventory management and tracking purposes.
 
 Additionally, the interface provides tabs or links that allow the user to delve deeper into the part's usage and history:
 

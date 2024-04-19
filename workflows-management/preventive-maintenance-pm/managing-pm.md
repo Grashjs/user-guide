@@ -28,13 +28,13 @@ The “Name” or "Trigger Name" or "PM \(Preventive Maintenance\) Name" typical
 
 On the other hand, the "Work Order Title" is more specific to the individual task or job that is being issued as a result of the trigger. This title often includes more detail and is what appears on the actual work
 
-1. [__Priority__](#_Tip:_Priority_Assignment:)__:__ The priority level assigned to the work order \(e.g., High, Medium, Low, None\).
+1. [__Priority__](../../tips-annexes/tip-1-priority-assignment.md)__:__ The priority level assigned to the work order \(e.g., High, Medium, Low, None\).
 2. __Description:__ A detailed description of the preventive maintenance task or work order.
 3. __Next Work Order:__ The scheduled date for the next occurrence of the preventive maintenance work order. The next work order date is calculated based on the PM frequency, last work order completion date, and current date \(today's date\).
 4. __Worker:__ The technician or maintenance personnel assigned to the work order.
 5. __Assigned To:__ The team, department, or group responsible for the preventive maintenance task.
 6. __Location Name:__ The location or facility where the asset or equipment is located.
-7. [__Category:__](#_Checklist_Setting) The category or type of preventive maintenance task \(e.g., inspection, lubrication, replacement\).
+7. [__Category:__](../../initial-setup-and-configuration/configurations/categories-configuration.md) The category or type of preventive maintenance task \(e.g., inspection, lubrication, replacement\).
 8. __Asset:__ The specific asset or equipment associated with the preventive maintenance task.
 
 ###### PM Task Specific View
@@ -58,7 +58,7 @@ To create a new scheduled maintenance task, follow these steps:
 - __Name:__ The Trigger Name should be descriptive and reflect the nature of the maintenance task. For example, "Monthly Conveyor Belt Inspection" clearly indicates the Frequency , the Asset and the maintenance activity.
 - __Starts On:__ This is the date and hour when the preventive maintenance schedule will begin.
 - __Ends On:__ If the PM task has a defined end period, specify it here. If it is an ongoing task without a foreseeable end, this can be left open or set far into the future.
-- __Frequency in days:__ Specify the frequency, in days, at which the PM task should recur. To learn more about PM Frequency definition see [Annex:](#_Frequency_for_a)
+- __Frequency in days:__ Specify the frequency, in days, at which the PM task should recur. To learn more about PM Frequency definition see [Annexe](../../tips-annexes/annex-1-frequency-for-a-pm-task.md)
 
 Important: Start On date will be the initial planned PM task start date and time. All subsequent occurrences of the work order will be based on the maintenance frequency set in days
 
@@ -80,7 +80,7 @@ Important: Expected Start Date should be set before or on the due date.
 
 The last 3 fields help in different aspects of maintenance scheduling and should be accurately filled to ensure effective planning and resource management.
 
-For the __remaining fields \(Category, Location, Asset, Primary Worker, Team, Image, File and Task\) __to complete the work order setup, please refer to the " [3.2.2.3	Creating a Manual Work Order](#_Creating_a_Manual)" chapter which provides comprehensive instructions for each section.
+For the __remaining fields \(Category, Location, Asset, Primary Worker, Team, Image, File and Task\) __to complete the work order setup, please refer to the " [Creating a Manual Work Order](../../workflows-management/work-order/managing-manual-work-orders.md/#creating-a-manual-work-order)" chapter which provides comprehensive instructions for each section.
 
 __Illustration Examples:__
 
@@ -139,7 +139,7 @@ The forms of notifications for PM tasks are similar to those described in the ch
 
 ##### Viewing a PM Work Orders
 
-Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “[Viewing Work Orders](#_Viewing_Work_Orders)” and setting “[More Filters](#_More_Filters)” for more finetuning.
+Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “[Viewing Work Orders](../../workflows-management/work-order/managing-manual-work-orders.md/#viewing-work-orders)” and setting “[More Filters](../../workflows-management/work-order/managing-manual-work-orders.md/#more-filters)” for more finetuning.
 
 By understanding the permissions and notifications associated with PM tasks, users of different roles within Atlas CMMS can effectively collaborate to ensure that preventive maintenance activities are executed efficiently and effectively, contributing to improved asset reliability and operational performance.
 
@@ -153,8 +153,8 @@ Users with Admin or Limited Admin profiles have the capability to modify the det
 
 For By clicking on a PM task, the user will be presented by the specific PM task view
 
-Refer to [Editing Work Order](#_Editing_Work_Order) Chapter.
+Refer to [Editing Work Order](../../workflows-management/work-order/managing-manual-work-orders.md/#editing-work-order) Chapter.
 
 ##### Printing and Archiving a PM Work Order
 
-Refer to Printing and Archiving [Work](#_Printing_and_Archiving) Order Chapter.
+Refer to Printing and Archiving [Work](../../workflows-management/work-order/managing-manual-work-orders.md/#printing-and-archiving-a-work-order) Order Chapter.

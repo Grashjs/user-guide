@@ -45,9 +45,9 @@ Additionally you can change your Company Cover Image:
 
 As company creator, You have the option to change the cover image or logo displayed at the top of the company details page. This can be done by clicking on the "Change cover" button, which will prompt you to upload a new image file or select an existing one from your device or Just Drag it on are of Company cover.
 
-#### Edit User Profile : See [Edit User Profile Case 1](#_Edit_User_Profile)
+#### Edit User Profile : See [Edit User Profile Case 1](../../getting-started/subscription-process/company-already-using-atlas-cmms.md#edit-user-profile)
 
-#### Notifications Settings [Notifications Setting Case 1](#_Notifications_Settings)
+#### Notifications Settings [Notifications Setting Case 1](../../getting-started/subscription-process/company-already-using-atlas-cmms.md#notifications-settings)
 
 This process establishes your company's presence within the ATLAS CMMS platform for the first time. As the initial admin user\(company creator\), you have full control to set up the system according to your organization's needs before rolling it out to other users like technicians, managers, and requesters.
 

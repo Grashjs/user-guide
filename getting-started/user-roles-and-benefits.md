@@ -9,4 +9,4 @@ The ATLAS CMMS provides capabilities tailored to different user roles within an 
 
 This table highlights the diverse range of stakeholders involved in maintenance operations and how ATLAS CMMS can benefit each role by providing relevant access, capabilities, and insights. By understanding these role\-based benefits, organizations can better engage their teams, streamline processes, and unlock the full potential of their CMMS investment.
 
-In addition to the pre\-configured default roles like Admin, Technician, Requester etc., ATLAS CMMS provides administrators with the flexibility to create customized roles tailored to their organization's specific needs. \(See Chapter “[New Role Setting](#_New_Role_Setting)”\)
+In addition to the pre\-configured default roles like Admin, Technician, Requester etc., ATLAS CMMS provides administrators with the flexibility to create customized roles tailored to their organization's specific needs. \(See Chapter “[New Role Setting](../initial-setup-and-configuration/setting/roles-setting.md#new-role-setting)”\)

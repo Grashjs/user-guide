@@ -67,7 +67,7 @@ These alternative views enable the user to organize and visualize the work order
 
 ###### Filters deployment:
 
-The user can easily filter the work orders based on their __status\(3\) __or __priority level__ using the respective drop\-down menus located above the table.
+The user can easily filter the work orders based on their __status\(3\)__ or __priority level__ using the respective drop\-down menus located above the table.
 
 ![](../../static/img/image99.png)
 
@@ -81,7 +81,7 @@ Additionally, User can open "More Filters" section by clicking on Filter icon o
 
 The section offers a comprehensive set of filters to refine and customize the view or search results within the application.Here's an explanation of the different filters available:
 
-1. __All__: This filter allows you to search across all fields or categories.
+1. __Type__: This filter allows you to search across preventive, reactive or all work orders .
 2. __Asset__: You can filter the results based on specific assets or equipment.
 3. __Category__: This filter enables you to narrow down the results by different categories Work Orders.
 4. __Team__: If your organization has multiple teams, you can filter the results to show only items associated with a particular team.
@@ -124,10 +124,10 @@ Let's go through each field in this form:
 3. __Image Upload__: If applicable, you can upload images related to the work order by taking picture, dragging and dropping files or clicking the designated area to browse and select image files from your device.
 4. __Due Date__: Specify the due date for completing the work order. This helps prioritize and schedule the task accordingly. In the Calendar View, Work Orders will be shown by Due Date.
 5. __Estimated Duration \(hours\)__: Enter an estimate of the time required to complete the work order, which aids in resource planning and allocation.
-6. __Priority__: Assign a priority level \(e.g., High, Medium, Low\) to the work order based on its urgency and importance. See Tip1  [priority assignment.](#_Tip_1:_Priority)
+6. __Priority__: Assign a priority level \(e.g., High, Medium, Low\) to the work order based on its urgency and importance. See Tip1  [priority assignment.](../../tips-annexes/tip-1-priority-assignment.md)
 7. __Category__: Select the appropriate category or type of work order from the provided options \(e.g., Corrective Maintenance, Inspection, Calibration, Emergency, Continuous Improvement, New Installation…\).
 
-__🖝__ For Work Orders Categories setting refer to  [“Work Order Categories”](#_1-Work_Order_Categories) chapter under “Categories Configuration”.
+__🖝__ For Work Orders Categories setting refer to  [“Work Order Categories”](../../initial-setup-and-configuration/configurations/categories-configuration.md/#work-order-categories) chapter under “Categories Configuration”.
 
 1. __Primary Worker:__
 
@@ -154,7 +154,7 @@ __🖝__ For Work Orders Categories setting refer to  [“Work Order Categories�
 1. __Contractors__: If the work order involves external contractors, you can specify their details in this field.
 2. __Location__: Select the location or facility where the work needs to be performed.
 3. __Asset__: If the work order is related to a specific asset or equipment, you can associate it with the work order by selecting it from the list. By Choosing the Location first, the Asset dropdown will show only Assets related to the already chosen location.
-4. __Tasks/Checklists__: Optionally, you can create a checklist of tasks or tasks to be followed as part of the work order or you can choose among pre\-established checklists.\( See [Checklist Setting](#_Checklist_Setting)\)
+4. __Tasks/Checklists__: Optionally, you can create a checklist of tasks or tasks to be followed as part of the work order or you can choose among pre\-established checklists.\( See [Checklist Setting](../../initial-setup-and-configuration/setting/checklist-setting.md)\)
 5. __Files Upload__: Similar to the image upload section, you can attach relevant files, documents, or manuals to the work order by dragging and dropping or browsing for the files.
 6. __Requires Signature__: If the work order requires a signature upon completion, you can check this box and the related Work Order will not be set Complete before the Assigned User attach the Signature.
 
@@ -188,7 +188,7 @@ The table outlines the permissions granted to different user roles for various a
 3. __Work Order Deletion__: Only Admins have the permission to delete work orders, preventing accidental or unauthorized deletions.
 4. __Work Order Assignment/Reassignment:__ Reassign Work Order refers to changing the assignment of the work order from one user \(Primary Worker, Team or any member the work order was Assigned To\) to another. This process is a fundamental aspect of managing maintenance operations dynamically, ensuring that tasks are completed efficiently and effectively.
 
-[\(see more details in Tip 2: Reassigning Work Order:\)](#_Tip:_Reassigning_Work)
+[\(see more details in Tip 2: Reassigning Work Order\)](../../tips-annexes/tip-2-reassigning-work-order.md)
 
 ###### Notifications
 
@@ -236,17 +236,17 @@ By utilizing these various forms of notifications, the Atlas CMMS system ensures
 
 ##### <a id="_Editing_Work_Order"></a>Editing Work Order
 
-When a User receives a work order assignment notification \(by Mobile Push notifications, Web Push Notification and by e\-mail:See [Notifications Chapter](#_Notifications)\) and once the User clicks on a specific work order assigned to them, they will be presented with a detailed view of that work order:
+When a User receives a work order assignment notification \(by Mobile Push notifications, Web Push Notification and by e\-mail and once the User clicks on a specific work order assigned to them, they will be presented with a detailed view of that work order:
 
 ![](../../static/img/image108.png)
 
 Upon receiving the work order assignment, the User will need to take the following steps:
 
-1. __Start the timer:__ To track the time spent on the work order, the user must start the timer, which will record the labor hours dedicated to the task. See [Using The Timer Effectively](#_The_Timer)
+1. __Start the timer:__ To track the time spent on the work order, the user must start the timer, which will record the labor hours dedicated to the task. See [Using The Timer Effectively](#using-the-timer-and-work-orders-status-effectively)
 2. __Fill out checklists:__ If the work order includes specific checklists or task lists, the user will need to follow and complete these steps, documenting their progress along the way.
-3. __Add labor information:__ As the user works on the task, they will need to record other labor hours spent. \(See [Time Categories](#_4-Timer_Categories) Chapter\).
+3. __Add labor information:__ As the user works on the task, they will need to record other labor hours spent. \(See [Time Categories](../../initial-setup-and-configuration/configurations/categories-configuration.md/#timer-categories) Chapter\).
 4. __Order and add parts:__ If the work order requires the replacement or installation of parts, the technician can order the necessary parts and add them to the work order, ensuring that the required materials are available.
-5. __Link related work orders:__ In some cases, a work order may be related to or dependent on another work order. The technician \(or the Admin, Limited Admin\) can link these work orders together for better tracking and coordination.For more details, see chapter about [Linked Work Orders role and use cases.](#_Linking_Work_Orders:)
+5. __Link related work orders:__ In some cases, a work order may be related to or dependent on another work order. The technician \(or the Admin, Limited Admin\) can link these work orders together for better tracking and coordination.For more details, see chapter about [Linked Work Orders role and use cases.](../../tips-annexes/tip-3-linking-work-orders.md)
 6. __Update status and details:__ Throughout the process, the user should update the work order status and details to reflect the progress of the work, such as marking tasks as completed or adding notes and comments.
 7. __Stop the timer and mark as complete:__ Once the work is fully completed, the user must stop the timer to accurately capture the total labor hours spent on the work order. Finally, they will mark the work order as "Complete," indicating that the task has been successfully accomplished.
 
