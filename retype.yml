@@ -19,8 +19,8 @@ links:
 footer:
   copyright: "Version 2024-04 - Atlas CMMS User Guide"
 
-edit:
-  repo: "https://github.com/Grashjs/user-guide/"
+#edit:
+#  repo: "https://github.com/Grashjs/user-guide/"
 
 editor:
   enabled: false
