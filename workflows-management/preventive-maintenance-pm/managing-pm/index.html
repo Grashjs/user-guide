@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766840898911">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766844379155">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=3.5.0.766840898911" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.5.0.766844379155" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.5.0.766844379155" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766840898911" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.5.0.766844379155" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -234,13 +234,13 @@
 <p>The “Name” or &quot;Trigger Name&quot; or &quot;PM (Preventive Maintenance) Name&quot; typically refers to the name assigned to the maintenance schedule or the specific maintenance routine. It&#x27;s used internally to track and trigger the maintenance workflow within a management system.</p>
 <p>On the other hand, the &quot;Work Order Title&quot; is more specific to the individual task or job that is being issued as a result of the trigger. This title often includes more detail and is what appears on the actual work</p>
 <ol>
-<li><doc-anchor-trigger to="#_Tip:_Priority_Assignment:"><strong>Priority</strong></doc-anchor-trigger><strong>:</strong> The priority level assigned to the work order (e.g., High, Medium, Low, None).</li>
+<li><a href="../../../tips-annexes/tip-1-priority-assignment/"><strong>Priority</strong></a><strong>:</strong> The priority level assigned to the work order (e.g., High, Medium, Low, None).</li>
 <li><strong>Description:</strong> A detailed description of the preventive maintenance task or work order.</li>
 <li><strong>Next Work Order:</strong> The scheduled date for the next occurrence of the preventive maintenance work order. The next work order date is calculated based on the PM frequency, last work order completion date, and current date (today&#x27;s date).</li>
 <li><strong>Worker:</strong> The technician or maintenance personnel assigned to the work order.</li>
 <li><strong>Assigned To:</strong> The team, department, or group responsible for the preventive maintenance task.</li>
 <li><strong>Location Name:</strong> The location or facility where the asset or equipment is located.</li>
-<li><doc-anchor-trigger to="#_Checklist_Setting"><strong>Category:</strong></doc-anchor-trigger> The category or type of preventive maintenance task (e.g., inspection, lubrication, replacement).</li>
+<li><a href="../../../initial-setup-and-configuration/configurations/categories-configuration/"><strong>Category:</strong></a> The category or type of preventive maintenance task (e.g., inspection, lubrication, replacement).</li>
 <li><strong>Asset:</strong> The specific asset or equipment associated with the preventive maintenance task.</li>
 </ol>
 <doc-anchor-target id="pm-task-specific-view">
@@ -279,7 +279,7 @@ In the &quot;Trigger Configuration&quot; section, enter the following details:</
 <li><strong>Name:</strong> The Trigger Name should be descriptive and reflect the nature of the maintenance task. For example, &quot;Monthly Conveyor Belt Inspection&quot; clearly indicates the Frequency , the Asset and the maintenance activity.</li>
 <li><strong>Starts On:</strong> This is the date and hour when the preventive maintenance schedule will begin.</li>
 <li><strong>Ends On:</strong> If the PM task has a defined end period, specify it here. If it is an ongoing task without a foreseeable end, this can be left open or set far into the future.</li>
-<li><strong>Frequency in days:</strong> Specify the frequency, in days, at which the PM task should recur. To learn more about PM Frequency definition see <doc-anchor-trigger to="#_Frequency_for_a">Annex:</doc-anchor-trigger></li>
+<li><strong>Frequency in days:</strong> Specify the frequency, in days, at which the PM task should recur. To learn more about PM Frequency definition see <a href="../../../tips-annexes/annex-1-frequency-for-a-pm-task/">Annexe</a></li>
 </ul>
 <p>Important: Start On date will be the initial planned PM task start date and time. All subsequent occurrences of the work order will be based on the maintenance frequency set in days</p>
 <ol>
@@ -299,7 +299,7 @@ In the &quot;Trigger Configuration&quot; section, enter the following details:</
 <li><strong>Estimated Duration in Hours:</strong> Here, you will indicate the anticipated amount of time the work order will take to complete.</li>
 </ol>
 <p>The last 3 fields help in different aspects of maintenance scheduling and should be accurately filled to ensure effective planning and resource management.</p>
-<p>For the __remaining fields (Category, Location, Asset, Primary Worker, Team, Image, File and Task) __to complete the work order setup, please refer to the &quot; <doc-anchor-trigger to="#_Creating_a_Manual">3.2.2.3	Creating a Manual Work Order</doc-anchor-trigger>&quot; chapter which provides comprehensive instructions for each section.</p>
+<p>For the __remaining fields (Category, Location, Asset, Primary Worker, Team, Image, File and Task) __to complete the work order setup, please refer to the &quot; <a href="../../work-order/managing-manual-work-orders/#creating-a-manual-work-order">Creating a Manual Work Order</a>&quot; chapter which provides comprehensive instructions for each section.</p>
 <p><strong>Illustration Examples:</strong></p>
 <p>A facility coordinator needs to schedule a preventive maintenance check on a critical conveyor system that requires regular alignment checks.</p>
 <ol>
@@ -369,7 +369,7 @@ In the &quot;Trigger Configuration&quot; section, enter the following details:</
         <span>Viewing a PM Work Orders</span>
     </h5>
 </doc-anchor-target>
-<p>Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “<doc-anchor-trigger to="#_Viewing_Work_Orders">Viewing Work Orders</doc-anchor-trigger>” and setting “<doc-anchor-trigger to="#_More_Filters">More Filters</doc-anchor-trigger>” for more finetuning.</p>
+<p>Users can also view PM Work Orders Scheduling from the main menu under “Work Orders” Refer to:  “<a href="../../work-order/managing-manual-work-orders/#viewing-work-orders">Viewing Work Orders</a>” and setting “<a href="../../work-order/managing-manual-work-orders/#more-filters">More Filters</a>” for more finetuning.</p>
 <p>By understanding the permissions and notifications associated with PM tasks, users of different roles within Atlas CMMS can effectively collaborate to ensure that preventive maintenance activities are executed efficiently and effectively, contributing to improved asset reliability and operational performance.</p>
 <doc-anchor-target id="editing-a-pm">
     <h5>
@@ -391,14 +391,14 @@ In the &quot;Trigger Configuration&quot; section, enter the following details:</
     </h6>
 </doc-anchor-target>
 <p>For By clicking on a PM task, the user will be presented by the specific PM task view</p>
-<p>Refer to <doc-anchor-trigger to="#_Editing_Work_Order">Editing Work Order</doc-anchor-trigger> Chapter.</p>
+<p>Refer to <a href="../../work-order/managing-manual-work-orders/#editing-work-order">Editing Work Order</a> Chapter.</p>
 <doc-anchor-target id="printing-and-archiving-a-pm-work-order">
     <h5>
         <doc-anchor-trigger class="header-anchor-trigger" to="#printing-and-archiving-a-pm-work-order">#</doc-anchor-trigger>
         <span>Printing and Archiving a PM Work Order</span>
     </h5>
 </doc-anchor-target>
-<p>Refer to Printing and Archiving <doc-anchor-trigger to="#_Printing_and_Archiving">Work</doc-anchor-trigger> Order Chapter.</p>
+<p>Refer to Printing and Archiving <a href="../../work-order/managing-manual-work-orders/#printing-and-archiving-a-work-order">Work</a> Order Chapter.</p>
 
                                 
                                 <!-- Required only on API pages -->
