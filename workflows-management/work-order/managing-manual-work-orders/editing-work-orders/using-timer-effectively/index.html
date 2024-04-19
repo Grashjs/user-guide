@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766863143843">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766873215931">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Using The Timer and Work Orders Status Effectively | Atlas CMMS</title>
     <meta name="title" content="Using The Timer and Work Orders Status Effectively | Atlas CMMS">
+    <meta name="description" content="When a User receives a work order assignment notification (by Mobile Push notifications, Web Push Notification and by e">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively/">
     <meta property="og:title" content="Using The Timer and Work Orders Status Effectively | Atlas CMMS">
+    <meta property="og:description" content="When a User receives a work order assignment notification (by Mobile Push notifications, Web Push Notification and by e">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/rev6/image109.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively/">
     <meta property="twitter:title" content="Using The Timer and Work Orders Status Effectively | Atlas CMMS">
+    <meta property="twitter:description" content="When a User receives a work order assignment notification (by Mobile Push notifications, Web Push Notification and by e">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/rev6/image109.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../../resources/css/retype.css?v=3.5.0.766863143843" rel="stylesheet">
+    <link href="../../../../../resources/css/retype.css?v=3.5.0.766873215931" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../../resources/js/config.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../../resources/js/config.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../../resources/js/lunr.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../../resources/js/lunr.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,61 @@
         <span>Using The Timer and Work Orders Status Effectively</span>
     </h1>
 </doc-anchor-target>
+<p>When a User receives a work order assignment notification (by Mobile Push notifications, Web Push Notification and by e-mail:See <doc-anchor-trigger to="#_Notifications">Notifications Chapter</doc-anchor-trigger>) and once the User clicks on a specific work order assigned to them, they will be presented with a detailed view of that work order:</p>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image109.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Upon receiving the work order assignment, the User will need to take the following steps:</p>
+<ol>
+<li><strong>Start the timer:</strong> To track the time spent on the work order, the user must start the timer, which will record the labor hours dedicated to the task. See <doc-anchor-trigger to="#_The_Timer">Using The Timer Effectively</doc-anchor-trigger></li>
+<li><strong>Fill out checklists:</strong> If the work order includes specific checklists or task lists, the user will need to follow and complete these steps, documenting their progress along the way.</li>
+<li><strong>Add labor information:</strong> As the user works on the task, they will need to record other labor hours spent. (See <doc-anchor-trigger to="#_4-Timer_Categories">Time Categories</doc-anchor-trigger> Chapter).</li>
+<li><strong>Order and add parts:</strong> If the work order requires the replacement or installation of parts, the technician can order the necessary parts and add them to the work order, ensuring that the required materials are available.</li>
+<li><strong>Link related work orders:</strong> In some cases, a work order may be related to or dependent on another work order. The technician (or the Admin, Limited Admin) can link these work orders together for better tracking and coordination.For more details, see chapter about <doc-anchor-trigger to="#_Linking_Work_Orders:">Linked Work Orders role and use cases.</doc-anchor-trigger></li>
+<li><strong>Update status and details:</strong> Throughout the process, the user should update the work order status and details to reflect the progress of the work, such as marking tasks as completed or adding notes and comments.</li>
+<li><strong>Stop the timer and mark as complete:</strong> Once the work is fully completed, the user must stop the timer to accurately capture the total labor hours spent on the work order. Finally, they will mark the work order as &quot;Complete,&quot; indicating that the task has been successfully accomplished.</li>
+</ol>
+<p>By following this workflow, technicians and limited technicians can effectively manage and document their work order assignments, ensuring that maintenance tasks are carried out efficiently, accurately, and with proper tracking of labor, materials, and associated costs.</p>
+<doc-anchor-target id="using-the-timer-and-work-orders-status-effectively">
+    <h6>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#using-the-timer-and-work-orders-status-effectively">#</doc-anchor-trigger>
+        <span>Using The Timer and Work Orders Status Effectively</span>
+    </h6>
+</doc-anchor-target>
+<p><a id="_The_Timer"></a>The Timer</p>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image110.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To track the time spent on a work order, the user shall start the <strong>timer</strong> by clicking on “<strong>Run Timer</strong>”, which will record the labor hours dedicated to the task.</p>
+<p>It is recommended to use the timer to measure only the &quot;wrench time&quot; or the time actively spent working on the asset, as this provides an accurate representation of the added value to the work order.</p>
+<p>Once the timer is started, the status of the work order will automatically be set to &quot;In Progress,&quot; indicating that the maintenance task is currently underway.</p>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image111.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>While the work order is in progress, the user can pause, resume or <doc-anchor-trigger to="#_Stop_the_timer">stop the timer</doc-anchor-trigger> as needed. This flexibility allows for accurate time tracking, even if the work is interrupted or needs to be paused for any reason. Like that, the wrench time is measured accurately.</p>
+<p>Update Work Order status:</p>
+<p>In Atlas CMMS, the work order status indicates the current stage of the maintenance task within its lifecycle. Proper use of statuses, along with the timer functionality, ensures accurate tracking of labor hours, downtime, and overall progress. This section will guide you through the different work order statuses and when to use them effectively.</p>
+<p><strong>Work Order Statuses</strong></p>
+<ol>
+<li><strong>Open</strong>: When a new work order is received, it is initially set to the &quot;Open&quot; status. This indicates that the work order has been created and is ready to be assigned and scheduled for execution.</li>
+<li><strong>In Progress</strong>: Once a technician starts working on the maintenance task, the work order status should be changed to &quot;In Progress.&quot; This status signifies that the work has begun and is currently being actively worked on.</li>
+<li><strong>On Hold</strong>: If the maintenance task needs to be temporarily paused due to various reasons such as waiting for parts, pending approvals, or resource constraints, the work order status can be set to &quot;On Hold.&quot; This status indicates that the work has been interrupted and is awaiting resolution of the blocking issues before it can resume.</li>
+<li><strong>Complete</strong>: When the maintenance work has been finished and all tasks associated with the work order have been executed, the status should be changed to &quot;Complete.&quot; This status marks the work order as done, signifying that no further action is required from a maintenance perspective. Refer to “<doc-anchor-trigger to="#_Work_Order_Completion">Work Order Completion</doc-anchor-trigger>”</li>
+</ol>
+<p><img src="../../../../../static/img/rev6/image112.png" alt="" /><img src="../../../../../static/img/rev6/image113.png" alt="" /></p>
+<p>To Chane Work Order Status, User need to Click on Status Dropdown button and choose the appropriate status the will be reflected on Work Order General view panel.</p>
+<p>Here are some relevant examples of when a user might need to manually change the work order status or stop the timer:</p>
+<ul>
+<li><strong>Parts on Backorder</strong>: If a required part is on backorder, the user can set the work order status to &quot;On Hold&quot; and stop the timer until the part arrives, preventing inaccurate downtime tracking.</li>
+<li><strong>Shift Change</strong>: When a maintenance technician&#x27;s shift ends, they can stop the timer and set the status to &quot;On Hold&quot; and reassign to Work Order to the next shift that will resume the work order.</li>
+<li><strong>Unexpected Delays</strong>: In case of unexpected delays, such as equipment breakdowns or safety incidents, the user can set the status to &quot;On Hold&quot; and stop the timer until the issue is resolved.</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->

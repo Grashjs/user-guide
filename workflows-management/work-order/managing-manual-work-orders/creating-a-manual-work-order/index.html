@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766863143843">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766873215931">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Creating a manual work order | Atlas CMMS</title>
     <meta name="title" content="Creating a manual work order | Atlas CMMS">
+    <meta name="description" content="To create a new manual work order, there are 2 Options:">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/creating-a-manual-work-order/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/creating-a-manual-work-order/">
     <meta property="og:title" content="Creating a manual work order | Atlas CMMS">
+    <meta property="og:description" content="To create a new manual work order, there are 2 Options:">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/rev6/image102.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/creating-a-manual-work-order/">
     <meta property="twitter:title" content="Creating a manual work order | Atlas CMMS">
+    <meta property="twitter:description" content="To create a new manual work order, there are 2 Options:">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/rev6/image102.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../resources/css/retype.css?v=3.5.0.766863143843" rel="stylesheet">
+    <link href="../../../../resources/css/retype.css?v=3.5.0.766873215931" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../resources/js/config.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../resources/js/lunr.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,70 @@
         <span>Creating a manual work order</span>
     </h1>
 </doc-anchor-target>
+<p>To create a new manual work order, there are 2 Options:</p>
+<p>1-click on the &quot;+ Work Order&quot; button located at the top right corner of the interface.</p>
+<p><figure class="content-center">
+    <img src="../../../../static/img/rev6/image102.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>2-Click on desired Due date on Calendar View.</p>
+<p>3-Creating Work Order from Locations Menu after choosing the Location where Work Order will be executed.</p>
+<p>All above options will open the &quot;Add Work Order&quot; form, where you can enter all the necessary details for the new work order:</p>
+<p><figure class="content-center">
+    <img src="../../../../static/img/rev6/image103.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Let&#x27;s go through each field in this form:</p>
+<ol>
+<li><strong>Title</strong>: Enter a brief but descriptive title for the work order, summarizing the task or issue to be addressed.</li>
+<li><strong>Description</strong>: Provide a detailed description of the work to be performed, including any specific instructions, requirements, or relevant background information.</li>
+<li><strong>Image Upload</strong>: If applicable, you can upload images related to the work order by taking picture, dragging and dropping files or clicking the designated area to browse and select image files from your device.</li>
+<li><strong>Due Date</strong>: Specify the due date for completing the work order. This helps prioritize and schedule the task accordingly. In the Calendar View, Work Orders will be shown by Due Date.</li>
+<li><strong>Estimated Duration (hours)</strong>: Enter an estimate of the time required to complete the work order, which aids in resource planning and allocation.</li>
+<li><strong>Priority</strong>: Assign a priority level (e.g., High, Medium, Low) to the work order based on its urgency and importance. See Tip1  <doc-anchor-trigger to="#_Tip_1:_Priority">priority assignment.</doc-anchor-trigger></li>
+<li><strong>Category</strong>: Select the appropriate category or type of work order from the provided options (e.g., Corrective Maintenance, Inspection, Calibration, Emergency, Continuous Improvement, New Installation…).</li>
+</ol>
+<p><strong>🖝</strong> For Work Orders Categories setting refer to  <doc-anchor-trigger to="#_1-Work_Order_Categories">“Work Order Categories”</doc-anchor-trigger> chapter under “Categories Configuration”.</p>
+<ol>
+<li>__Primary Worker: __</li>
+</ol>
+<ul>
+<li>This is the main technician responsible for executing the work order tasks and seeing it through to completion, or the one who will delegate or handover this work order to other peers</li>
+<li>They have the overall accountability for the work order being completed satisfactorily, whether doing the work themselves or assigning it to others</li>
+<li>The primary worker is the main point of contact for updates on the work order status and progress</li>
+<li>They coordinate with additional workers and teams as needed to ensure all tasks are finished</li>
+<li>Example: Assigning the most experienced HVAC technician as the primary worker on a complex air conditioning system repair work order. They assess the work required and involve other technicians for specific tasks, but remain responsible for the final outcome.__ __</li>
+</ul>
+<ol>
+<li><strong>Additional Workers</strong>: If required, you can assign additional workers or technicians to participate with the work order:</li>
+</ol>
+<ul>
+<li>These are technicians who assist the primary worker in completing the work order, often with specialized skills</li>
+<li>They may be assigned to handle specific subtasks within the overall maintenance job</li>
+<li>Additional workers support the primary worker but are not directly accountable for the entire work order</li>
+<li>Example: Assigning an electrician and a plumber to assist the primary HVAC technician with rewiring and drainage tasks on the air conditioning repair work order</li>
+</ul>
+<ol>
+<li><strong>Team</strong>: Assign the work order to a specific team or department within your organization.</li>
+</ol>
+<ul>
+<li>This refers to a group of maintenance staff with collective responsibility for the work order, rather than a single individual</li>
+<li>Teams are often used for larger, multi-disciplinary maintenance jobs that require coordination between different technicians and trades</li>
+<li>The team as a whole is accountable for the successful completion of the work order, with tasks delegated among team members</li>
+<li>Example: Assigning a facilities maintenance team consisting of HVAC, electrical, plumbing and carpentry technicians to handle a comprehensive building maintenance work order</li>
+</ul>
+<ol>
+<li><strong>Contractors</strong>: If the work order involves external contractors, you can specify their details in this field.</li>
+<li><strong>Location</strong>: Select the location or facility where the work needs to be performed.</li>
+<li><strong>Asset</strong>: If the work order is related to a specific asset or equipment, you can associate it with the work order by selecting it from the list. By Choosing the Location first, the Asset dropdown will show only Assets related to the already chosen location.</li>
+<li><strong>Tasks/Checklists</strong>: Optionally, you can create a checklist of tasks or tasks to be followed as part of the work order or you can choose among pre-established checklists.( See <doc-anchor-trigger to="#_Checklist_Setting">Checklist Setting</doc-anchor-trigger>)</li>
+<li><strong>Files Upload</strong>: Similar to the image upload section, you can attach relevant files, documents, or manuals to the work order by dragging and dropping or browsing for the files.</li>
+<li><strong>Requires Signature</strong>: If the work order requires a signature upon completion, you can check this box and the related Work Order will not be set Complete before the Assigned User attach the Signature.</li>
+</ol>
+<p>Once you have filled in all the necessary information, click the &quot;Add&quot; button to create the new manual work order in the system.</p>
+<p>By following this process, you can ensure that all critical details are captured for the work order, facilitating efficient task assignment, scheduling, and execution within the maintenance management workflow.</p>
 
                                 
                                 <!-- Required only on API pages -->

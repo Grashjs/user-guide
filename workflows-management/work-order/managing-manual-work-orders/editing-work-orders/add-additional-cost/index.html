@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766863143843">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766873215931">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Add additional cost | Atlas CMMS</title>
     <meta name="title" content="Add additional cost | Atlas CMMS">
+    <meta name="description" content="Definition and Purpose">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-additional-cost/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-additional-cost/">
     <meta property="og:title" content="Add additional cost | Atlas CMMS">
+    <meta property="og:description" content="Definition and Purpose">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/rev6/image119.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-additional-cost/">
     <meta property="twitter:title" content="Add additional cost | Atlas CMMS">
+    <meta property="twitter:description" content="Definition and Purpose">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/rev6/image119.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../../resources/css/retype.css?v=3.5.0.766863143843" rel="stylesheet">
+    <link href="../../../../../resources/css/retype.css?v=3.5.0.766873215931" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../../resources/js/config.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../../resources/js/config.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../../resources/js/lunr.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../../resources/js/lunr.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,64 @@
         <span>Add additional cost</span>
     </h1>
 </doc-anchor-target>
+<p><strong>Definition and Purpose</strong></p>
+<p>Additional costs refer to any expenses incurred during the execution of a work order that were not initially accounted for in the original cost estimate or budget. These can include materials, equipment rentals, subcontractor fees, travel expenses, permits, and more. Accurately tracking and accounting for additional costs is crucial for several reasons:</p>
+<ol>
+<li><strong>Realistic Budgeting</strong>: By capturing all costs associated with a work order, organizations can develop more accurate budgets and cost estimates for future maintenance projects.</li>
+<li><strong>Profitability Analysis</strong>: Additional costs directly impact the profitability of a work order. Tracking these costs allows for better analysis of job profitability and identification of areas for cost optimization.</li>
+<li><strong>Client Billing</strong>: If the work order is being performed for a client, all additional costs incurred must be documented and included in the final invoice for accurate billing.</li>
+</ol>
+<p><strong>Adding Additional Costs in Atlas CMMS</strong></p>
+<p>To add additional costs to a work order in Atlas CMMS:</p>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image119.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<ol>
+<li><strong>Initiate the Addition</strong>: Within the work order form, you will see a section labeled &quot;Additional Costs&quot; with a button to &quot;Add additional Cost&quot; . Click this button to begin the process.</li>
+<li><strong>Fill in the Details</strong>: A new window will appear where you can input the details of the additional cost.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image120.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Here, you will need to:</p>
+<p>-
+- Enter a Cost Description, such as &quot;Travel from site 1 to site 2.&quot;
+- Assigned To: The technician, team, or individual responsible for incurring the cost, if applicable.
+- Category: The category or type of cost being added. Refer to the &quot;<doc-anchor-trigger to="#_Cost_Categories">Cost Categories</doc-anchor-trigger>&quot; chapter for a list of predefined categories in Atlas CMMS.
+- Date: The date when the additional cost was incurred.
+- Cost: The monetary amount of the additional cost.
+- Additionally, there is an important toggle switch labeled &quot;Include this cost in the total cost.&quot; This option determines whether the additional cost should be included in the overall work order total or not.</p>
+<p><strong>Use Cases for Including/Excluding Additional Costs:</strong></p>
+<ul>
+<li><strong>Include in Total</strong>: If the additional cost is directly related to the work order and should be billed to the client or charged to the project budget, it should be included in the total cost.</li>
+<li><strong>Exclude from Total</strong>: If the additional cost is for internal tracking purposes only, or if it will be billed separately (e.g., travel expenses), it can be excluded from the total work order cost.
+<ul>
+<li>The &quot;Include in total cost&quot; slider allows you to choose whether the additional cost should be factored into the work order&#x27;s total cost. This is particularly important in scenarios such as:</li>
+</ul>
+</li>
+</ul>
+<p>Client Billing: If the additional cost is billable to the client, including it in the total cost ensures accurate invoicing.</p>
+<p>Internal Tracking: For internal costs, such as team travel or training, you may choose not to include these in the total cost to separate them from direct work order expenses.</p>
+<ol>
+<li><strong>Save the Cost</strong>: After entering all the details, click &quot;Add&quot; to save the additional cost to the work order.</li>
+</ol>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image121.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Once you have saved the additional cost, it will be listed under the &quot;Additional Costs&quot; section of the work order. Each entry will display the description and amount, providing a clear record of all additional expenses associated with the work order.</p>
+<p><strong>Common Use Cases for Adding Additional Costs</strong></p>
+<p>Some common use cases for adding additional costs to a work order in Atlas CMMS include:</p>
+<ul>
+<li><strong>Travel Expenses</strong>: Costs incurred for technicians to travel between job sites.</li>
+<li><strong>Specialized Equipment</strong>: Rental fees for specialized equipment needed for a task.</li>
+<li><strong>Emergency Supplies</strong>: Purchases of emergency supplies or materials that were not anticipated.</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->

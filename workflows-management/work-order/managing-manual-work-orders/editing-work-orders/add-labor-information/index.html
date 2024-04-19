@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766863143843">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.766873215931">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -11,6 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Add labor information | Atlas CMMS</title>
     <meta name="title" content="Add labor information | Atlas CMMS">
+    <meta name="description" content="Labor costs refer to the expenses incurred for the time and effort of technicians or workers involved in executing a work order.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-labor-information/">
@@ -19,19 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-labor-information/">
     <meta property="og:title" content="Add labor information | Atlas CMMS">
+    <meta property="og:description" content="Labor costs refer to the expenses incurred for the time and effort of technicians or workers involved in executing a work order.">
+    <meta property="og:image" content="https://docs.atlascmms.com/static/img/rev6/image124.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://docs.atlascmms.com/workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-labor-information/">
     <meta property="twitter:title" content="Add labor information | Atlas CMMS">
+    <meta property="twitter:description" content="Labor costs refer to the expenses incurred for the time and effort of technicians or workers involved in executing a work order.">
+    <meta property="twitter:image" content="https://docs.atlascmms.com/static/img/rev6/image124.png">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../../../resources/css/retype.css?v=3.5.0.766863143843" rel="stylesheet">
+    <link href="../../../../../resources/css/retype.css?v=3.5.0.766873215931" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../../../resources/js/config.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../../../resources/js/config.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../../../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../../../resources/js/lunr.js?v=3.5.0.766863143843" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../../../resources/js/lunr.js?v=3.5.0.766873215931" data-turbo-eval="false" defer></script>
 
     <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
 </head>
@@ -190,6 +195,47 @@
         <span>Add labor information</span>
     </h1>
 </doc-anchor-target>
+<p>Labor costs refer to the expenses incurred for the time and effort of technicians or workers involved in executing a work order. Accurately tracking and accounting for labor costs is crucial for several reasons:</p>
+<ol>
+<li><strong>Realistic Cost Estimation</strong>: By capturing all labor costs associated with a work order, organizations can develop more accurate cost estimates for future maintenance projects, leading to better budgeting and resource allocation.</li>
+<li><strong>Profitability Analysis</strong>: Labor costs directly impact the profitability of a work order. Tracking these costs allows for better analysis of job profitability and identification of areas for process optimization.</li>
+<li><strong>Billing and Payroll</strong>: For service providers, labor costs are directly tied to billing clients. For internal teams, they impact payroll calculations.</li>
+</ol>
+<p><strong>Common Use Cases for Adding Labor</strong></p>
+<p>Some common scenarios where labor costs may need to be added to a work order in Atlas CMMS include:</p>
+<ul>
+<li>Additional technician hours required due to unforeseen complications or scope changes</li>
+<li>Overtime hours worked to complete a time-sensitive task</li>
+<li>Specialized labor or expertise needed for specific maintenance activities</li>
+<li>Travel time for technicians to reach remote job sites</li>
+</ul>
+<p><strong>Adding Labor to a Work Order</strong></p>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image124.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>To add labor costs, the user would click on the &quot;Add Time&quot; button under the &quot;Labors&quot; section.</p>
+<p><figure class="content-center">
+    <img src="../../../../../static/img/rev6/image125.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Here, the user can enter the following details:</p>
+<ul>
+<li><strong>Assigned To</strong>: The technician or worker responsible for the labor hours being added.</li>
+<li><strong>Hourly Rate</strong>: The hourly rate or cost associated with the assigned technician or worker.</li>
+<li><strong>Include this time in the total time</strong>: This toggle switch determines whether the labor time should be included in the overall work order duration or not.
+<ul>
+<li><strong>Use Case for Including</strong>: If the labor time directly contributes to the completion of the work order, it should be included in the total time to accurately reflect the overall duration.</li>
+<li><strong>Use Case for Excluding</strong>: If the labor time is for administrative or support tasks that do not directly contribute to the work order completion, it can be excluded from the total time.</li>
+</ul>
+</li>
+<li><strong>Work Started At</strong>: The date and time when the labor effort began.</li>
+<li><strong>Category</strong>: The category or type of labor being added. Refer to the &quot;Labor Categories&quot; chapter for a list of predefined categories in Atlas CMMS.</li>
+<li><strong>Duration</strong>: The total duration of the labor effort, specified in hours and minutes.</li>
+</ul>
+<p>After entering all the relevant details, the user can click &quot;Add&quot; to save the labor cost.</p>
 
                                 
                                 <!-- Required only on API pages -->
