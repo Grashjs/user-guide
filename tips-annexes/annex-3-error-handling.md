@@ -25,7 +25,6 @@ After capturing the screenshot and noting the relevant details, the next step is
 
 - Live Chat: Access the live chat feature within the application by clicking on the chat icon in the bottom-right corner.
 - Email: [contact@atlascmms.com]
-- Phone: +212
 
 When contacting support, be sure to include the following information:
 a. The screenshot of the error message or unexpected behavior
