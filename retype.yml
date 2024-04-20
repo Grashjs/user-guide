@@ -9,13 +9,12 @@ branding:
 links:
   - text: Atlas CMMS
     link: https://atlascmms.com
-  - text: Analytics
-    link: /analytics/work-orders/status-report.md
   - text: Worker Order
     link: /workflows-management/work-order/definition.md
   - text: Preventive Maintenance
     link: /workflows-management/preventive-maintenance-pm/definition.md
-
+  - text: Analytics
+    link: /analytics/work-orders/status-report.md
 footer:
   copyright: "Version 2024-04 - Atlas CMMS User Guide"
 
