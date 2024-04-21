@@ -2,7 +2,7 @@ input: .
 output: ./docs
 url: https://docs.atlascmms.com
 meta:
-  title: " | Atlas CMMS"
+  title: " | Atlas CMMS docs"
 branding:
   title: Atlas CMMS
   logo: static/img/logo.png
