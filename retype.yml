@@ -1,5 +1,5 @@
 input: .
-output: ./docs
+output: .retype
 url: https://grashjs.github.io/user-guide
 meta:
   title: " | Atlas CMMS docs"
