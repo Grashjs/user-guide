@@ -1,6 +1,6 @@
 {
-  "version": "3.5.0",
-  "created": "2024-04-09T00:47:30Z",
+  "version": "3.6.0",
+  "created": "2025-03-09T22:58:04Z",
   "files": [
     {
       "path": ".nojekyll"
@@ -9,13 +9,55 @@
       "path": "404.html"
     },
     {
-      "path": "apim/architecture/index.html"
+      "path": "analytics/assets/asset-cost-analysis/index.html"
     },
     {
-      "path": "apim/implementation/index.html"
+      "path": "analytics/assets/reliability-dashboard/index.html"
     },
     {
-      "path": "apim/index.html"
+      "path": "analytics/parts/consumed-parts-costs-graph/index.html"
+    },
+    {
+      "path": "analytics/parts/overview-of-parts-consumption/index.html"
+    },
+    {
+      "path": "analytics/parts/practical-use-cases/index.html"
+    },
+    {
+      "path": "analytics/request-analysis-dashboard/key-metrics-summary/index.html"
+    },
+    {
+      "path": "analytics/request-analysis-dashboard/practical-use-cases/index.html"
+    },
+    {
+      "path": "analytics/request-analysis-dashboard/requests-by-priority/index.html"
+    },
+    {
+      "path": "analytics/request-analysis-dashboard/requests-trends/index.html"
+    },
+    {
+      "path": "analytics/work-orders/status-report/index.html"
+    },
+    {
+      "path": "analytics/work-orders/time-and-cost-dashboard/index.html"
+    },
+    {
+      "path": "analytics/work-orders/work-order-aging-dashboard/index.html"
+    },
+    {
+      "path": "analytics/work-orders/work-order-analysis-dashboard/index.html"
+    },
+    {
+      "path": "apim/architecture/index.html",
+      "old": true
+    },
+    {
+      "path": "apim/implementation/index.html",
+      "old": true
+    },
+    {
+      "path": "apim/index.html",
+      "old": true
     },
     {
       "path": "apim\\architecture\\index.html",
@@ -28,6 +70,30 @@
     {
       "path": "apim\\index.html",
       "old": true
+    },
+    {
+      "path": "assets-management/accessing-assets/index.html"
+    },
+    {
+      "path": "assets-management/adding-new-asset/importing-from-a-template/index.html"
+    },
+    {
+      "path": "assets-management/adding-new-asset/manual-creation/index.html"
+    },
+    {
+      "path": "assets-management/introduction-to-assets/definition/index.html"
+    },
+    {
+      "path": "assets-management/introduction-to-assets/parent-asset-child-asset-hierarchy/index.html"
+    },
+    {
+      "path": "assets-management/modifying-existing-assets-details/index.html"
+    },
+    {
+      "path": "assets-management/viewing-assets/index.html"
+    },
+    {
+      "path": "atlas-cmms-training-matrix/index.html"
     },
     {
       "path": "blog/feed.xml"
@@ -65,7 +131,26 @@
       "old": true
     },
     {
-      "path": "CNAME"
+      "path": "CNAME",
+      "old": true
+    },
+    {
+      "path": "conclusion-and-main-take-away/index.html"
+    },
+    {
+      "path": "doing-own-analytics-using-exported-data/index.html"
+    },
+    {
+      "path": "getting-started/general-navigation-tips/index.html"
+    },
+    {
+      "path": "getting-started/subscription-process/company-already-using-atlas-cmms/index.html"
+    },
+    {
+      "path": "getting-started/subscription-process/first-time-atlas-implementation/index.html"
+    },
+    {
+      "path": "getting-started/user-roles-and-benefits/index.html"
     },
     {
       "path": "iam\\architecture\\index.html",
@@ -87,6 +172,36 @@
       "path": "index.html"
     },
     {
+      "path": "initial-setup-and-configuration/configurations/categories-configuration/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/people-and-teams-configuration/people-configuration/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/people-and-teams-configuration/teams-configuration/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/setting/checklist-setting/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/setting/general-settings/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/setting/request-form-configuration/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/setting/roles-setting/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/setting/work-orders-setting/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/vendors-contractors-records/contractor-configuration/index.html"
+    },
+    {
+      "path": "initial-setup-and-configuration/vendors-contractors-records/vendor-configuration/index.html"
+    },
+    {
       "path": "labs\\analytics\\index.html",
       "old": true
     },
@@ -101,6 +216,42 @@
     {
       "path": "labs\\microgateway\\index.html",
       "old": true
+    },
+    {
+      "path": "locations-management/accessing-locations/index.html"
+    },
+    {
+      "path": "locations-management/introduction-to-locations/definition/index.html"
+    },
+    {
+      "path": "locations-management/introduction-to-locations/parent-location-child-location-hierarchy/index.html"
+    },
+    {
+      "path": "locations-management/viewing-locations/managing-locations/index.html"
+    },
+    {
+      "path": "locations-management/viewing-locations/views/index.html"
+    },
+    {
+      "path": "parts-inventory-management/accessing-parts-inventory/index.html"
+    },
+    {
+      "path": "parts-inventory-management/parts/adding-new-parts/index.html"
+    },
+    {
+      "path": "parts-inventory-management/parts/modifying-part-details/index.html"
+    },
+    {
+      "path": "parts-inventory-management/parts/viewing-parts-inventory/index.html"
+    },
+    {
+      "path": "parts-inventory-management/sets-of-parts/index.html"
+    },
+    {
+      "path": "parts-inventory-management/updating-inventory-quantities/automatic-update/index.html"
+    },
+    {
+      "path": "parts-inventory-management/updating-inventory-quantities/manual-update/index.html"
     },
     {
       "path": "resources/css/retype.css"
@@ -214,7 +365,1060 @@
       "path": "static/img/banner.png"
     },
     {
+      "path": "static/img/image1.png"
+    },
+    {
+      "path": "static/img/image10.png"
+    },
+    {
+      "path": "static/img/image100.png"
+    },
+    {
+      "path": "static/img/image101.png"
+    },
+    {
+      "path": "static/img/image102.png"
+    },
+    {
+      "path": "static/img/image103.png"
+    },
+    {
+      "path": "static/img/image104.png"
+    },
+    {
+      "path": "static/img/image105.png"
+    },
+    {
+      "path": "static/img/image106.png"
+    },
+    {
+      "path": "static/img/image107.png"
+    },
+    {
+      "path": "static/img/image108.png"
+    },
+    {
+      "path": "static/img/image109.png"
+    },
+    {
+      "path": "static/img/image11.png"
+    },
+    {
+      "path": "static/img/image110.png"
+    },
+    {
+      "path": "static/img/image111.png"
+    },
+    {
+      "path": "static/img/image112.png"
+    },
+    {
+      "path": "static/img/image113.png"
+    },
+    {
+      "path": "static/img/image114.png"
+    },
+    {
+      "path": "static/img/image115.png"
+    },
+    {
+      "path": "static/img/image116.png"
+    },
+    {
+      "path": "static/img/image117.png"
+    },
+    {
+      "path": "static/img/image118.png"
+    },
+    {
+      "path": "static/img/image119.png"
+    },
+    {
+      "path": "static/img/image12.png"
+    },
+    {
+      "path": "static/img/image120.png"
+    },
+    {
+      "path": "static/img/image121.png"
+    },
+    {
+      "path": "static/img/image122.png"
+    },
+    {
+      "path": "static/img/image123.jpeg"
+    },
+    {
+      "path": "static/img/image124.png"
+    },
+    {
+      "path": "static/img/image125.png"
+    },
+    {
+      "path": "static/img/image126.png"
+    },
+    {
+      "path": "static/img/image127.png"
+    },
+    {
+      "path": "static/img/image128.png"
+    },
+    {
+      "path": "static/img/image129.png"
+    },
+    {
+      "path": "static/img/image13.png"
+    },
+    {
+      "path": "static/img/image130.png"
+    },
+    {
+      "path": "static/img/image131.png"
+    },
+    {
+      "path": "static/img/image132.png"
+    },
+    {
+      "path": "static/img/image133.png"
+    },
+    {
+      "path": "static/img/image134.png"
+    },
+    {
+      "path": "static/img/image135.png"
+    },
+    {
+      "path": "static/img/image136.png"
+    },
+    {
+      "path": "static/img/image137.png"
+    },
+    {
+      "path": "static/img/image138.png"
+    },
+    {
+      "path": "static/img/image139.png"
+    },
+    {
+      "path": "static/img/image14.png"
+    },
+    {
+      "path": "static/img/image140.png"
+    },
+    {
+      "path": "static/img/image141.png"
+    },
+    {
+      "path": "static/img/image142.png"
+    },
+    {
+      "path": "static/img/image143.png"
+    },
+    {
+      "path": "static/img/image144.png"
+    },
+    {
+      "path": "static/img/image145.png"
+    },
+    {
+      "path": "static/img/image146.png"
+    },
+    {
+      "path": "static/img/image147.png"
+    },
+    {
+      "path": "static/img/image148.png"
+    },
+    {
+      "path": "static/img/image149.png"
+    },
+    {
+      "path": "static/img/image15.png"
+    },
+    {
+      "path": "static/img/image150.png"
+    },
+    {
+      "path": "static/img/image151.png"
+    },
+    {
+      "path": "static/img/image152.png"
+    },
+    {
+      "path": "static/img/image153.png"
+    },
+    {
+      "path": "static/img/image154.png"
+    },
+    {
+      "path": "static/img/image155.png"
+    },
+    {
+      "path": "static/img/image156.png"
+    },
+    {
+      "path": "static/img/image157.png"
+    },
+    {
+      "path": "static/img/image158.jpeg"
+    },
+    {
+      "path": "static/img/image159.png"
+    },
+    {
+      "path": "static/img/image16.png"
+    },
+    {
+      "path": "static/img/image160.png"
+    },
+    {
+      "path": "static/img/image17.png"
+    },
+    {
+      "path": "static/img/image18.png"
+    },
+    {
+      "path": "static/img/image19.png"
+    },
+    {
+      "path": "static/img/image2.png"
+    },
+    {
+      "path": "static/img/image20.png"
+    },
+    {
+      "path": "static/img/image21.png"
+    },
+    {
+      "path": "static/img/image22.png"
+    },
+    {
+      "path": "static/img/image23.jpeg"
+    },
+    {
+      "path": "static/img/image24.jpeg"
+    },
+    {
+      "path": "static/img/image25.png"
+    },
+    {
+      "path": "static/img/image26.png"
+    },
+    {
+      "path": "static/img/image27.png"
+    },
+    {
+      "path": "static/img/image28.png"
+    },
+    {
+      "path": "static/img/image29.png"
+    },
+    {
+      "path": "static/img/image3.png"
+    },
+    {
+      "path": "static/img/image30.png"
+    },
+    {
+      "path": "static/img/image31.jpeg"
+    },
+    {
+      "path": "static/img/image32.png"
+    },
+    {
+      "path": "static/img/image33.png"
+    },
+    {
+      "path": "static/img/image34.png"
+    },
+    {
+      "path": "static/img/image35.png"
+    },
+    {
+      "path": "static/img/image36.png"
+    },
+    {
+      "path": "static/img/image37.png"
+    },
+    {
+      "path": "static/img/image38.png"
+    },
+    {
+      "path": "static/img/image39.png"
+    },
+    {
+      "path": "static/img/image4.png"
+    },
+    {
+      "path": "static/img/image40.png"
+    },
+    {
+      "path": "static/img/image41.png"
+    },
+    {
+      "path": "static/img/image42.png"
+    },
+    {
+      "path": "static/img/image43.png"
+    },
+    {
+      "path": "static/img/image44.jpeg"
+    },
+    {
+      "path": "static/img/image45.png"
+    },
+    {
+      "path": "static/img/image46.png"
+    },
+    {
+      "path": "static/img/image47.png"
+    },
+    {
+      "path": "static/img/image48.png"
+    },
+    {
+      "path": "static/img/image49.png"
+    },
+    {
+      "path": "static/img/image5.png"
+    },
+    {
+      "path": "static/img/image50.png"
+    },
+    {
+      "path": "static/img/image51.png"
+    },
+    {
+      "path": "static/img/image52.png"
+    },
+    {
+      "path": "static/img/image53.jpeg"
+    },
+    {
+      "path": "static/img/image54.png"
+    },
+    {
+      "path": "static/img/image55.png"
+    },
+    {
+      "path": "static/img/image56.png"
+    },
+    {
+      "path": "static/img/image57.png"
+    },
+    {
+      "path": "static/img/image58.png"
+    },
+    {
+      "path": "static/img/image59.png"
+    },
+    {
+      "path": "static/img/image6.png"
+    },
+    {
+      "path": "static/img/image60.png"
+    },
+    {
+      "path": "static/img/image61.png"
+    },
+    {
+      "path": "static/img/image62.png"
+    },
+    {
+      "path": "static/img/image63.png"
+    },
+    {
+      "path": "static/img/image64.png"
+    },
+    {
+      "path": "static/img/image65.png"
+    },
+    {
+      "path": "static/img/image66.png"
+    },
+    {
+      "path": "static/img/image67.png"
+    },
+    {
+      "path": "static/img/image68.png"
+    },
+    {
+      "path": "static/img/image69.png"
+    },
+    {
+      "path": "static/img/image7.png"
+    },
+    {
+      "path": "static/img/image70.png"
+    },
+    {
+      "path": "static/img/image71.png"
+    },
+    {
+      "path": "static/img/image72.png"
+    },
+    {
+      "path": "static/img/image73.png"
+    },
+    {
+      "path": "static/img/image74.png"
+    },
+    {
+      "path": "static/img/image75.png"
+    },
+    {
+      "path": "static/img/image76.png"
+    },
+    {
+      "path": "static/img/image77.png"
+    },
+    {
+      "path": "static/img/image78.png"
+    },
+    {
+      "path": "static/img/image79.png"
+    },
+    {
+      "path": "static/img/image8.png"
+    },
+    {
+      "path": "static/img/image80.png"
+    },
+    {
+      "path": "static/img/image81.jpeg"
+    },
+    {
+      "path": "static/img/image82.png"
+    },
+    {
+      "path": "static/img/image83.png"
+    },
+    {
+      "path": "static/img/image84.png"
+    },
+    {
+      "path": "static/img/image85.png"
+    },
+    {
+      "path": "static/img/image86.png"
+    },
+    {
+      "path": "static/img/image87.png"
+    },
+    {
+      "path": "static/img/image88.png"
+    },
+    {
+      "path": "static/img/image89.png"
+    },
+    {
+      "path": "static/img/image9.png"
+    },
+    {
+      "path": "static/img/image90.png"
+    },
+    {
+      "path": "static/img/image91.png"
+    },
+    {
+      "path": "static/img/image92.png"
+    },
+    {
+      "path": "static/img/image93.png"
+    },
+    {
+      "path": "static/img/image94.png"
+    },
+    {
+      "path": "static/img/image95.png"
+    },
+    {
+      "path": "static/img/image96.png"
+    },
+    {
+      "path": "static/img/image97.png"
+    },
+    {
+      "path": "static/img/image98.png"
+    },
+    {
+      "path": "static/img/image99.png"
+    },
+    {
       "path": "static/img/logo.png"
+    },
+    {
+      "path": "static/img/rev6/image1.png"
+    },
+    {
+      "path": "static/img/rev6/image10.png"
+    },
+    {
+      "path": "static/img/rev6/image100.png"
+    },
+    {
+      "path": "static/img/rev6/image101.png"
+    },
+    {
+      "path": "static/img/rev6/image102.png"
+    },
+    {
+      "path": "static/img/rev6/image103.png"
+    },
+    {
+      "path": "static/img/rev6/image104.png"
+    },
+    {
+      "path": "static/img/rev6/image105.png"
+    },
+    {
+      "path": "static/img/rev6/image106.png"
+    },
+    {
+      "path": "static/img/rev6/image107.png"
+    },
+    {
+      "path": "static/img/rev6/image108.png"
+    },
+    {
+      "path": "static/img/rev6/image109.png"
+    },
+    {
+      "path": "static/img/rev6/image11.png"
+    },
+    {
+      "path": "static/img/rev6/image110.png"
+    },
+    {
+      "path": "static/img/rev6/image111.png"
+    },
+    {
+      "path": "static/img/rev6/image112.png"
+    },
+    {
+      "path": "static/img/rev6/image113.png"
+    },
+    {
+      "path": "static/img/rev6/image114.png"
+    },
+    {
+      "path": "static/img/rev6/image115.png"
+    },
+    {
+      "path": "static/img/rev6/image116.png"
+    },
+    {
+      "path": "static/img/rev6/image117.png"
+    },
+    {
+      "path": "static/img/rev6/image118.png"
+    },
+    {
+      "path": "static/img/rev6/image119.png"
+    },
+    {
+      "path": "static/img/rev6/image12.png"
+    },
+    {
+      "path": "static/img/rev6/image120.png"
+    },
+    {
+      "path": "static/img/rev6/image121.png"
+    },
+    {
+      "path": "static/img/rev6/image122.png"
+    },
+    {
+      "path": "static/img/rev6/image123.png"
+    },
+    {
+      "path": "static/img/rev6/image124.png"
+    },
+    {
+      "path": "static/img/rev6/image125.png"
+    },
+    {
+      "path": "static/img/rev6/image126.png"
+    },
+    {
+      "path": "static/img/rev6/image127.png"
+    },
+    {
+      "path": "static/img/rev6/image128.png"
+    },
+    {
+      "path": "static/img/rev6/image129.png"
+    },
+    {
+      "path": "static/img/rev6/image13.png"
+    },
+    {
+      "path": "static/img/rev6/image130.png"
+    },
+    {
+      "path": "static/img/rev6/image131.png"
+    },
+    {
+      "path": "static/img/rev6/image132.png"
+    },
+    {
+      "path": "static/img/rev6/image133.png"
+    },
+    {
+      "path": "static/img/rev6/image134.png"
+    },
+    {
+      "path": "static/img/rev6/image135.png"
+    },
+    {
+      "path": "static/img/rev6/image136.png"
+    },
+    {
+      "path": "static/img/rev6/image137.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image138.png"
+    },
+    {
+      "path": "static/img/rev6/image139.png"
+    },
+    {
+      "path": "static/img/rev6/image14.png"
+    },
+    {
+      "path": "static/img/rev6/image140.png"
+    },
+    {
+      "path": "static/img/rev6/image141.png"
+    },
+    {
+      "path": "static/img/rev6/image142.png"
+    },
+    {
+      "path": "static/img/rev6/image143.png"
+    },
+    {
+      "path": "static/img/rev6/image144.png"
+    },
+    {
+      "path": "static/img/rev6/image145.png"
+    },
+    {
+      "path": "static/img/rev6/image146.png"
+    },
+    {
+      "path": "static/img/rev6/image147.png"
+    },
+    {
+      "path": "static/img/rev6/image148.png"
+    },
+    {
+      "path": "static/img/rev6/image149.png"
+    },
+    {
+      "path": "static/img/rev6/image15.png"
+    },
+    {
+      "path": "static/img/rev6/image150.png"
+    },
+    {
+      "path": "static/img/rev6/image151.png"
+    },
+    {
+      "path": "static/img/rev6/image152.png"
+    },
+    {
+      "path": "static/img/rev6/image153.png"
+    },
+    {
+      "path": "static/img/rev6/image154.png"
+    },
+    {
+      "path": "static/img/rev6/image155.png"
+    },
+    {
+      "path": "static/img/rev6/image156.png"
+    },
+    {
+      "path": "static/img/rev6/image157.png"
+    },
+    {
+      "path": "static/img/rev6/image158.png"
+    },
+    {
+      "path": "static/img/rev6/image159.png"
+    },
+    {
+      "path": "static/img/rev6/image16.png"
+    },
+    {
+      "path": "static/img/rev6/image160.png"
+    },
+    {
+      "path": "static/img/rev6/image161.png"
+    },
+    {
+      "path": "static/img/rev6/image162.png"
+    },
+    {
+      "path": "static/img/rev6/image163.png"
+    },
+    {
+      "path": "static/img/rev6/image164.png"
+    },
+    {
+      "path": "static/img/rev6/image165.png"
+    },
+    {
+      "path": "static/img/rev6/image166.png"
+    },
+    {
+      "path": "static/img/rev6/image167.png"
+    },
+    {
+      "path": "static/img/rev6/image168.png"
+    },
+    {
+      "path": "static/img/rev6/image169.png"
+    },
+    {
+      "path": "static/img/rev6/image17.png"
+    },
+    {
+      "path": "static/img/rev6/image170.png"
+    },
+    {
+      "path": "static/img/rev6/image171.png"
+    },
+    {
+      "path": "static/img/rev6/image172.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image173.png"
+    },
+    {
+      "path": "static/img/rev6/image174.png"
+    },
+    {
+      "path": "static/img/rev6/image18.png"
+    },
+    {
+      "path": "static/img/rev6/image19.png"
+    },
+    {
+      "path": "static/img/rev6/image2.png"
+    },
+    {
+      "path": "static/img/rev6/image20.png"
+    },
+    {
+      "path": "static/img/rev6/image21.png"
+    },
+    {
+      "path": "static/img/rev6/image22.png"
+    },
+    {
+      "path": "static/img/rev6/image23.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image24.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image25.png"
+    },
+    {
+      "path": "static/img/rev6/image26.png"
+    },
+    {
+      "path": "static/img/rev6/image27.png"
+    },
+    {
+      "path": "static/img/rev6/image28.png"
+    },
+    {
+      "path": "static/img/rev6/image29.png"
+    },
+    {
+      "path": "static/img/rev6/image3.png"
+    },
+    {
+      "path": "static/img/rev6/image30.png"
+    },
+    {
+      "path": "static/img/rev6/image31.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image32.png"
+    },
+    {
+      "path": "static/img/rev6/image33.png"
+    },
+    {
+      "path": "static/img/rev6/image34.png"
+    },
+    {
+      "path": "static/img/rev6/image35.png"
+    },
+    {
+      "path": "static/img/rev6/image36.png"
+    },
+    {
+      "path": "static/img/rev6/image37.png"
+    },
+    {
+      "path": "static/img/rev6/image38.png"
+    },
+    {
+      "path": "static/img/rev6/image39.png"
+    },
+    {
+      "path": "static/img/rev6/image4.png"
+    },
+    {
+      "path": "static/img/rev6/image40.png"
+    },
+    {
+      "path": "static/img/rev6/image41.png"
+    },
+    {
+      "path": "static/img/rev6/image42.png"
+    },
+    {
+      "path": "static/img/rev6/image43.png"
+    },
+    {
+      "path": "static/img/rev6/image44.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image45.png"
+    },
+    {
+      "path": "static/img/rev6/image46.png"
+    },
+    {
+      "path": "static/img/rev6/image47.png"
+    },
+    {
+      "path": "static/img/rev6/image48.png"
+    },
+    {
+      "path": "static/img/rev6/image49.png"
+    },
+    {
+      "path": "static/img/rev6/image5.png"
+    },
+    {
+      "path": "static/img/rev6/image50.png"
+    },
+    {
+      "path": "static/img/rev6/image51.png"
+    },
+    {
+      "path": "static/img/rev6/image52.png"
+    },
+    {
+      "path": "static/img/rev6/image53.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image54.png"
+    },
+    {
+      "path": "static/img/rev6/image55.png"
+    },
+    {
+      "path": "static/img/rev6/image56.png"
+    },
+    {
+      "path": "static/img/rev6/image57.png"
+    },
+    {
+      "path": "static/img/rev6/image58.png"
+    },
+    {
+      "path": "static/img/rev6/image59.png"
+    },
+    {
+      "path": "static/img/rev6/image6.png"
+    },
+    {
+      "path": "static/img/rev6/image60.png"
+    },
+    {
+      "path": "static/img/rev6/image61.png"
+    },
+    {
+      "path": "static/img/rev6/image62.png"
+    },
+    {
+      "path": "static/img/rev6/image63.png"
+    },
+    {
+      "path": "static/img/rev6/image64.png"
+    },
+    {
+      "path": "static/img/rev6/image65.png"
+    },
+    {
+      "path": "static/img/rev6/image66.png"
+    },
+    {
+      "path": "static/img/rev6/image67.png"
+    },
+    {
+      "path": "static/img/rev6/image68.png"
+    },
+    {
+      "path": "static/img/rev6/image69.png"
+    },
+    {
+      "path": "static/img/rev6/image7.png"
+    },
+    {
+      "path": "static/img/rev6/image70.png"
+    },
+    {
+      "path": "static/img/rev6/image71.png"
+    },
+    {
+      "path": "static/img/rev6/image72.png"
+    },
+    {
+      "path": "static/img/rev6/image73.png"
+    },
+    {
+      "path": "static/img/rev6/image74.png"
+    },
+    {
+      "path": "static/img/rev6/image75.png"
+    },
+    {
+      "path": "static/img/rev6/image76.png"
+    },
+    {
+      "path": "static/img/rev6/image77.png"
+    },
+    {
+      "path": "static/img/rev6/image78.png"
+    },
+    {
+      "path": "static/img/rev6/image79.png"
+    },
+    {
+      "path": "static/img/rev6/image8.png"
+    },
+    {
+      "path": "static/img/rev6/image80.png"
+    },
+    {
+      "path": "static/img/rev6/image81.png"
+    },
+    {
+      "path": "static/img/rev6/image82.jpeg"
+    },
+    {
+      "path": "static/img/rev6/image83.png"
+    },
+    {
+      "path": "static/img/rev6/image84.png"
+    },
+    {
+      "path": "static/img/rev6/image85.png"
+    },
+    {
+      "path": "static/img/rev6/image86.png"
+    },
+    {
+      "path": "static/img/rev6/image87.png"
+    },
+    {
+      "path": "static/img/rev6/image88.png"
+    },
+    {
+      "path": "static/img/rev6/image89.png"
+    },
+    {
+      "path": "static/img/rev6/image9.png"
+    },
+    {
+      "path": "static/img/rev6/image90.png"
+    },
+    {
+      "path": "static/img/rev6/image91.png"
+    },
+    {
+      "path": "static/img/rev6/image92.png"
+    },
+    {
+      "path": "static/img/rev6/image93.png"
+    },
+    {
+      "path": "static/img/rev6/image94.png"
+    },
+    {
+      "path": "static/img/rev6/image95.png"
+    },
+    {
+      "path": "static/img/rev6/image96.png"
+    },
+    {
+      "path": "static/img/rev6/image97.png"
+    },
+    {
+      "path": "static/img/rev6/image98.png"
+    },
+    {
+      "path": "static/img/rev6/image99.png"
+    },
+    {
+      "path": "static/img/setting-request-form.png"
+    },
+    {
+      "path": "static/img/settings-add-roles.png"
+    },
+    {
+      "path": "static/img/settings-checklist-creation-1.png"
+    },
+    {
+      "path": "static/img/settings-checklist-creation-2.png"
+    },
+    {
+      "path": "static/img/settings-checklist-creation-3.png"
+    },
+    {
+      "path": "static/img/settings-checklist-creation-4.png"
+    },
+    {
+      "path": "static/img/settings-checklist-creation-5.png"
+    },
+    {
+      "path": "static/img/settings-checklist-creation-6.png"
+    },
+    {
+      "path": "static/img/settings-checklist-edition.png"
+    },
+    {
+      "path": "static/img/settings-roles.png"
+    },
+    {
+      "path": "static/img/settings-wo-completion.png"
+    },
+    {
+      "path": "static/img/settings-wo-creation.png"
+    },
+    {
+      "path": "static/img/settings.png"
+    },
+    {
+      "path": "static/img/signing-email.png"
+    },
+    {
+      "path": "static/img/signing-login.png"
+    },
+    {
+      "path": "static/img/signing-set-account.png"
+    },
+    {
+      "path": "static/img/user-roles.png"
     },
     {
       "path": "static/img/wso2_apim.png"
@@ -373,6 +1577,105 @@
     {
       "path": "static\\img\\wso2_is.png",
       "old": true
+    },
+    {
+      "path": "tips-annexes/annex-1-frequency-for-a-pm-task/index.html"
+    },
+    {
+      "path": "tips-annexes/annex-2-password-reset/index.html"
+    },
+    {
+      "path": "tips-annexes/annex-3-error-handling/index.html"
+    },
+    {
+      "path": "tips-annexes/tip-1-priority-assignment/index.html"
+    },
+    {
+      "path": "tips-annexes/tip-2-reassigning-work-order/index.html"
+    },
+    {
+      "path": "tips-annexes/tip-3-linking-work-orders/index.html"
+    },
+    {
+      "path": "workflows-management/general-overview/index.html"
+    },
+    {
+      "path": "workflows-management/meters/definition/index.html"
+    },
+    {
+      "path": "workflows-management/meters/managing-meters/index.html"
+    },
+    {
+      "path": "workflows-management/preventive-maintenance-pm/definition/index.html"
+    },
+    {
+      "path": "workflows-management/preventive-maintenance-pm/managing-pm/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/definition/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/creating-a-manual-work-order/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-additional-cost/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-labor-information/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/add-parts/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/fill-out-checklists/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/link-work-order/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/reassign-work-order/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/stop-timer-and-mark-as-complete/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/using-timer-effectively/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/editing-work-orders/work-order-completion-and-feedback/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/printing-and-archiving-a-work-order/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/viewing-work-orders/index.html"
+    },
+    {
+      "path": "workflows-management/work-order/managing-manual-work-orders/work-order-permissions-and-notifications/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/accessing-work-requests/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/creating-a-work-request/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/editing-a-work-requests/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/introduction/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/viewing-specific-request-status-and-feedback/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/viewing-work-requests/index.html"
+    },
+    {
+      "path": "workflows-management/work-requests/work-requests-permissions-and-notifications/index.html"
     }
   ]
 }
