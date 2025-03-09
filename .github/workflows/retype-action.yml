@@ -21,7 +21,7 @@ jobs:
       - name: Set up .NET 7.0
         uses: actions/setup-dotnet@v3
         with:
-          dotnet-version: 7.0.0
+          dotnet-version: 7.0.12
       
       # Continue with other steps (like installing retype, building docs, etc.)
       - name: Install Retype
