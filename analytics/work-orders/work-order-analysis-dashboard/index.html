@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-root" content="/user-guide">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.794877841565">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.6.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Work Order Analysis Dashboard | Atlas CMMS docs</title>
+    <meta name="title" content="Work Order Analysis Dashboard | Atlas CMMS docs">
+    <meta name="description" content="The Work Order Analysis dashboard provides an in-depth analysis of work order performance, categorized by various factors such as assigned personnel,...">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://grashjs.github.io/user-guide/analytics/work-orders/work-order-analysis-dashboard/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://grashjs.github.io/user-guide/analytics/work-orders/work-order-analysis-dashboard/">
+    <meta property="og:title" content="Work Order Analysis Dashboard | Atlas CMMS docs">
+    <meta property="og:description" content="The Work Order Analysis dashboard provides an in-depth analysis of work order performance, categorized by various factors such as assigned personnel,...">
+    <meta property="og:image" content="https://grashjs.github.io/user-guide/static/img/image146.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://grashjs.github.io/user-guide/analytics/work-orders/work-order-analysis-dashboard/">
+    <meta property="twitter:title" content="Work Order Analysis Dashboard | Atlas CMMS docs">
+    <meta property="twitter:description" content="The Work Order Analysis dashboard provides an in-depth analysis of work order performance, categorized by various factors such as assigned personnel,...">
+    <meta property="twitter:image" content="https://grashjs.github.io/user-guide/static/img/image146.png">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../../../resources/css/retype.css?v=3.6.0.794877841565" rel="stylesheet">
+
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.794877841565" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.794877841565" data-turbo-eval="false" defer></script>
+
+    <link rel="stylesheet" href="/pages/Grashjs/user-guide/static/custom.css" />
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../../../" class="flex items-center leading-snug text-xl">
+                            <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
+                                <img class="max-h-10 dark:hidden md:inline-block" src="../../../static/img/logo.png">
+                                <img class="max-h-10 hidden dark:inline-block" src="../../../static/img/logo.png">
+                            </span>
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Atlas CMMS docs</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://atlas-cmms.com">Atlas CMMS</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../workflows-management/work-order/definition/">Worker Order</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../workflows-management/preventive-maintenance-pm/definition/">Preventive Maintenance</a>
+                            </li>
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../analytics/work-orders/status-report/">Analytics</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://atlas-cmms.com">Atlas CMMS</a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../workflows-management/work-order/definition/">Worker Order</a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../workflows-management/preventive-maintenance-pm/definition/">Preventive Maintenance</a>
+                                    </li>
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="../../../analytics/work-orders/status-report/">Analytics</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="work-order-analysis-dashboard" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#work-order-analysis-dashboard">#</doc-anchor-trigger>
+        <span>Work Order Analysis Dashboard</span>
+    </h1>
+</doc-anchor-target>
+<p><figure class="content-center">
+    <img src="../../../static/img/image146.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+The <code v-pre>Work Order Analysis</code> dashboard provides an in-depth analysis of work order performance, categorized by various factors such as assigned personnel, priority levels, and work order types. This dashboard enables maintenance teams to identify areas for improvement and optimize their operations within the selected date range.</p>
+<p><code v-pre>The Numbers</code> <strong>①</strong></p>
+<ul>
+<li><em><strong>Count</strong></em>: represents the total number of work orders during this period.</li>
+<li><em><strong>Compliant</strong></em>: indicates the number of work orders that were completed before their due date, considered compliant.</li>
+<li><em><strong>Average Cycle Time</strong></em>: displays the average number of days it took to complete a work order from creation to completion.</li>
+<li><em><strong>Compliance Rate</strong></em>: shows the percentage of work orders completed compliantly (before the due date).</li>
+</ul>
+<p><code v-pre>Grouped by Assigned To / Completed By</code> <strong>②③</strong></p>
+<p>These donut charts provide a breakdown of work orders based on the assigned technicians and the individuals who completed the work orders, respectively. This information helps identify potential bottlenecks, workload imbalances, or training needs among the team.</p>
+<p><code v-pre>Grouped by Priority / Category</code> <strong>④⑤</strong></p>
+<p>The donut charts categorize work orders based on their assigned priority levels (High, Low, Medium) and types such as Reactive (emergency maintenance after equipment failure), Recurring (preventive or scheduled maintenance), and others. This data assists in prioritizing resources and optimizing maintenance strategies.</p>
+<p><code v-pre>Completion Comparison</code><strong>⑥</strong></p>
+<p>This line chart compares the completion trends of various work order types like Complete, Compliant, Reactive, and Recurring over the selected date range. The different colored lines represent each type, helping identify patterns, seasonality, or spikes in specific areas.</p>
+<p><code v-pre>Time Spent</code> <strong>⑦</strong></p>
+<p>This graph displays the total time spent on work orders during the period. The y-axis represents time, while the x-axis shows dates. This information analyzes labor utilization and identifies periods of high or low workload for resource optimization.</p>
+<p><code v-pre>Costs</code><strong>⑧</strong></p>
+<ul>
+<li><code v-pre>Total Cost</code>: represents the cumulative cost of all work orders, including labor, additional expenses, and parts.</li>
+<li><code v-pre>Average Cost</code>: shows the average cost per work order during this period.</li>
+</ul>
+<doc-anchor-target id="case-study-of-how-to-leverage-this-wo-analysis-dashboard-dashboard-effectively">
+    <h5>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#case-study-of-how-to-leverage-this-wo-analysis-dashboard-dashboard-effectively">#</doc-anchor-trigger>
+        <span>Case Study of how to leverage this <code v-pre>WO Analysis Dashboard</code> dashboard effectively</span>
+    </h5>
+</doc-anchor-target>
+<ol>
+<li>Monitor Work Order Volumes and Trends:</li>
+</ol>
+<ul>
+<li>Analyze the <code v-pre>Grouped by Category</code> donut chart to understand the distribution of work orders across different categories (e.g., <strong>Reactive</strong>, <strong>Preventive</strong>, <strong>Corrective</strong>).</li>
+<li>Use the <code v-pre>Completion Comparison</code> line chart to identify patterns, seasonality, or spikes in the completion of various work order types over time.</li>
+<li>Track the <code v-pre>Time Spent</code> graph to assess labor utilization and identify periods of high or low workload, enabling better resource allocation and planning.</li>
+</ul>
+<ol start="2">
+<li>Identify Bottlenecks and Inefficiencies:</li>
+</ol>
+<ul>
+<li>If the <code v-pre>Grouped by Assigned To</code> or <code v-pre>Grouped by Completed By</code> donut charts show an imbalance, it may indicate workload distribution issues or potential bottlenecks with specific technicians or teams.</li>
+<li>A high volume of <code v-pre>Reactive</code> work orders in the <code v-pre>Grouped by Category</code> chart could signal the need for more proactive maintenance strategies or root cause analysis to reduce equipment failures.</li>
+<li>Unusually long cycle times or a high number of non-compliant work orders (based on <em><strong>The Numbers</strong></em> section) may point to process inefficiencies that need to be addressed.</li>
+</ul>
+<ol start="3">
+<li>Optimize Resource Allocation and Prioritization:</li>
+</ol>
+<ul>
+<li>Use the <code v-pre>Grouped by Priority</code> donut chart to assess the distribution of work orders across different priority levels (High, Medium, Low).</li>
+<li>Combine this information with the <code v-pre>Completion Comparison</code> and <code v-pre>Time Spent</code> data to ensure that high-priority work orders are receiving adequate attention and resources.</li>
+<li>Adjust resource allocation or implement process improvements to reduce the cycle time for high-priority work orders and improve compliance rates.</li>
+</ul>
+<ol start="4">
+<li>Facilitate Data-Driven Decision Making:</li>
+</ol>
+<ul>
+<li>Analyze trends over time by adjusting the date range filter to identify patterns, seasonality, or areas requiring focused improvement efforts:</li>
+<li><em><strong>Maintenance Strategy Evaluation</strong></em>: A decreasing trend in the <strong>New</strong> work orders over the last 90 days could suggest that preventive maintenance strategies are effective, leading to fewer unexpected repairs.</li>
+<li><em><strong>Performance Review</strong></em>: An increasing trend in <code v-pre>Completed work orders over time</code> could indicate improved team efficiency or the successful implementation of new tools or processes.</li>
+<li><em><strong>Planning and Forecasting</strong></em>: By analyzing the bar chart, managers can forecast future work order volumes and plan for necessary staffing, training, or inventory procurement.</li>
+<li><em><strong>Process Improvement</strong></em>: If the line graph shows extended completion times for work orders, it may highlight areas where the maintenance process could be streamlined or where additional training might be needed.</li>
+</ul>
+<p>By leveraging this dashboard, maintenance teams gain valuable insights into work order performance based on assigned personnel, priorities, types, completion trends, time spent, and associated costs. This comprehensive analysis enables data-driven decisions to optimize maintenance operations continuously.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../../analytics/work-orders/status-report/">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">Status Report</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../../analytics/work-orders/work-order-aging-dashboard/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Work Order Aging Dashboard</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>Version 2024-04 - Atlas CMMS User Guide</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Work Order Analysis Dashboard", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
