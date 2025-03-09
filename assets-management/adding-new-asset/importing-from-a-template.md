@@ -3,7 +3,7 @@
 label: Importing From A Template
 order: 9
 ---
-Download the Assets template from the Atlas CMMS website under ["Import Templates".](https://atlascmms.com/app/imports/work-orders)
+Download the Assets template from the Atlas CMMS website under ["Import Templates".](https://atlas-cmms.com/app/imports/work-orders)
 
 ![](../../static/img/image86.png)
 

@@ -1,6 +1,6 @@
 input: .
 output: ./docs
-url: https://docs.atlascmms.com
+url: https://docs.atlas-cmms.com
 meta:
   title: " | Atlas CMMS docs"
 branding:
@@ -8,7 +8,7 @@ branding:
   logo: static/img/logo.png
 links:
   - text: Atlas CMMS
-    link: https://atlascmms.com
+    link: https://atlas-cmms.com
   - text: Worker Order
     link: /workflows-management/work-order/definition.md
   - text: Preventive Maintenance

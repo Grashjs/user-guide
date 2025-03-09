@@ -24,7 +24,7 @@ In addition to the screenshot, make a note of the specific action you were perfo
 After capturing the screenshot and noting the relevant details, the next step is to contact the Atlas CMMS support team. You can reach out to them through the following channels:
 
 - Live Chat: Access the live chat feature within the application by clicking on the chat icon in the bottom-right corner.
-- Email: [contact@atlascmms.com]
+- Email: [contact@atlas-cmms.com]
 
 When contacting support, be sure to include the following information:
 a. The screenshot of the error message or unexpected behavior
