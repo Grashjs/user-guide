@@ -1,6 +1,6 @@
 input: .
 output: ./docs
-url: https://docs.atlas-cmms.com
+url: https://grashjs.github.io/user-guide/
 meta:
   title: " | Atlas CMMS docs"
 branding:
